@@ -1,0 +1,1524 @@
+.mobileform
+{
+display:none;
+}
+.desktoppanal-doctors
+{
+display:none;
+}
+.mobileformdoctors
+{
+display:none;
+}
+@media only screen  and (max-width:640px)
+{
+body
+{
+width:auto;
+}
+/* header */
+.header
+{
+width:100%;
+height:auto;
+float:none;
+}
+
+/* doctors page css here */
+
+.contactno-doctors
+{
+margin-top:10px;
+float:none;
+width:100%;
+text-align:center;
+height:auto;
+}
+
+.doctorsprofile
+{
+margin-top:5px;
+margin-left:0px;
+margin-bottom:0px;
+float:left;
+background:#fff;
+width:100%;
+height:182px;
+ 
+}
+.doctorsprofile img.doctorsprofileimage
+{
+margin-top:10px;
+float:left;
+width:80px;
+height:100px;
+margin-right:10px;
+margin-left:20px;
+border:1px solid #ccc;
+}
+.doctorsprofile p
+{
+margin-top:10px;
+width:98%;
+margin-left:0.5%;
+}
+.mainborderbody-doctors
+{
+margin:-0px 0 0 0;
+float:none;
+width:98%;
+height:auto;
+background:#fff;
+box-shadow: 6px 0 4px -4px #ccc , -6px 0 4px -4px #ccc; 
+-moz-box-shadow: 6px 0 4px -4px #ccc, -6px 0 4px -4px #ccc; 
+-webkit-box-shadow: 6px 0 4px -4px #ccc, -6px 0 4px -4px #ccc;
+}
+
+ 
+
+/* FL */
+.mobileformdoctors
+{
+display:block;
+width:98%;
+float:none;
+margin-left:0.5%;
+height:auto;
+background:#1B58A1;
+z-index: 999;
+border:1px solid #fff;
+border-radius:8px ;
+}
+.mobileformdoctors form
+{
+margin-bottom:20px;
+}
+.mobileformdoctors h2
+{
+padding-top:5px;
+text-align:center;
+background:#fff;
+color:#1B58A1;
+font-size:16px;
+height:auto;
+border-top:1px solid #fff;
+border-left:1px solid #fff;
+border-right:1px solid #fff;
+border-radius:8px 8px 0px 0px ;
+}
+.mobileformdoctors .innerFL
+{
+border-radius:0px 0px 8px 8px ;
+background:#1B58A1;
+height:auto;
+ 
+}
+.mobileformdoctors  h3
+{
+padding-top:6px;
+text-align:center;
+color:#fff;
+height:22px;
+background:#1B58A1; 
+}
+.mobileformdoctors  form .field
+{
+min-height:35px;
+}
+.mobileformdoctors  form .field label
+{
+color:#fff;
+}
+ 
+.mobileformdoctors  form .field input[type="text"]
+{
+background:none;
+border:1px solid #fff;
+color:#fff;
+width:95%;
+margin-left:2%;
+height:25px;
+}
+.mobileformdoctors  form .field select
+{
+background:none;
+border:1px solid #fff;
+color:#fff;
+width:95%;
+margin-left:2%;
+height:25px;
+}
+.mobileformdoctors  form .field select option
+{
+color:#1B58A1;
+}
+.mobileformdoctors  form .field textarea
+{
+background:#fff;
+color:#1B58A1;
+width:95%;
+margin-left:2%;
+border:none;
+height:80px;
+}
+.mobileformdoctors .submitbutton
+{
+margin-left:0px;
+padding-bottom:0px;
+margin-top:5px;
+text-align:center;
+}
+.mobileformdoctors .submitbutton input[type="submit"]
+{
+width:60px;
+height:25px;
+background:#fff;
+border:none;
+cursor:pointer;
+color:#1B58A1;
+margin-right:5px;
+font-weight:bold;
+}
+.mobileformdoctors .submitbutton input[type="reset"]
+{
+width:60px;
+height:25px;
+background:#fff;
+border:none;
+cursor:pointer;
+color:#1B58A1;
+font-weight:bold;
+}
+.maincontent-surgeons
+{
+width:98%;
+margin-left:1%;
+height:auto;
+background:#fff; 
+} 
+
+/* ends here doctors page css here */
+
+.header .innerheader
+{
+width:100%;
+}
+.header-top
+{
+float:none;
+width:100%;
+height:auto;
+ 
+}
+.logo
+{
+float:none;
+width:100%;
+height:auto;
+text-align:center;
+}
+.contactno
+{
+float:none;
+margin-top:20px;
+width:100%;
+text-align:center;
+margin-right:0px;
+}
+/* banner menu and banne cotnet*/
+.bannercontent
+{
+margin-top:10px;
+float:none;
+width:100%;
+height:auto;
+background:#fff;
+}
+.menu
+{
+margin:0px;
+float:none;
+width:100%;  
+}
+/* banner */
+.banner
+{
+float:none;
+width:100%;
+height:293px; 
+}
+.innerbanner
+{
+margin-top:3px;
+margin-left: 0px;
+}
+.innerbanner img
+{
+width:100%;
+}
+
+.component
+{
+float:none;
+width:100%;
+height:auto;
+}
+.innercomponent
+{
+width:100%; 
+}
+
+
+.mainborderbody
+{
+float:none;
+width:100%;
+height:auto;
+}
+.maincontent
+{
+margin-top:10px;
+width:98%;
+margin-left:5px;
+}
+.box1,.box2,.box3
+{
+display:none;
+}
+
+ /* article */
+  .article
+  { 
+float:none;
+width:100%;
+ }
+ 
+  .article img.imagecontent
+  {
+  float:left;
+  width:239px;
+  height:189px;
+  margin-right:10px;
+  }
+ .footer
+{
+float:none;
+width:100%;
+height:70px;
+}  
+.innerfooter
+{
+margin:0 auto;
+width:100%;
+}
+.boxfooter
+{
+display:none;
+}
+.doctorsimage
+{
+display:none;
+}
+.desktoppanal
+{
+display:none;
+}
+/* mobile form here */
+.mobileform
+{
+display:block;
+width:100%;
+height:auto;
+background:#fff;
+border:1px solid #fff;
+border-radius:8px ;
+
+}
+ 
+ 
+.mobileform  h2
+{
+padding-top:5px;
+text-align:center;
+background:#fff;
+color:#1B58A1;
+font-size:16px;
+height:28px;
+border-top:1px solid #fff;
+border-left:1px solid #fff;
+border-right:1px solid #fff;
+border-radius:8px 8px 0px 0px ;
+}
+.mobileform .innerFL
+{
+border-radius:0px 0px 8px 8px ;
+background:#1B58A1;
+}
+.mobileform  h3
+{
+padding-top:6px;
+text-align:center;
+color:#fff;
+height:22px;
+background:#1B58A1; 
+}
+.mobileform  form .field
+{
+min-height:35px;
+}
+.mobileform  form .field label
+{
+color:#fff;
+}
+ 
+.mobileform form .field input[type="text"]
+{
+background:none;
+border:1px solid #fff;
+color:#fff;
+width:95%;
+height:25px;
+}
+.mobileform form .field select
+{
+background:none;
+border:1px solid #fff;
+color:#fff;
+width:95%;
+height:25px;
+}
+.mobileform form .field select option
+{
+color:#1B58A1;
+}
+.mobileform form .field textarea
+{
+background:#fff;
+ 
+color:#1B58A1;
+width:95%;
+border:none;
+height:80px;
+}
+.mobileform .submitbutton
+{
+margin-left:0px;
+text-align:center;
+padding-bottom:5px;
+margin-top:5px;
+}
+.mobileform .submitbutton input[type="submit"]
+{
+width:60px;
+height:25px;
+background:#fff;
+border:none;
+cursor:pointer;
+color:#1B58A1;
+margin-right:5px;
+font-weight:bold;
+}
+.mobileform .submitbutton input[type="reset"]
+{
+width:60px;
+height:25px;
+background:#fff;
+border:none;
+cursor:pointer;
+color:#1B58A1;
+font-weight:bold;
+}
+.mobileform form
+{
+padding-top:10px;
+margin-bottom:10px; 
+margin-left:9px;
+}
+.msg
+{
+margin-left:7px;
+float:none;
+width:96%;
+}
+.desktoppanal-doctors
+{
+display:block;
+}
+
+/* FR */
+.desktoppanal-doctors .FR
+{
+margin-bottom:3%;
+margin-left:3%; 
+float:none;
+position:relative;
+width:95%;
+height:auto;
+background:#fff;
+border:1px solid #fff;
+border-radius:8px 8px 8px 8px ; 
+}
+.desktoppanal-doctors  .innerFR
+{
+border-radius:0px 0px 8px 8px ;
+background:#1B58A1;
+}
+.desktoppanal-doctors  .FR h2
+{
+ 
+padding-top:5px;
+text-align:center;
+background:#fff;
+color:#1B58A1;
+height:28px;
+font-size:16px;
+border-top:1px solid #fff;
+border-left:1px solid #fff;
+border-right:1px solid #fff;
+border-radius:8px 8px 0px 0px ;
+}
+.desktoppanal-doctors  .sugeons
+{
+margin-left:8px;
+padding-top:5px; 
+padding-bottom:3px;
+width:100%;
+height:90px;
+border-bottom:1px dashed #fff;
+}
+.desktoppanal-doctors .sugeons span
+{
+font-weight:bold;
+}
+.desktoppanal-doctors .sugeons p
+{
+color:#fff;
+line-height:1.4em;
+font-size:12px;
+}
+.desktoppanal-doctors .sugeons p:hover
+{
+color:#eee;
+}
+.desktoppanal-doctors .sugeons img.surgeonscontent
+{
+float:left;
+width:70px;
+height:85px;
+border:1px solid #ccc;
+margin-right:5px;
+}
+.sugeons  img.surgeonscontent:hover
+{
+opacity:0.89;
+}
+
+}
+/* tablets view in css */
+@media only screen and (max-width: 980px) {
+body
+{
+width:auto;
+}
+
+/* doctors page css here */
+
+.contactno-doctors
+{
+margin-top:10px;
+float:none;
+width:100%;
+text-align:center;
+height:auto;
+}
+
+.doctorsprofile
+{
+margin-top:5px;
+margin-left:0px;
+margin-bottom:0px;
+float:left;
+background:#fff;
+width:100%;
+height:182px;
+ 
+}
+.doctorsprofile img.doctorsprofileimage
+{
+margin-top:10px;
+float:left;
+width:80px;
+height:100px;
+margin-right:10px;
+margin-left:20px;
+border:1px solid #ccc;
+}
+.doctorsprofile p
+{
+margin-top:10px;
+width:98%;
+margin-left:0.5%;
+}
+.mainborderbody-doctors
+{
+margin:-0px 0 0 0;
+float:none;
+width:98%;
+height:auto;
+background:#fff;
+box-shadow: 6px 0 4px -4px #ccc , -6px 0 4px -4px #ccc; 
+-moz-box-shadow: 6px 0 4px -4px #ccc, -6px 0 4px -4px #ccc; 
+-webkit-box-shadow: 6px 0 4px -4px #ccc, -6px 0 4px -4px #ccc;
+}
+
+ 
+
+/* FL */
+.mobileformdoctors
+{
+display:block;
+width:98%;
+float:none;
+margin-left:0.5%;
+height:auto;
+background:#1B58A1;
+z-index: 999;
+border:1px solid #fff;
+border-radius:8px ;
+}
+.mobileformdoctors form
+{
+margin-bottom:20px;
+}
+.mobileformdoctors h2
+{
+padding-top:5px;
+text-align:center;
+background:#fff;
+color:#1B58A1;
+font-size:16px;
+height:auto;
+border-top:1px solid #fff;
+border-left:1px solid #fff;
+border-right:1px solid #fff;
+border-radius:8px 8px 0px 0px ;
+}
+.mobileformdoctors .innerFL
+{
+border-radius:0px 0px 8px 8px ;
+background:#1B58A1;
+height:auto;
+ 
+}
+.mobileformdoctors  h3
+{
+padding-top:6px;
+text-align:center;
+color:#fff;
+height:22px;
+background:#1B58A1; 
+}
+.mobileformdoctors  form .field
+{
+min-height:35px;
+}
+.mobileformdoctors  form .field label
+{
+color:#fff;
+}
+ 
+.mobileformdoctors  form .field input[type="text"]
+{
+background:none;
+border:1px solid #fff;
+color:#fff;
+width:95%;
+margin-left:2%;
+height:25px;
+}
+.mobileformdoctors  form .field select
+{
+background:none;
+border:1px solid #fff;
+color:#fff;
+width:95%;
+margin-left:2%;
+height:25px;
+}
+.mobileformdoctors  form .field select option
+{
+color:#1B58A1;
+}
+.mobileformdoctors  form .field textarea
+{
+background:#fff;
+color:#1B58A1;
+width:95%;
+margin-left:2%;
+border:none;
+height:80px;
+}
+.mobileformdoctors .submitbutton
+{
+margin-left:0px;
+padding-bottom:0px;
+margin-top:5px;
+text-align:center;
+}
+.mobileformdoctors .submitbutton input[type="submit"]
+{
+width:60px;
+height:25px;
+background:#fff;
+border:none;
+cursor:pointer;
+color:#1B58A1;
+margin-right:5px;
+font-weight:bold;
+}
+.mobileformdoctors .submitbutton input[type="reset"]
+{
+width:60px;
+height:25px;
+background:#fff;
+border:none;
+cursor:pointer;
+color:#1B58A1;
+font-weight:bold;
+}
+.maincontent-surgeons
+{
+width:98%;
+margin-left:1%;
+height:auto;
+background:#fff; 
+} 
+
+/* ends here doctors page css here */
+/* header */
+.header
+{
+width:100%;
+height:auto;
+float:none;
+}
+
+.header .innerheader
+{
+width:100%;
+}
+.header-top
+{
+float:none;
+width:100%;
+height:auto;
+ 
+}
+.logo
+{
+float:none;
+width:100%;
+height:auto;
+text-align:center;
+}
+.contactno
+{
+float:none;
+margin-top:20px;
+width:100%;
+text-align:center;
+margin-right:0px;
+}
+/* banner menu and banne cotnet*/
+.bannercontent
+{
+margin-top:10px;
+float:none;
+width:100%;
+height:auto;
+background:#fff;
+}
+.menu
+{
+margin:0px;
+float:none;
+width:100%;  
+}
+/* banner */
+.banner
+{
+float:none;
+width:100%;
+height:293px; 
+}
+.innerbanner
+{
+margin-top:3px;
+margin-left: 0px;
+}
+.innerbanner img
+{
+width:100%;
+}
+
+.component
+{
+float:none;
+width:100%;
+height:auto;
+}
+.innercomponent
+{
+width:100%; 
+}
+
+
+.mainborderbody
+{
+float:none;
+width:100%;
+height:auto;
+}
+.maincontent
+{
+margin-top:10px;
+width:98%;
+margin-left:5px;
+}
+.box1,.box2,.box3
+{
+display:none;
+}
+
+ /* article */
+  .article
+  { 
+float:none;
+width:100%;
+ }
+ 
+  .article img.imagecontent
+  {
+  float:left;
+  width:239px;
+  height:189px;
+  margin-right:10px;
+  }
+ .footer
+{
+float:none;
+width:100%;
+height:70px;
+}  
+.innerfooter
+{
+margin:0 auto;
+width:100%;
+}
+.boxfooter
+{
+display:none;
+}
+.doctorsimage
+{
+display:none;
+}
+.desktoppanal
+{
+display:none;
+}
+/* mobile form here */
+.mobileform
+{
+display:block;
+width:100%;
+height:auto;
+background:#fff;
+border:1px solid #fff;
+border-radius:8px ;
+
+}
+ 
+ 
+.mobileform  h2
+{
+padding-top:5px;
+text-align:center;
+background:#fff;
+color:#1B58A1;
+font-size:16px;
+height:28px;
+border-top:1px solid #fff;
+border-left:1px solid #fff;
+border-right:1px solid #fff;
+border-radius:8px 8px 0px 0px ;
+}
+.mobileform .innerFL
+{
+border-radius:0px 0px 8px 8px ;
+background:#1B58A1;
+}
+.mobileform  h3
+{
+padding-top:6px;
+text-align:center;
+color:#fff;
+height:22px;
+background:#1B58A1; 
+}
+.mobileform  form .field
+{
+min-height:35px;
+}
+.mobileform  form .field label
+{
+color:#fff;
+}
+ 
+.mobileform form .field input[type="text"]
+{
+background:none;
+border:1px solid #fff;
+color:#fff;
+width:95%;
+height:25px;
+}
+.mobileform form .field select
+{
+background:none;
+border:1px solid #fff;
+color:#fff;
+width:95%;
+height:25px;
+}
+.mobileform form .field select option
+{
+color:#1B58A1;
+}
+.mobileform form .field textarea
+{
+background:#fff;
+ 
+color:#1B58A1;
+width:95%;
+border:none;
+height:80px;
+}
+.mobileform .submitbutton
+{
+margin-left:0px;
+text-align:center;
+padding-bottom:5px;
+margin-top:5px;
+}
+.mobileform .submitbutton input[type="submit"]
+{
+width:60px;
+height:25px;
+background:#fff;
+border:none;
+cursor:pointer;
+color:#1B58A1;
+margin-right:5px;
+font-weight:bold;
+}
+.mobileform .submitbutton input[type="reset"]
+{
+width:60px;
+height:25px;
+background:#fff;
+border:none;
+cursor:pointer;
+color:#1B58A1;
+font-weight:bold;
+}
+.mobileform form
+{
+padding-top:10px;
+margin-bottom:10px; 
+margin-left:9px;
+}
+.msg
+{
+margin-left:7px;
+float:none;
+width:96%;
+}
+.desktoppanal-doctors
+{
+display:block;
+}
+
+/* FR */
+.desktoppanal-doctors .FR
+{
+margin-bottom:3%;
+margin-left:3%; 
+float:none;
+position:relative;
+width:95%;
+height:auto;
+background:#fff;
+border:1px solid #fff;
+border-radius:8px 8px 8px 8px ; 
+}
+.desktoppanal-doctors  .innerFR
+{
+border-radius:0px 0px 8px 8px ;
+background:#1B58A1;
+}
+.desktoppanal-doctors  .FR h2
+{
+ 
+padding-top:5px;
+text-align:center;
+background:#fff;
+color:#1B58A1;
+height:28px;
+font-size:16px;
+border-top:1px solid #fff;
+border-left:1px solid #fff;
+border-right:1px solid #fff;
+border-radius:8px 8px 0px 0px ;
+}
+.desktoppanal-doctors  .sugeons
+{
+margin-left:8px;
+padding-top:5px; 
+padding-bottom:3px;
+width:100%;
+height:90px;
+border-bottom:1px dashed #fff;
+}
+.desktoppanal-doctors .sugeons span
+{
+font-weight:bold;
+}
+.desktoppanal-doctors .sugeons p
+{
+color:#fff;
+line-height:1.4em;
+font-size:12px;
+}
+.desktoppanal-doctors .sugeons p:hover
+{
+color:#eee;
+}
+.desktoppanal-doctors .sugeons img.surgeonscontent
+{
+float:left;
+width:70px;
+height:85px;
+border:1px solid #ccc;
+margin-right:5px;
+}
+.sugeons  img.surgeonscontent:hover
+{
+opacity:0.89;
+}
+}
+
+/* ipad view in css */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+body
+{
+width:auto;
+}
+
+
+/* doctors page css here */
+
+.contactno-doctors
+{
+margin-top:10px;
+float:none;
+width:100%;
+text-align:center;
+height:auto;
+}
+
+.doctorsprofile
+{
+margin-top:5px;
+margin-left:0px;
+margin-bottom:0px;
+float:left;
+background:#fff;
+width:100%;
+height:182px;
+ 
+}
+.doctorsprofile img.doctorsprofileimage
+{
+margin-top:10px;
+float:left;
+width:80px;
+height:100px;
+margin-right:10px;
+margin-left:20px;
+border:1px solid #ccc;
+}
+.doctorsprofile p
+{
+margin-top:10px;
+width:98%;
+margin-left:0.5%;
+}
+.mainborderbody-doctors
+{
+margin:-0px 0 0 0;
+float:none;
+width:98%;
+height:auto;
+background:#fff;
+box-shadow: 6px 0 4px -4px #ccc , -6px 0 4px -4px #ccc; 
+-moz-box-shadow: 6px 0 4px -4px #ccc, -6px 0 4px -4px #ccc; 
+-webkit-box-shadow: 6px 0 4px -4px #ccc, -6px 0 4px -4px #ccc;
+}
+
+ 
+
+/* FL */
+.mobileformdoctors
+{
+display:block;
+width:98%;
+float:none;
+margin-left:0.5%;
+height:auto;
+background:#1B58A1;
+z-index: 999;
+border:1px solid #fff;
+border-radius:8px ;
+}
+.mobileformdoctors form
+{
+margin-bottom:20px;
+}
+.mobileformdoctors h2
+{
+padding-top:5px;
+text-align:center;
+background:#fff;
+color:#1B58A1;
+font-size:16px;
+height:auto;
+border-top:1px solid #fff;
+border-left:1px solid #fff;
+border-right:1px solid #fff;
+border-radius:8px 8px 0px 0px ;
+}
+.mobileformdoctors .innerFL
+{
+border-radius:0px 0px 8px 8px ;
+background:#1B58A1;
+height:auto;
+ 
+}
+.mobileformdoctors  h3
+{
+padding-top:6px;
+text-align:center;
+color:#fff;
+height:22px;
+background:#1B58A1; 
+}
+.mobileformdoctors  form .field
+{
+min-height:35px;
+}
+.mobileformdoctors  form .field label
+{
+color:#fff;
+}
+ 
+.mobileformdoctors  form .field input[type="text"]
+{
+background:none;
+border:1px solid #fff;
+color:#fff;
+width:95%;
+margin-left:2%;
+height:25px;
+}
+.mobileformdoctors  form .field select
+{
+background:none;
+border:1px solid #fff;
+color:#fff;
+width:95%;
+margin-left:2%;
+height:25px;
+}
+.mobileformdoctors  form .field select option
+{
+color:#1B58A1;
+}
+.mobileformdoctors  form .field textarea
+{
+background:#fff;
+color:#1B58A1;
+width:95%;
+margin-left:2%;
+border:none;
+height:80px;
+}
+.mobileformdoctors .submitbutton
+{
+margin-left:0px;
+padding-bottom:0px;
+margin-top:5px;
+text-align:center;
+}
+.mobileformdoctors .submitbutton input[type="submit"]
+{
+width:60px;
+height:25px;
+background:#fff;
+border:none;
+cursor:pointer;
+color:#1B58A1;
+margin-right:5px;
+font-weight:bold;
+}
+.mobileformdoctors .submitbutton input[type="reset"]
+{
+width:60px;
+height:25px;
+background:#fff;
+border:none;
+cursor:pointer;
+color:#1B58A1;
+font-weight:bold;
+}
+.maincontent-surgeons
+{
+width:98%;
+margin-left:1%;
+height:auto;
+background:#fff; 
+} 
+
+/* ends here doctors page css here */
+/* header */
+.header
+{
+width:100%;
+height:auto;
+float:none;
+}
+
+.header .innerheader
+{
+width:100%;
+}
+.header-top
+{
+float:none;
+width:100%;
+height:auto;
+ 
+}
+.logo
+{
+float:none;
+width:100%;
+height:auto;
+text-align:center;
+}
+.contactno
+{
+float:none;
+margin-top:20px;
+width:100%;
+text-align:center;
+margin-right:0px;
+}
+/* banner menu and banne cotnet*/
+.bannercontent
+{
+margin-top:10px;
+float:none;
+width:100%;
+height:auto;
+background:#fff;
+}
+.menu
+{
+margin:0px;
+float:none;
+width:100%;  
+}
+/* banner */
+.banner
+{
+float:none;
+width:100%;
+height:293px; 
+}
+.innerbanner
+{
+margin-top:3px;
+margin-left: 0px;
+}
+.innerbanner img
+{
+width:100%;
+}
+
+.component
+{
+float:none;
+width:100%;
+height:auto;
+}
+.innercomponent
+{
+width:100%; 
+}
+
+
+.mainborderbody
+{
+float:none;
+width:100%;
+height:auto;
+}
+.maincontent
+{
+margin-top:10px;
+width:98%;
+margin-left:5px;
+}
+.box1,.box2,.box3
+{
+display:none;
+}
+
+ /* article */
+  .article
+  { 
+float:none;
+width:100%;
+ }
+ 
+  .article img.imagecontent
+  {
+  float:left;
+  width:239px;
+  height:189px;
+  margin-right:10px;
+  }
+ .footer
+{
+float:none;
+width:100%;
+height:70px;
+}  
+.innerfooter
+{
+margin:0 auto;
+width:100%;
+}
+.boxfooter
+{
+display:none;
+}
+.doctorsimage
+{
+display:none;
+}
+.desktoppanal
+{
+display:none;
+}
+/* mobile form here */
+.mobileform
+{
+display:block;
+width:100%;
+height:auto;
+background:#fff;
+border:1px solid #fff;
+border-radius:8px ;
+
+}
+ 
+ 
+.mobileform  h2
+{
+padding-top:5px;
+text-align:center;
+background:#fff;
+color:#1B58A1;
+font-size:16px;
+height:28px;
+border-top:1px solid #fff;
+border-left:1px solid #fff;
+border-right:1px solid #fff;
+border-radius:8px 8px 0px 0px ;
+}
+.mobileform .innerFL
+{
+border-radius:0px 0px 8px 8px ;
+background:#1B58A1;
+}
+.mobileform  h3
+{
+padding-top:6px;
+text-align:center;
+color:#fff;
+height:22px;
+background:#1B58A1; 
+}
+.mobileform  form .field
+{
+min-height:35px;
+}
+.mobileform  form .field label
+{
+color:#fff;
+}
+ 
+.mobileform form .field input[type="text"]
+{
+background:none;
+border:1px solid #fff;
+color:#fff;
+width:95%;
+height:25px;
+}
+.mobileform form .field select
+{
+background:none;
+border:1px solid #fff;
+color:#fff;
+width:95%;
+height:25px;
+}
+.mobileform form .field select option
+{
+color:#1B58A1;
+}
+.mobileform form .field textarea
+{
+background:#fff;
+ 
+color:#1B58A1;
+width:95%;
+border:none;
+height:80px;
+}
+.mobileform .submitbutton
+{
+margin-left:0px;
+text-align:center;
+padding-bottom:5px;
+margin-top:5px;
+}
+.mobileform .submitbutton input[type="submit"]
+{
+width:60px;
+height:25px;
+background:#fff;
+border:none;
+cursor:pointer;
+color:#1B58A1;
+margin-right:5px;
+font-weight:bold;
+}
+.mobileform .submitbutton input[type="reset"]
+{
+width:60px;
+height:25px;
+background:#fff;
+border:none;
+cursor:pointer;
+color:#1B58A1;
+font-weight:bold;
+}
+.mobileform form
+{
+padding-top:10px;
+margin-bottom:10px; 
+margin-left:9px;
+}
+.msg
+{
+margin-left:7px;
+float:none;
+width:96%;
+}
+.desktoppanal-doctors
+{
+display:block;
+}
+
+/* FR */
+.desktoppanal-doctors .FR
+{
+margin-bottom:3%;
+margin-left:3%; 
+float:none;
+position:relative;
+width:95%;
+height:auto;
+background:#fff;
+border:1px solid #fff;
+border-radius:8px 8px 8px 8px ; 
+}
+.desktoppanal-doctors  .innerFR
+{
+border-radius:0px 0px 8px 8px ;
+background:#1B58A1;
+}
+.desktoppanal-doctors  .FR h2
+{
+ 
+padding-top:5px;
+text-align:center;
+background:#fff;
+color:#1B58A1;
+height:28px;
+font-size:16px;
+border-top:1px solid #fff;
+border-left:1px solid #fff;
+border-right:1px solid #fff;
+border-radius:8px 8px 0px 0px ;
+}
+.desktoppanal-doctors  .sugeons
+{
+margin-left:8px;
+padding-top:5px; 
+padding-bottom:3px;
+width:100%;
+height:90px;
+border-bottom:1px dashed #fff;
+}
+.desktoppanal-doctors .sugeons span
+{
+font-weight:bold;
+}
+.desktoppanal-doctors .sugeons p
+{
+color:#fff;
+line-height:1.4em;
+font-size:12px;
+}
+.desktoppanal-doctors .sugeons p:hover
+{
+color:#eee;
+}
+.desktoppanal-doctors .sugeons img.surgeonscontent
+{
+float:left;
+width:70px;
+height:85px;
+border:1px solid #ccc;
+margin-right:5px;
+}
+.sugeons  img.surgeonscontent:hover
+{
+opacity:0.89;
+}
+}

@@ -1,0 +1,2098 @@
+.rightabsolute-mobile
+{
+display:none;
+}
+.mobileform
+{
+display:none;
+}
+.mobileform-doctors
+{
+display:none;
+}
+@media only screen and (max-width: 640px) 
+{
+body
+{
+line-height:1.5em;
+font-size: 12px;
+color: #666666;
+background:url(../images/001-header.png) repeat-x right top; 
+}
+.desktopform
+{
+display:none;
+}
+.thank-contact
+{
+width:95%;
+}
+
+/* doctors page css here */
+.wrapper-header-aboutus .inner-header-wrapper
+{
+width:100%;
+}
+.another-header-back-aboutus
+{
+width:100%;
+height:auto;
+float:none;
+}
+.backtohome a
+{
+display:none;
+}
+.logo-aboutus
+{
+margin-top:15px; 
+margin-bottom:10px;
+float:none;
+width:100%;
+text-align:center;
+height:auto;
+}
+ 
+.emergencynumber-aboutus
+{
+margin-top:30px;
+float:none;
+width:100%;
+height:auto;
+text-align:center;
+margin-right:0px; 
+}
+.rightmodule-aboutus
+{
+ margin-top:10px;
+float:none;
+width:100%;
+height:auto;
+margin-right:0px;
+} 
+.banner-aboutus
+{
+width:100%;
+height:auto;
+} 
+.innerbanneraboutus
+{
+width:98%;
+height:auto;
+margin-left:0px;
+margin-left:0.5%;
+}
+.aboutdoctorcontent p
+{
+width:100%;
+height:auto;
+line-height:1.4em;
+color:#096836;
+}
+.aboutdoctorcontent  
+{
+margin-top:20px;
+margin-left:1%; 
+}
+.aboutusbannerback
+{
+float:left;
+width:100%;
+height:auto;
+background:none;
+}
+.maincontent-aboutus
+{
+ float:left;
+ width:100%;
+ height:auto;
+ border:none;
+ box-shadow:none;
+}
+.innermainpage-aboutus
+{
+ width:100%;
+ height:78px;
+}
+/* enquiry form here */
+.mobileform-doctors
+{
+margin-top:2%;
+display:block;
+float:left;
+ width:98%;
+ margin-left:0.5%;
+ height:auto;
+ background:#096836;;
+}
+/* LEFT FIXED */
+.innerfixed
+{
+height:40px;
+text-align:center;
+}
+.mobileform-doctors .innerfixed h2
+{
+margin-top:8px;
+height:40px;
+
+border-bottom:1px solid #fff;
+color:#fff;
+text-align:center;
+font-size:16px;
+width:100%;
+margin-bottom:10px;
+}
+.mobileform-doctors  .form h3
+{
+text-align:center;
+color:#fff;
+padding-top:20px;
+font-size:16px;
+  height:40px;
+  margin-top:10px;
+}
+.mobileform-doctors .form
+{
+margin-top:0px;
+}
+.mobileform-doctors .form form 
+{
+margin-left:12px;
+}
+.mobileform-doctors .form form .field
+{
+height:30px;
+}
+.mobileform-doctors .form form .fieldhome
+{
+height:48px;
+}
+.mobileform-doctors .form form .field label
+{
+color:#fff;
+}
+ 
+.mobileform-doctors  .form form .fieldhome label
+{
+color:#fff;
+}
+.mobileform-doctors .form form input[type="text"]
+{
+width:96%;
+border:1px solid #fff;
+background:none;
+height:22px;
+color:#fff;
+}
+.mobileform-doctors .form form .fieldhome select
+{
+width:96%;
+border:1px solid #fff;
+background:none;
+height:22px;
+ color:#fff;
+}
+.mobileform-doctors .form form .fieldhome select option
+{
+background:#096836;
+padding:5px;
+color:#fff;
+}
+.mobileform-doctors .form form .field select
+{
+width:96%;
+border:1px solid #fff;
+background:none;
+height:22px;
+color:#ccc;
+}
+.mobileform-doctors .form form .field select option
+{
+background:#096836;
+padding:5px;
+color:#ccc;
+}
+.mobileform-doctors .form form textarea
+{
+border:1px solid #fff;
+background:none;
+width:96%;
+height:60px;
+color:#fff;
+}
+.submitbutton
+{
+margin-top:5px;
+margin-left:5px;
+margin-bottom:5px;
+}
+.submitbutton input[type="submit"]
+{
+border:none;
+background:url(../images/007-button.png) no-repeat;
+width:88px;
+height:30px;
+cursor:pointer;
+color:#096836;
+font-weight:bold;
+padding-top:0px;
+}
+.submitbutton input[type="reset"]
+{
+border:none;
+background:url(../images/007-button.png) no-repeat;
+width:88px;
+height:30px;
+cursor:pointer;
+color:#096836;
+font-weight:bold;
+padding-top:0px;
+}
+
+/* ends here mobile form here */
+
+.inneraboutuspagecontent
+{
+float:none;
+margin-top:0px;
+width:98%;
+height:auto;
+margin-left:0.5%;
+border:none;
+} 
+ 
+.introduction
+{
+ 
+float:left;
+width:98%;
+height:auto;
+}
+.introduction h2.aboutuspageprofilei
+{
+padding-top:8px;
+padding-bottom:8px;
+padding-left:12px;
+width:98%;
+height:auto;
+color:#fff;
+ 
+}
+.introduction h2
+{
+color: #666666;
+ padding-left:12px;
+padding-top:0px;
+margin-bottom:10px;
+font-size:14px;
+height:auto;
+}
+.introduction h3
+{
+width:98%;
+height:auto;
+ 
+}
+.introduction ul li h3
+{
+color: #666666;
+padding-bottom:5px;
+width:98%;
+}
+/* ends here doctors page css */
+
+
+
+/* back to top css here   for mobile */
+
+		a.back-to-top {
+			position: fixed;
+			bottom: 2em;
+			right: 0px;
+			text-decoration: none;
+			color: #000000;
+			background:url(../images/top.png) no-repeat;
+			width:57px;
+			height:63px;
+			font-size: 12px;
+			padding: 1em;
+			display: none;
+			text-indent:-9999px;
+		}
+/* ends here mobile bakc to  top css here */
+/* mobile form css here */
+.mobileform
+{
+float:none;
+display:block;
+width:100%;
+height:auto;
+background:#096836;; 
+}
+.mobileform .innerfixed
+{
+margin-top:0px;
+text-align:center;
+}
+.mobileform .innerfixed h2
+{
+margin-top:8px;
+height:30px;
+border:none;
+color:#fff;
+text-align:center;
+font-size:16px;
+width:100%;
+padding-bottom:5px;
+padding-top:5px;
+}
+.form h3
+{
+text-align:center;
+color:#fff;
+padding-top:8px;
+font-size:16px;
+height:24px; 
+}
+.form
+{
+margin-top:0px;
+}
+.form form 
+{
+margin-left:12px;
+}
+.form form .field
+{
+height:30px;
+}
+.form form .fieldhome
+{
+height:48px;
+}
+.form form .field label
+{
+color:#fff;
+
+}
+ 
+.form form .fieldhome label
+{
+color:#fff;
+}
+.form form input[type="text"]
+{
+width:100%;
+border:1px solid #fff;
+background:none;
+height:22px;
+color:#fff;
+}
+.form form .fieldhome select
+{
+width:95%;
+border:1px solid #fff;
+background:none;
+height:22px;
+ color:#fff;
+}
+.form form .fieldhome select option
+{
+background:#096836;
+padding:5px;
+color:#fff;
+}
+.form form .field select
+{
+width:95%;
+border:1px solid #fff;
+background:none;
+height:22px;
+color:#ccc;
+}
+.form form .field select option
+{
+background:#096836;
+padding:5px;
+color:#ccc;
+}
+.form form textarea
+{
+border:1px solid #fff;
+background:none;
+width:100%;
+height:60px;
+color:#fff;
+}
+.submitbutton
+{
+text-align:center;
+margin-top:0px;
+margin-left:0px;
+margin-bottom:5px;
+}
+.submitbutton input[type="submit"]
+{
+border:none;
+background:url(../images/007-button.png) no-repeat;
+width:88px;
+height:30px;
+cursor:pointer;
+color:#096836;
+font-weight:bold;
+padding-top:0px;
+}
+.submitbutton input[type="reset"]
+{
+border:none;
+background:url(../images/007-button.png) no-repeat;
+width:88px;
+height:30px;
+cursor:pointer;
+color:#096836;
+font-weight:bold;
+padding-top:0px;
+}
+.content h3
+{
+width:90%;
+margin-left:5%;
+padding-top:8px;
+}
+/* ends here mobile form css */
+ .rightmodule p
+ {
+ display:none;
+ }
+ .banner
+ {
+ display:none;
+ }
+ .rightabsolute
+ {
+ display:none;
+ }
+ .bottomcontent
+ {
+ display:none;
+ }
+.wrapper-header
+{
+width:100%;
+height:auto;
+border-bottom:none;
+}
+.wrapper-header .inner-header-wrapper
+{
+width:100%;
+margin:0px auto;
+}
+.another-header-back
+{
+margin-top:12px; 
+width:100%;
+height:88px;
+background:#fff;
+}
+.logo
+{
+margin-top:22px; 
+margin-bottom:20px;
+float:none;
+width:100%;
+height:74px;
+text-align:center; 
+}
+.emergencynumber
+{
+padding-top:10px;
+margin-top:0px;
+float:none;
+width:100%;
+height:50px;
+background:#096836;
+margin-left:0px;
+text-align:center;
+}
+.emergencynumber h2
+{
+color:#fff;
+}
+.emergencynumber h2.contactno 
+{
+color:#fff;
+margin-left:0px;
+height:22px;
+}
+.emergencynumber h2.contactno  a
+{
+text-decoration:none;
+color:#fff;
+font-size:14px;
+}
+
+.maincontent
+{
+ margin-top:70px; 
+ float:left;
+ width:100%;
+ height:auto;
+ border:none;
+ box-shadow:none;
+}
+.content .fortis-special
+{
+margin-top:8px;
+padding-left:5px;
+margin-left:5%;
+width:89%;
+}
+ 
+.content ul li
+{
+margin-left:9%;
+padding-top:8px;
+}
+.boxone
+{
+ float:none;
+ width:100%;
+ height:73px;
+ margin-left:0px;
+ margin-top:6px;
+ text-align:center;
+ background:#096836;
+ border:none;
+}
+.boxone h2
+ {
+ 
+  padding-left:0px;
+  font-weight:none;
+ text-align:center;
+ }
+.box2
+{
+margin-top:10px;
+float:left;
+width:100%;
+height:auto;
+ 
+margin-left:5%;
+} 
+.box2  p
+{
+line-height:1.3em; 
+font-size:25px;
+color:#108648;
+font-weight:bold;
+}
+.leftfixed
+	{
+	position:relative;top:70px;left:5%;width:90%;height:auto;
+	}
+.innerfixed
+{
+width:100%;
+height:0px;
+text-align:center;
+}	
+.innerfixed h2
+{
+height:0px;
+width:100%;
+border-bottom:none;
+padding-top:5px;
+padding-bottom:5px;
+margin-top:5px;
+}
+.innermainpage
+{
+ background:none;
+}
+.form
+{
+margin-top:10px;
+}
+.form form 
+{
+margin-left:5%;
+}
+ 
+.form form input[type="text"]
+{
+width:95%;
+}
+.form form textarea
+{
+width:95%;
+height:40px;
+}
+.submitbutton
+{
+margin-left:0px;
+text-align:center;
+}
+ 
+.content
+{
+float:none;
+width:100%;
+height:auto;
+}
+.content p
+{
+color:#7F7E7E;
+padding-top:5px;
+width:90%;
+text-align:justify;
+margin-left:5%;
+}
+  .content h2
+{
+ width:90%;
+margin-left:0px;
+ 
+ 
+}
+
+.rightabsolute-mobile
+{   display:block;
+	width:90%;height:auto; 
+	background:#096836;
+	right:10px;
+	top:10px;float:left;
+	position:relative; 
+	margin-left:8%;
+	margin-bottom:10px;
+}
+.rightabsolute-mobile h2
+{
+margin-top:8px;
+height:20px;
+border-bottom:1px solid #fff;
+color:#fff;
+text-align:center;
+font-size:16px;
+width:100%;
+}
+.surgeons
+{
+width:100%;
+height:60px;
+}
+/* footer */
+.footer
+{
+float:left;
+width:100%;
+height:40px;
+border-top:1px solid #019C4E;
+background:#626262;
+}
+.innerfooter
+{
+width:100%;
+margin:0px auto;
+}
+.left
+{
+margin-top:12px;
+float:none;
+width:100%;
+height:auto;
+}
+.left p
+{
+color:#fff;
+text-align:center;
+}
+.right
+{
+ display:none;
+}
+ 
+}
+@media screen and (max-width: 980px) {
+body
+{
+line-height:1.5em;
+font-size: 12px;
+color: #666666;
+background:url(../images/001-header.png) repeat-x right top; 
+}
+
+/* doctors page css here */
+.wrapper-header-aboutus .inner-header-wrapper
+{
+width:100%;
+}
+.another-header-back-aboutus
+{
+width:100%;
+height:auto;
+float:none;
+}
+.backtohome a
+{
+display:none;
+}
+.logo-aboutus
+{
+margin-top:15px; 
+margin-bottom:10px;
+float:none;
+width:100%;
+text-align:center;
+height:auto;
+}
+ 
+.emergencynumber-aboutus
+{
+margin-top:30px;
+float:none;
+width:100%;
+height:auto;
+text-align:center;
+margin-right:0px; 
+}
+.rightmodule-aboutus
+{
+ margin-top:10px;
+float:none;
+width:100%;
+height:auto;
+margin-right:0px;
+} 
+.banner-aboutus
+{
+width:100%;
+height:auto;
+} 
+.innerbanneraboutus
+{
+width:98%;
+height:auto;
+margin-left:0px;
+margin-left:0.5%;
+}
+.aboutdoctorcontent p
+{
+width:100%;
+height:auto;
+line-height:1.4em;
+color:#096836;
+}
+.aboutdoctorcontent  
+{
+margin-top:20px;
+margin-left:1%; 
+}
+.aboutusbannerback
+{
+float:left;
+width:100%;
+height:auto;
+background:none;
+}
+.maincontent-aboutus
+{
+ float:left;
+ width:100%;
+ height:auto;
+ border:none;
+ box-shadow:none;
+}
+.innermainpage-aboutus
+{
+ width:100%;
+ height:78px;
+}
+/* enquiry form here */
+.mobileform-doctors
+{
+margin-top:2%;
+display:block;
+float:left;
+ width:98%;
+ margin-left:0.5%;
+ height:auto;
+ background:#096836;;
+}
+/* LEFT FIXED */
+.innerfixed
+{
+height:40px;
+text-align:center;
+}
+.mobileform-doctors .innerfixed h2
+{
+margin-top:8px;
+height:40px;
+
+border-bottom:1px solid #fff;
+color:#fff;
+text-align:center;
+font-size:16px;
+width:100%;
+margin-bottom:10px;
+}
+.mobileform-doctors  .form h3
+{
+text-align:center;
+color:#fff;
+padding-top:20px;
+font-size:16px;
+  height:40px;
+  margin-top:10px;
+}
+.mobileform-doctors .form
+{
+margin-top:0px;
+}
+.mobileform-doctors .form form 
+{
+margin-left:12px;
+}
+.mobileform-doctors .form form .field
+{
+height:30px;
+}
+.mobileform-doctors .form form .fieldhome
+{
+height:48px;
+}
+.mobileform-doctors .form form .field label
+{
+color:#fff;
+}
+ 
+.mobileform-doctors  .form form .fieldhome label
+{
+color:#fff;
+}
+.mobileform-doctors .form form input[type="text"]
+{
+width:96%;
+border:1px solid #fff;
+background:none;
+height:22px;
+color:#fff;
+}
+.mobileform-doctors .form form .fieldhome select
+{
+width:96%;
+border:1px solid #fff;
+background:none;
+height:22px;
+ color:#fff;
+}
+.mobileform-doctors .form form .fieldhome select option
+{
+background:#096836;
+padding:5px;
+color:#fff;
+}
+.mobileform-doctors .form form .field select
+{
+width:96%;
+border:1px solid #fff;
+background:none;
+height:22px;
+color:#ccc;
+}
+.mobileform-doctors .form form .field select option
+{
+background:#096836;
+padding:5px;
+color:#ccc;
+}
+.mobileform-doctors .form form textarea
+{
+border:1px solid #fff;
+background:none;
+width:96%;
+height:60px;
+color:#fff;
+}
+.submitbutton
+{
+margin-top:5px;
+margin-left:5px;
+margin-bottom:5px;
+}
+.submitbutton input[type="submit"]
+{
+border:none;
+background:url(../images/007-button.png) no-repeat;
+width:88px;
+height:30px;
+cursor:pointer;
+color:#096836;
+font-weight:bold;
+padding-top:0px;
+}
+.submitbutton input[type="reset"]
+{
+border:none;
+background:url(../images/007-button.png) no-repeat;
+width:88px;
+height:30px;
+cursor:pointer;
+color:#096836;
+font-weight:bold;
+padding-top:0px;
+}
+
+/* ends here mobile form here */
+
+.inneraboutuspagecontent
+{
+float:none;
+margin-top:0px;
+width:98%;
+height:auto;
+margin-left:0.5%;
+border:none;
+} 
+ 
+.introduction
+{
+ 
+float:left;
+width:98%;
+height:auto;
+}
+.introduction h2.aboutuspageprofilei
+{
+padding-top:8px;
+padding-bottom:8px;
+padding-left:12px;
+width:98%;
+height:auto;
+color:#fff;
+ 
+}
+.introduction h2
+{
+color: #666666;
+ padding-left:12px;
+padding-top:0px;
+margin-bottom:10px;
+font-size:14px;
+height:auto;
+}
+.introduction h3
+{
+width:98%;
+height:auto;
+ 
+}
+.introduction ul li h3
+{
+color: #666666;
+padding-bottom:5px;
+width:98%;
+}
+/* ends here doctors page css */
+.thank-contact
+{
+width:95%;
+}
+/* back to top css here   for mobile */
+
+		a.back-to-top {
+			position: fixed;
+			bottom: 2em;
+			right: 0px;
+			text-decoration: none;
+			color: #000000;
+			background:url(../images/top.png) no-repeat;
+			width:57px;
+			height:63px;
+			font-size: 12px;
+			padding: 1em;
+			display: none;
+			text-indent:-9999px;
+		}
+/* ends here mobile bakc to  top css here */
+.desktopform
+{
+display:none;
+}
+/* mobile form css here */
+.mobileform
+{
+float:none;
+display:block;
+width:100%;
+height:auto;
+background:#096836;; 
+}
+.mobileform .innerfixed
+{
+margin-top:0px;
+text-align:center;
+}
+.mobileform .innerfixed h2
+{
+margin-top:8px;
+height:30px;
+border:none;
+color:#fff;
+text-align:center;
+font-size:16px;
+width:100%;
+padding-bottom:5px;
+padding-top:5px;
+}
+.form h3
+{
+text-align:center;
+color:#fff;
+padding-top:8px;
+font-size:16px;
+height:24px; 
+}
+.form
+{
+margin-top:0px;
+}
+.form form 
+{
+margin-left:12px;
+}
+.form form .field
+{
+height:30px;
+}
+.form form .fieldhome
+{
+height:48px;
+}
+.form form .field label
+{
+color:#fff;
+
+}
+ 
+.form form .fieldhome label
+{
+color:#fff;
+}
+.form form input[type="text"]
+{
+width:100%;
+border:1px solid #fff;
+background:none;
+height:22px;
+color:#fff;
+}
+.form form .fieldhome select
+{
+width:95%;
+border:1px solid #fff;
+background:none;
+height:22px;
+ color:#fff;
+}
+.form form .fieldhome select option
+{
+background:#096836;
+padding:5px;
+color:#fff;
+}
+.form form .field select
+{
+width:95%;
+border:1px solid #fff;
+background:none;
+height:22px;
+color:#ccc;
+}
+.form form .field select option
+{
+background:#096836;
+padding:5px;
+color:#ccc;
+}
+.form form textarea
+{
+border:1px solid #fff;
+background:none;
+width:100%;
+height:60px;
+color:#fff;
+}
+.submitbutton
+{
+text-align:center;
+margin-top:0px;
+margin-left:0px;
+margin-bottom:5px;
+}
+.submitbutton input[type="submit"]
+{
+border:none;
+background:url(../images/007-button.png) no-repeat;
+width:88px;
+height:30px;
+cursor:pointer;
+color:#096836;
+font-weight:bold;
+padding-top:0px;
+}
+.submitbutton input[type="reset"]
+{
+border:none;
+background:url(../images/007-button.png) no-repeat;
+width:88px;
+height:30px;
+cursor:pointer;
+color:#096836;
+font-weight:bold;
+padding-top:0px;
+}
+.content h3
+{
+width:90%;
+margin-left:5%;
+padding-top:8px;
+}
+ .rightmodule p
+ {
+ display:none;
+ }
+ .banner
+ {
+ display:none;
+ }
+ .rightabsolute
+ {
+ display:none;
+ }
+ .bottomcontent
+ {
+ display:none;
+ }
+.wrapper-header
+{
+width:100%;
+height:auto;
+border-bottom:none;
+}
+.inner-header-wrapper  
+    {width: 95%;}
+    
+.wrapper-header .inner-header-wrapper
+{
+width:95%;
+margin:0px auto;
+}
+.another-header-back
+{
+margin-top:12px; 
+width:100%;
+height:88px;
+background:#fff;
+}
+.logo
+{
+margin-top:22px; 
+margin-bottom:20px;
+float:none;
+width:100%;
+height:74px;
+text-align:center; 
+}
+.emergencynumber
+{
+padding-top:10px;
+margin-top:0px;
+float:none;
+width:100%;
+height:50px;
+background:#096836;
+margin-left:0px;
+text-align:center;
+}
+.emergencynumber h2
+{
+color:#fff;
+}
+.emergencynumber h2.contactno
+{
+color:#fff;
+margin-left:0px;
+height:22px;
+}
+.maincontent
+{
+ margin-top:70px; 
+ float:left;
+ width:100%;
+ height:auto;
+ border:none;
+}
+.content .fortis-special
+{
+margin-top:8px;
+padding-left:5px;
+margin-left:5%;
+width:89%;
+}
+ 
+.content ul li
+{
+margin-left:9%;
+padding-top:8px;
+}
+.boxone
+{
+ float:none;
+ width:100%;
+ height:73px;
+ margin-left:0px;
+ margin-top:6px;
+ text-align:center;
+ background:#096836;
+ border:none;
+}
+.boxone h2
+ {
+ 
+  padding-left:0px;
+  font-weight:none;
+ text-align:center;
+ }
+.box2
+{
+margin-top:10px;
+float:left;
+width:100%;
+height:auto;
+ 
+margin-left:5%;
+} 
+.box2  p
+{
+line-height:1.3em; 
+font-size:25px;
+color:#108648;
+font-weight:bold;
+}
+.leftfixed
+	{
+	position:relative;top:70px;left:5%;width:90%;height:auto;
+	}
+.innerfixed
+{
+width:100%;
+height:0px;
+text-align:center;
+}	
+.innerfixed h2
+{
+height:0px;
+width:100%;
+border-bottom:none;
+padding-top:5px;
+padding-bottom:5px;
+margin-top:5px;
+}
+.innermainpage
+{
+ background:none;
+}
+.form
+{
+margin-top:10px;
+}
+.form form 
+{
+margin-left:5%;
+}
+ 
+.form form input[type="text"]
+{
+width:95%;
+}
+.form form textarea
+{
+width:95%;
+height:40px;
+}
+.submitbutton
+{
+margin-left:0px;
+text-align:center;
+}
+ 
+.content
+{
+float:none;
+width:100%;
+height:auto;
+}
+.content p
+{
+color:#7F7E7E;
+padding-top:5px;
+width:90%;
+text-align:justify;
+margin-left:5%;
+}
+  
+.content h3
+{
+margin-left:5%;
+padding-top:8px;
+}
+.rightabsolute-mobile
+{   display:block;
+	width:90%;height:auto; 
+	background:#096836;
+	right:10px;
+	top:10px;float:left;
+	position:relative; 
+	margin-left:8%;
+	margin-bottom:10px;
+}
+.rightabsolute-mobile h2
+{
+margin-top:8px;
+height:20px;
+border-bottom:1px solid #fff;
+color:#fff;
+text-align:center;
+font-size:16px;
+width:100%;
+}
+.surgeons
+{
+width:100%;
+height:60px;
+}
+/* footer */
+.footer
+{
+float:left;
+width:100%;
+height:40px;
+border-top:1px solid #019C4E;
+background:#626262;
+}
+.innerfooter
+{
+width:100%;
+margin:0px auto;
+}
+.left
+{
+margin-top:12px;
+float:none;
+width:100%;
+height:auto;
+}
+.left p
+{
+color:#fff;
+text-align:center;
+}
+.right
+{
+ display:none;
+}
+ 
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+body
+{
+line-height:1.5em;
+font-size: 12px;
+color: #666666;
+background:url(../images/001-header.png) repeat-x right top; 
+}
+
+
+/* doctors page css here */
+.wrapper-header-aboutus .inner-header-wrapper
+{
+width:100%;
+}
+.another-header-back-aboutus
+{
+width:100%;
+height:auto;
+float:none;
+}
+.backtohome a
+{
+display:none;
+}
+.logo-aboutus
+{
+margin-top:15px; 
+margin-bottom:10px;
+float:none;
+width:100%;
+text-align:center;
+height:auto;
+}
+ 
+.emergencynumber-aboutus
+{
+margin-top:30px;
+float:none;
+width:100%;
+height:auto;
+text-align:center;
+margin-right:0px; 
+}
+.rightmodule-aboutus
+{
+ margin-top:10px;
+float:none;
+width:100%;
+height:auto;
+margin-right:0px;
+} 
+.banner-aboutus
+{
+width:100%;
+height:auto;
+} 
+.innerbanneraboutus
+{
+width:98%;
+height:auto;
+margin-left:0px;
+margin-left:0.5%;
+}
+.aboutdoctorcontent p
+{
+width:100%;
+height:auto;
+line-height:1.4em;
+color:#096836;
+}
+.aboutdoctorcontent  
+{
+margin-top:20px;
+margin-left:1%; 
+}
+.aboutusbannerback
+{
+float:left;
+width:100%;
+height:auto;
+background:none;
+}
+.maincontent-aboutus
+{
+ float:left;
+ width:100%;
+ height:auto;
+ border:none;
+ box-shadow:none;
+}
+.innermainpage-aboutus
+{
+ width:100%;
+ height:78px;
+}
+/* enquiry form here */
+.mobileform-doctors
+{
+margin-top:2%;
+display:block;
+float:left;
+ width:98%;
+ margin-left:0.5%;
+ height:auto;
+ background:#096836;;
+}
+/* LEFT FIXED */
+.innerfixed
+{
+height:40px;
+text-align:center;
+}
+.mobileform-doctors .innerfixed h2
+{
+margin-top:8px;
+height:40px;
+
+border-bottom:1px solid #fff;
+color:#fff;
+text-align:center;
+font-size:16px;
+width:100%;
+margin-bottom:10px;
+}
+.mobileform-doctors  .form h3
+{
+text-align:center;
+color:#fff;
+padding-top:20px;
+font-size:16px;
+  height:40px;
+  margin-top:10px;
+}
+.mobileform-doctors .form
+{
+margin-top:0px;
+}
+.mobileform-doctors .form form 
+{
+margin-left:12px;
+}
+.mobileform-doctors .form form .field
+{
+height:30px;
+}
+.mobileform-doctors .form form .fieldhome
+{
+height:48px;
+}
+.mobileform-doctors .form form .field label
+{
+color:#fff;
+}
+ 
+.mobileform-doctors  .form form .fieldhome label
+{
+color:#fff;
+}
+.mobileform-doctors .form form input[type="text"]
+{
+width:96%;
+border:1px solid #fff;
+background:none;
+height:22px;
+color:#fff;
+}
+.mobileform-doctors .form form .fieldhome select
+{
+width:96%;
+border:1px solid #fff;
+background:none;
+height:22px;
+ color:#fff;
+}
+.mobileform-doctors .form form .fieldhome select option
+{
+background:#096836;
+padding:5px;
+color:#fff;
+}
+.mobileform-doctors .form form .field select
+{
+width:96%;
+border:1px solid #fff;
+background:none;
+height:22px;
+color:#ccc;
+}
+.mobileform-doctors .form form .field select option
+{
+background:#096836;
+padding:5px;
+color:#ccc;
+}
+.mobileform-doctors .form form textarea
+{
+border:1px solid #fff;
+background:none;
+width:96%;
+height:60px;
+color:#fff;
+}
+.submitbutton
+{
+margin-top:5px;
+margin-left:5px;
+margin-bottom:5px;
+}
+.submitbutton input[type="submit"]
+{
+border:none;
+background:url(../images/007-button.png) no-repeat;
+width:88px;
+height:30px;
+cursor:pointer;
+color:#096836;
+font-weight:bold;
+padding-top:0px;
+}
+.submitbutton input[type="reset"]
+{
+border:none;
+background:url(../images/007-button.png) no-repeat;
+width:88px;
+height:30px;
+cursor:pointer;
+color:#096836;
+font-weight:bold;
+padding-top:0px;
+}
+
+/* ends here mobile form here */
+
+.inneraboutuspagecontent
+{
+float:none;
+margin-top:0px;
+width:98%;
+height:auto;
+margin-left:0.5%;
+border:none;
+} 
+ 
+.introduction
+{
+ 
+float:left;
+width:98%;
+height:auto;
+}
+.introduction h2.aboutuspageprofilei
+{
+padding-top:8px;
+padding-bottom:8px;
+padding-left:12px;
+width:98%;
+height:auto;
+color:#fff;
+}
+.introduction h2
+{
+color: #666666;
+padding-left:12px;
+padding-top:0px;
+margin-bottom:10px;
+font-size:14px;
+height:auto;
+}
+.introduction h3
+{
+width:98%;
+height:auto;
+ 
+}
+.introduction ul li h3
+{
+color: #666666;
+padding-bottom:5px;
+width:98%;
+}
+/* ends here doctors page css */
+.thank-contact
+{
+width:95%;
+}
+
+/* back to top css here   for mobile */
+
+		a.back-to-top {
+			position: fixed;
+			bottom: 2em;
+			right: 0px;
+			text-decoration: none;
+			color: #000000;
+			background:url(../images/top.png) no-repeat;
+			width:57px;
+			height:63px;
+			font-size: 12px;
+			padding: 1em;
+			display: none;
+			text-indent:-9999px;
+		}
+/* ends here mobile bakc to  top css here */
+.desktopform
+{
+display:none;
+}
+/* mobile form css here */
+.mobileform
+{
+float:none;
+display:block;
+width:100%;
+height:auto;
+background:#096836;; 
+}
+.mobileform .innerfixed
+{
+margin-top:0px;
+text-align:center;
+}
+.mobileform .innerfixed h2
+{
+margin-top:8px;
+height:30px;
+border:none;
+color:#fff;
+text-align:center;
+font-size:16px;
+width:100%;
+padding-bottom:5px;
+padding-top:5px;
+}
+.form h3
+{
+text-align:center;
+color:#fff;
+padding-top:8px;
+font-size:16px;
+height:24px; 
+}
+.form
+{
+margin-top:0px;
+}
+.form form 
+{
+margin-left:12px;
+}
+.form form .field
+{
+height:30px;
+}
+.form form .fieldhome
+{
+height:48px;
+}
+.form form .field label
+{
+color:#fff;
+
+}
+ 
+.form form .fieldhome label
+{
+color:#fff;
+}
+.form form input[type="text"]
+{
+width:100%;
+border:1px solid #fff;
+background:none;
+height:22px;
+color:#fff;
+}
+.form form .fieldhome select
+{
+width:95%;
+border:1px solid #fff;
+background:none;
+height:22px;
+ color:#fff;
+}
+.form form .fieldhome select option
+{
+background:#096836;
+padding:5px;
+color:#fff;
+}
+.form form .field select
+{
+width:95%;
+border:1px solid #fff;
+background:none;
+height:22px;
+color:#ccc;
+}
+.form form .field select option
+{
+background:#096836;
+padding:5px;
+color:#ccc;
+}
+.form form textarea
+{
+border:1px solid #fff;
+background:none;
+width:100%;
+height:60px;
+color:#fff;
+}
+.submitbutton
+{
+text-align:center;
+margin-top:0px;
+margin-left:0px;
+margin-bottom:5px;
+}
+.submitbutton input[type="submit"]
+{
+border:none;
+background:url(../images/007-button.png) no-repeat;
+width:88px;
+height:30px;
+cursor:pointer;
+color:#096836;
+font-weight:bold;
+padding-top:0px;
+}
+.submitbutton input[type="reset"]
+{
+border:none;
+background:url(../images/007-button.png) no-repeat;
+width:88px;
+height:30px;
+cursor:pointer;
+color:#096836;
+font-weight:bold;
+padding-top:0px;
+}
+.content h3
+{
+width:90%;
+margin-left:5%;
+padding-top:8px;
+}
+ .rightmodule p
+ {
+ display:none;
+ }
+ .banner
+ {
+ display:none;
+ }
+ .rightabsolute
+ {
+ display:none;
+ }
+ .bottomcontent
+ {
+ display:none;
+ }
+.wrapper-header
+{
+width:100%;
+height:auto;
+border-bottom:none;
+}
+.wrapper-header .inner-header-wrapper
+{
+width:100%;
+margin:0px auto;
+}
+.another-header-back
+{
+margin-top:12px; 
+width:100%;
+height:88px;
+background:#fff;
+}
+.logo
+{
+margin-top:22px; 
+margin-bottom:20px;
+float:none;
+width:100%;
+height:74px;
+text-align:center; 
+}
+.emergencynumber
+{
+padding-top:10px;
+margin-top:0px;
+float:none;
+width:100%;
+height:50px;
+background:#096836;
+margin-left:0px;
+text-align:center;
+}
+.emergencynumber h2
+{
+color:#fff;
+}
+.emergencynumber h2.contactno
+{
+color:#fff;
+margin-left:0px;
+height:22px;
+}
+.maincontent
+{
+ margin-top:70px; 
+ float:left;
+ width:100%;
+ height:auto;
+ border:none;
+}
+.content .fortis-special
+{
+margin-top:8px;
+padding-left:5px;
+margin-left:5%;
+width:89%;
+}
+ 
+.content ul li
+{
+margin-left:9%;
+padding-top:8px;
+}
+.boxone
+{
+ float:none;
+ width:100%;
+ height:73px;
+ margin-left:0px;
+ margin-top:6px;
+ text-align:center;
+ background:#096836;
+ border:none;
+}
+.boxone h2
+ {
+ 
+  padding-left:0px;
+  font-weight:none;
+ text-align:center;
+ }
+.box2
+{
+margin-top:10px;
+float:left;
+width:100%;
+height:auto;
+ 
+margin-left:5%;
+} 
+.box2  p
+{
+line-height:1.3em; 
+font-size:25px;
+color:#108648;
+font-weight:bold;
+}
+.leftfixed
+	{
+	position:relative;top:70px;left:5%;width:90%;height:auto;
+	}
+.innerfixed
+{
+width:100%;
+height:0px;
+text-align:center;
+}	
+.innerfixed h2
+{
+height:0px;
+width:100%;
+border-bottom:none;
+padding-top:5px;
+padding-bottom:5px;
+margin-top:5px;
+}
+.innermainpage
+{
+ background:none;
+}
+.form
+{
+margin-top:10px;
+}
+.form form 
+{
+margin-left:5%;
+}
+ 
+.form form input[type="text"]
+{
+width:95%;
+}
+.form form textarea
+{
+width:95%;
+height:40px;
+}
+.submitbutton
+{
+margin-left:0px;
+text-align:center;
+}
+ 
+.content
+{
+float:none;
+width:100%;
+height:auto;
+}
+.content p
+{
+color:#7F7E7E;
+padding-top:5px;
+width:90%;
+text-align:justify;
+margin-left:5%;
+}
+  
+.content h3
+{
+margin-left:5%;
+padding-top:8px;
+}
+.rightabsolute-mobile
+{   display:block;
+	width:90%;height:auto; 
+	background:#096836;
+	right:10px;
+	top:10px;float:left;
+	position:relative; 
+	margin-left:8%;
+	margin-bottom:10px;
+}
+.rightabsolute-mobile h2
+{
+margin-top:8px;
+height:20px;
+border-bottom:1px solid #fff;
+color:#fff;
+text-align:center;
+font-size:16px;
+width:100%;
+}
+.surgeons
+{
+width:100%;
+height:60px;
+}
+/* footer */
+.footer
+{
+float:left;
+width:100%;
+height:40px;
+border-top:1px solid #019C4E;
+background:#626262;
+}
+.innerfooter
+{
+width:100%;
+margin:0px auto;
+}
+.left
+{
+margin-top:12px;
+float:none;
+width:100%;
+height:auto;
+}
+.left p
+{
+color:#fff;
+text-align:center;
+}
+.right
+{
+ display:none;
+}
+ 
+}

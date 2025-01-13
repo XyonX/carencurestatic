@@ -1,0 +1,78 @@
+#faqs dt, #faqs dd { padding: 0 50px 0 30px }
+#faqs dt { font-size:1em; font-weight:bold; color: #fff; background-color:#000; cursor: pointer; height: 40px; margin: 0 0px 15px 0}
+#faqs dd { font-size: 1em; margin: 0 0 20px 25px}
+#faqs dt { background:#21a5a2 url(../careandcure.us-images/plus-icon.png) no-repeat right; padding-top:3px;}
+#faqs .expanded { background:#21a5a2 url(../careandcure.us-images/minus-icon.png) no-repeat right; padding-top:3px;}
+
+.bsPriceTable1027 .testimonial {
+    background: #FF4136 none repeat scroll 0 0;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 20px 15px;
+    position: relative;
+}
+.bsPriceTable1027 .testimonial .fa {
+	font-family: "FontAwesome";
+}
+.bsPriceTable1027 .testimonial .testimonel-img {
+    border-radius: 50%;
+    float: left;
+    margin: 14px 10px 15px 0;
+    overflow: hidden;
+    position: relative;
+    width: 150px;
+    z-index: 992;
+}
+.bsPriceTable1027 .testimonial img {
+    display: block;
+    width: 100%;
+}
+/*
+.bsPriceTable1027 .testimonial .testimonel-cont {
+    padding-left: 130px;
+}
+*/
+.bsPriceTable1027 .testimonial h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 1.5em;
+}
+.bsPriceTable1027 .testimonial .testimonel-cont a {
+    color: #777777;
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 8px;
+    text-decoration: none;
+}
+.bsPriceTable1027 .testimonial .testimonel-cont &gt; p {
+    font-size: 16px;
+    font-style: italic;
+    line-height: 24px;
+    color: #555;
+    margin-bottom: 15px;
+}
+.bsPriceTable1027 .testimonial .review-reating {
+    color: #f1c30d;
+    margin-bottom: 12px;
+}
+.bsPriceTable1027 .testimonial:after {
+    border-color: #dacaca rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+    -o-border-image: none;
+    border-image: none;
+    border-style: solid;
+    border-width: 191px;
+    content: "";
+    height: 0;
+    left: -199px;
+    position: absolute;
+    top: 0;
+    background-color: transparent;
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+    width: 0;
+    z-index: 1;
+}
+        
+

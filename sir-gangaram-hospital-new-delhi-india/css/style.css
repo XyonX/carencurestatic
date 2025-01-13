@@ -1,0 +1,560 @@
+*{
+margin:0px;
+padding:0px;
+}
+body
+{
+line-height:1.5em;
+color:#34286F;
+font-size:14px;
+font-family:arial;
+background:#fff;
+}
+ input::-webkit-input-placeholder {  
+    color: #010066;
+}  
+input:-moz-placeholder {  
+    color: #010066;
+}
+textarea::-webkit-input-placeholder {  
+    color: #010066;
+}
+img
+{
+border:none;
+}
+/* header here */
+.header
+{
+float:left;
+width:100%;
+height:126px;
+background:url(../images/header1.jpg) repeat-x;
+background-position: center;
+background-size: cover;
+}
+.innerheader
+{
+width:780px;
+margin:0 auto;
+}
+.logo
+{
+float:left;
+width:380px;
+height:92px;
+margin-top:3px;
+}
+.FRlink
+{
+float:left;
+width:190px;
+height:44px;
+}
+.innerfrlink
+{
+margin-left:200px;
+width:185px;
+height:44px;
+background:url(../images/ambulance1.png) no-repeat;
+}
+.innerfrlink p
+{
+padding-left:22px;
+color:#fff;
+padding-top:1px;
+line-height:1.3em;
+font-weight:bold;
+}
+.innerfrlink p span
+{
+color:#110B61;
+}
+.FRlink1
+{
+margin:-3px 0 0 0; 
+float:left;
+width:190px;
+margin-left:200px;
+height:44px;
+}
+.innerfrlink1
+{
+
+width:185px;
+height:44px;
+background:url(../images/e1.png) no-repeat;
+}
+.innerfrlink1 p
+{
+padding-left:20px;
+color:#fff;
+padding-top:1px;
+line-height:1.4em;
+font-weight:bold;
+font-size:13px;
+}
+.innerfrlink1 p span
+{
+color:#110B61;
+}
+.FRlink2
+{
+margin:-3px 0 0 0; 
+float:left;
+width:190px;
+margin-left:200px;
+height:44px;
+}
+.innerfrlink2
+{
+
+width:185px;
+height:44px;
+background:url(../images/appoint1.png) no-repeat;
+}
+.innerfrlink2 p
+{
+padding-left:22px;
+color:#fff;
+padding-top:1px;
+line-height:1.3em;
+font-weight:bold;
+}
+.innerfrlink2 p span
+{
+color:#110B61;
+}
+/* menu here */
+.menu
+{
+float:left;
+width:100%;
+height:20px;
+background:#010066;
+}
+/* ends menu here */
+.mainbody
+{
+float:left;
+width:100%;
+height:auto;
+background:url(../images/sgm-bg.jpg) repeat ;
+ 
+}
+.innermainbody
+{
+width:780px;
+margin:0 auto;
+
+}
+.maincontent
+{
+background:#fff;
+float:left;
+width:776px;
+height:auto;
+box-shadow: 8px 0 4px -4px #CFD6CF , -8px 0 4px -4px #CFD6CF; 
+-moz-box-shadow: 8px 0 4px -4px #CFD6CF, -8px 0 4px -4px #CFD6CF; 
+-webkit-box-shadow: 8px 0 4px -4px #CFD6CF, -8px 0 4px -4px #CFD6CF;
+}
+.content
+{
+margin-top:10px;
+float:left;
+width:775px;
+height:auto;
+margin-left:5px;
+}
+.content h3
+{
+padding-bottom:10px;
+width:765px;
+color:#1817BC;
+text-align:justify;
+font-weight:normal;
+font-size:14px;
+}
+.content h2
+{
+padding-top:15px;
+padding-left:8px;
+font-size:16.8px;
+width:206px;
+height:50px;
+background:url(../images/bg-letwcknow.png) no-repeat;
+margin-left:-8px;
+}
+.maincontent img.sgmdoctor
+{
+float:left;
+margin-right:10px;
+}
+.banner
+{
+float:left;
+width:778px;
+height:270px;
+}
+.contenthead
+{
+float:left;
+width:778px;
+height:37px;
+background:url(../images/menubar.jpg) repeat-x;
+}
+.contenthead h2
+{
+padding-top:8px;
+padding-left:10px;
+color:#fff;
+font-size:16px; 
+}
+.content ul
+{
+margin-left:15px;
+list-style-type:square;
+margin-bottom:15px;
+}
+.content ul li h3
+{
+padding-top:3px;
+padding-bottom:3px;
+color:#1817BC;
+width:755px;
+width:750px;
+}
+.content h4
+{
+padding-top:6px;
+padding-left:8px;
+font-size:14px;
+width:245px;
+height:50px;
+background:url(../images/BG.png) no-repeat;
+margin-left:-8px;
+}
+.content h4 a
+{
+color:#1817BC;
+text-decoration:none;
+}
+/* componetn */
+ /* fixed here -*/
+ .FL
+ {
+ width:200px;
+ position:fixed;
+ height:auto;
+ background:#FFB326;
+ top:155px;
+ left:10px;
+ z-index:999;
+ 
+  border:1px solid #010066;
+ }
+  .FL h2
+  {
+  font-size:14px;
+  background:#010066;
+  color:#fff;
+  padding-top:5px;
+  text-align:center;
+  height:25px;
+  }
+   .FL h3
+   {
+   text-align:center;
+   padding-top:5px;
+   height:25px;
+   }
+    .FL form
+	{
+	margin-top:5px;
+	margin-left:6px;
+	}
+	.FL form .field 
+	{
+	min-height:40px;
+	}
+	 .Layer1
+ {
+  margin-top:0px; 
+ margin-left:0px;
+ background:none;
+ margin-bottom:5px;
+ border:1px solid #fff;
+ 
+}
+	  .FL form .field input[type="text"]
+	  {
+	  width:184px;
+	  height:25px;
+	  background:none;
+	  border:1px solid #fff;
+	  }
+	    .FL form .field textarea
+	  {
+	  width:184px;
+	  height:80px;
+	  background:#fff;
+	  border:none;
+	  }
+	  .FL form .field select
+	  {
+	  width:184px;
+	  height:25px;
+	  color:#010066;
+	 background:none;
+	  border:1px solid #fff;
+	  }
+	    .FL form .field select option
+	  {
+	  background:#1F20D8;
+	 color:#fff;
+	  }
+	  .button
+	  {
+	  margin-top:3px;
+	  margin-left:20px;
+	  margin-bottom:5px;
+	  }
+	    .button input[type="submit"]
+		{
+		width:60px;
+		height:25px;
+		border:none;
+		background:#fff;
+		color:#1F20D8;
+		font-weight:bold;
+		cursor:pointer;
+		margin-right:5px;
+		}
+		 .button input[type="submit"]:hover
+		{
+		background:#1F20D8;
+		color:#fff;
+		}
+		 .button input[type="reset"]:hover
+		{
+		background:#1F20D8;
+		color:#fff;
+		}
+		.button input[type="reset"]
+		{
+		width:60px;
+		height:25px;
+		border:none;
+		background:#fff;
+		color:#1F20D8;
+		font-weight:bold;
+		cursor:pointer;
+		}
+ /* right module absolute */
+ .rightmodule
+ {
+ width:200px;
+ height:auto;
+ position:absolute;
+ float:left;
+ right:10px;
+ 
+ background:#FFB326;
+ top:0px;
+ border:1px solid #010066;
+ }
+   .rightmodule h2
+  {
+  font-size:16px;
+  background:#010066;
+  color:#fff;
+  padding-top:5px;
+  text-align:center;
+  height:25px;
+  }
+  .sugeons
+{
+margin-left:5px;
+padding-top:5px; 
+margin-bottom:5px;
+width:185px;
+height:80px;
+border-bottom:1px dashed #fff;
+}
+.sugeons span
+{
+font-weight:bold;
+}
+.sugeons p
+{
+color:#fff;
+line-height:1.3em;
+font-size:12px;
+}
+.sugeons p:hover
+{
+color:#eee;
+}
+.sugeons img.surgeonscontent
+{
+float:left;
+width:65px;
+height:70px;
+border:1px solid #ccc;
+margin-right:10px;
+}
+.sugeons  img.surgeonscontent:hover
+{
+opacity:0.89;
+}
+a 
+{
+text-decoration:none;
+}
+/* doctors */
+.contactno
+{
+margin-top:35px;
+float:right;
+margin-right:70px;
+width:150px;
+height:auto;
+ 
+}
+ 
+.tour2india
+{
+margin-top:35px;
+float:left;
+width:150px;
+}
+.tour2india h2{
+color: #03007e;
+font-size: 28px;
+line-height: 1.1em;
+font-family: arial;
+font-weight: bold;
+}
+.backbutton
+{
+float:left;
+width:140px;
+height:auto;
+position:absolute;
+top:40px;
+right:30px;
+}
+.backbutton a img:hover
+{
+opacity:0.89;
+}
+
+		a.back-to-top {
+			position: fixed;
+			bottom: 2em;
+			right: 140px;
+			text-decoration: none;
+			color: #000000;
+			background:url(../images/top-button.png) no-repeat;
+			width:57px;
+			height:63px;
+			font-size: 12px;
+			padding: 1em;
+			display: none;
+			text-indent:-9999px;
+		}
+
+		.back-to-top:hover {	
+		 opacity:0.89;
+		}
+.footer
+{
+float:left;
+width:100%;
+height:20px;
+background:#010066;
+}		
+.innermaincontent
+{
+width:755px;
+height:auto;
+float:left;
+margin-left:10px;
+}
+.doctorsprofile
+{
+margin-top:5px;
+margin-bottom:10px;
+width:755px;
+height:182px;
+background:url(../images/mid-banner.jpg) no-repeat;
+}
+.doctorsprofile img.doctorsprofilecontent
+{
+width:90px;
+height:110px;
+border:none;
+float:left;
+margin-top:58px;
+margin-left:20px;
+margin-right:10px;
+}
+.doctorsprofile h3
+{
+padding-top:55px;
+font-size:14px;
+font-weight:normal;
+}
+.doctorsprofile h3 span
+{
+font-weight:bold;
+}
+.contentsurgeons h3
+{
+font-size:14px;
+font-weight:normal;
+text-align:justify;
+margin-top:8px;
+margin-bottom:8px; 
+}
+.contentsurgeons h2
+{
+padding-top:5px;
+padding-bottom:5px;
+color:#D62C22;
+font-size:16px;
+text-decoration:underline;
+}
+.contentsurgeons ul.unorderlist
+{
+list-style-type:square;
+margin-left:20px;
+}
+.contentsurgeons ul.unorderlist li h3
+{
+ padding-top:3px;
+ padding-bottom:3px;
+ margin:0px;
+}
+img.surgeonsimagecontent
+{
+float:right;
+ 
+}
+.closebutton
+{
+color:#fff;
+float:right;
+margin-right:5px;
+
+}
+a.remove
+{
+color:#fff;
+font-size:14px;
+}
+a.bottom
+{
+margin-bottom:10px;
+font-size:14px;
+}

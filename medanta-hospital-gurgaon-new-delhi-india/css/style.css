@@ -1,0 +1,546 @@
+*{
+margin:0px;
+padding:0px;
+}
+body
+{
+color:#303131;
+font-size:14px;
+font-family:arial;
+line-height:1.5em;
+background:#ADEEE3 url(../images/bg_medanta-hospital.png) repeat-x;
+}
+.medantawrapper
+{
+width:780px;
+margin:0 auto;
+}
+.innerwrapper
+{
+float:left;
+width:780px;
+height:auto;
+}
+.header
+{
+float:left;
+width:780px;
+height:auto;
+}
+.logo
+{
+margin-top:15px;
+float:left;
+width:256px;
+height:64px;
+}
+.contactlink
+{
+margin-top:28px;
+float:right;
+width:190px;
+height:50px;
+}
+.contactlink .innercontactlink
+{
+width:188px;
+height:50px;
+background:url(../images/phone-number.jpg) no-repeat;
+}
+.contactlink .innercontactlink h2
+{
+padding-top:16px;
+font-size:16px;
+padding-left:10px;
+color:#fff;
+}
+/* doctors page css here */
+.contactlink-doctors
+{
+margin-top:28px;
+float:right;
+width:190px;
+height:50px;
+margin-right:20px;
+}
+.contactlink-doctors .innercontactlink
+{
+width:188px;
+height:50px;
+background:url(../images/phone-number.jpg) no-repeat;
+}
+.contactlink-doctors .innercontactlink h2
+{
+padding-top:16px;
+font-size:16px;
+padding-left:10px;
+color:#fff;
+}
+.tour2india4health {
+margin-top:20px;
+float:left;
+width:150px;
+height:auto;
+margin-left:25px;
+}
+.tour2india4health h2{
+color: #03007e;
+font-size: 28px;
+line-height: 1.1em;
+font-family: arial;
+font-weight: bold;
+}
+/* mainbody */
+.mainbody
+{
+margin-top:55px;
+float:left;
+width:780px;
+height:auto;
+border:1px solid #ccc;
+box-shadow:1px 1px 5px 1px ;
+background:#fff;
+}
+.banner
+{
+float:left;
+width:780px;
+height:346px;
+background:url(../images/banner.jpg) no-repeat;
+
+}
+.banner h3
+{
+padding-top:35px;
+padding-left:55px;
+font-size:20px;
+color:#F56907;
+line-height:1.3em;
+}
+.module
+{
+margin-left:-1px;
+float:left;
+width:263px;
+height:57px;
+background:url(../images/dedicated-life.jpg) no-repeat;
+}
+.module h3
+{
+padding-top:18px;
+padding-left:70px;
+color:#fff;
+font-size:17px;
+}
+.module1
+{
+margin-left:-1px;
+float:left;
+width:263px;
+height:57px;
+background:url(../images/institute.jpg) no-repeat;
+}
+.module1 h3
+{
+padding-top:18px;
+padding-left:70px;
+color:#fff;
+font-size:17px;
+}
+.module2
+{
+float:left;
+width:256px;
+height:57px;
+background:url(../images/patient-care.jpg) no-repeat;
+}
+img
+{
+border:none;
+}
+a
+{
+text-decoration:none;
+}
+.content
+{
+margin-top:10px;
+float:left;
+width:760px;
+height:auto;
+margin-left:8px;
+}
+.content img.imagecontent
+{
+margin-top:5px;
+float:left;
+width:242px;
+height:132px;
+margin-right:10px;
+}
+.content h3
+{
+width:760px;
+height:auto;
+padding-top:5px;
+padding-bottom:5px;
+text-align:justify;
+font-weight:normal;
+font-size:14px;
+}
+.content h2
+{
+color:#F04E2F;
+padding-top:5px;
+padding-bottom:5px;
+font-size:16px;
+}
+.content ul.orderlist
+{
+list-style-type:square;
+margin-left:20px;
+margin-bottom:5px;
+}
+.content ul.orderlist li h3
+{
+padding-top:5px;
+text-align:justify;
+padding-bottom:0px; 
+width:740px;
+}
+/* footer */
+.footer
+{
+width:100%;
+height:40px;
+float:left;
+background:#F04E2F;
+}
+.innerfooter
+{
+width:780px;
+margin:0 auto;
+}
+.borderbox
+{
+margin:-5px 0 0 0;
+clear:both;
+width:780px;
+height:25px;
+background:#fff;
+border-left:1px solid #ccc;
+border-right:1px solid #ccc;
+border-bottom:1px solid #ccc;
+ box-shadow: 3px 3px 3px -4px #BECECD , -5px 3px 3px -4px #BECECD; 
+ -moz-box-shadow: 3px 3px 2px -4px #BECECD, -3px 3px 2px -4px #BECECD; 
+ -webkit-box-shadow:3px 3px 2px -4px #BECECD, -3px 3px 2px -4px #BECECD;
+ border-radius:0px 0px 12px 12px;
+ 
+}
+/* bottomlink */
+.bottomlink
+{
+margin-left:-8px;
+margin-top:30px;
+width:261px;
+height:45px;
+background:url(../images/call.jpg) no-repeat;
+}
+.bottomlink h4
+{
+padding-top:5px;
+padding-left:15px;
+color:#fff;
+line-height:1.2em;
+}
+.bottomlink h4 a
+{
+text-decoration:none;
+color:#fff;
+}
+
+/* FLmodule */
+.FLmodule
+{
+position:fixed;
+width:200px;
+left:10px;
+height:auto;
+top:140px;
+background:#06CBA9;
+border:1px solid #fff;
+z-index:999;
+}
+.FLmodule h2
+{
+text-align:center;
+color:#06CBA9;
+background:#fff;
+padding-top:5px;
+height:25px;
+font-size:17px;
+}
+.FLmodule h3
+{
+text-align:center;
+color:#fff;
+ 
+padding-top:5px;
+height:22px;
+font-size:17px;
+}
+.FLmodule form
+{
+margin-top:5px;
+margin-left:10px;
+margin-bottom:5px;
+}
+.FLmodule form .field label
+{
+color:#fff;
+}
+.FLmodule form .field
+{
+min-height:35px;
+}
+.FLmodule form .field input[type="text"]
+{
+width:180px;
+height:25px;
+border:1px solid #fff;
+background:none;
+color:#fff;
+}
+.FLmodule form .field select
+{
+width:180px;
+height:25px;
+border:1px solid #fff;
+background:none;
+color:#fff;
+}
+.FLmodule form .field textarea
+{
+width:180px;
+height:70px;
+border:none;
+background:#fff;
+color:#303131;
+}
+.FLmodule form .field select option
+{
+width:180px;
+height:25px;
+border:1px solid #fff;
+background:#06CBA9;
+color:#fff;
+}
+ input::-webkit-input-placeholder {  
+    color: white;  
+}  
+input:-moz-placeholder {  
+    color: white;  
+}  
+ .button
+ {
+ margin-top:5px;
+ margin-left:25px;
+ margin-bottom:10px;
+ }
+  .button input[type="submit"]
+  {
+  width:60px;
+  height:25px;
+  background: #F04E2F;
+  color:#fff;
+  border:none;
+  cursor:pointer;
+  font-weight:bold;
+  margin-right:5px;
+  }
+ .button input[type="submit"]:hover
+  {
+  color:#ccc;
+  }
+   .button input[type="reset"]:hover
+  {
+  color:#ccc;
+  }
+  .button input[type="reset"]
+  {
+  width:60px;
+  height:25px;
+  background: #F04E2F;
+  color:#fff;
+  border:none;
+  cursor:pointer;
+  font-weight:bold;
+  }
+  /* FRmodule */
+.FRmodule
+{
+position:absolute;
+width:200px;
+height:auto;
+right:10px;
+float:left;
+top:140px;
+background:#06CBA9;
+border:1px solid #fff;
+padding-bottom:5px;
+}
+.FRmodule h2
+{
+padding-top:5px;
+height:25px;
+text-align:center;
+color:#06CBA9;
+background:#fff;
+font-size:17px;
+}
+
+.sugeons
+{
+ 
+padding-top:10px;
+margin-left:10px;
+width:180px;
+height:78px;
+border-bottom:1px dashed #fff;
+}
+.sugeons span
+{
+font-weight:bold;
+}
+.sugeons p
+{
+color:#fff;
+line-height:1.4em;
+font-size:11.5px;
+width:188px;
+ 
+}
+.sugeons p:hover
+{
+color:#FAFAFA;
+}
+  img.surgeonscontent
+{
+margin-top:2px;
+float:left;
+width:55px;
+height:65px;
+margin-right:10px;
+border:1px solid #fff;
+}
+  img.surgeonscontent:hover
+{
+opacity:0.89;
+}
+
+a.back-to-top {
+			position: fixed;
+			bottom: 2em;
+			right: 140px;
+			text-decoration: none;
+			color: #000000;
+			background:url(../images/top-button.png) no-repeat;
+			width:57px;
+			height:63px;
+			font-size: 12px;
+			padding: 1em;
+			display: none;
+			text-indent:-9999px;
+		}
+
+		.back-to-top:hover {	
+		 opacity:0.89;
+		}
+		.msg
+		{
+		margin-top:10px;
+		margin-left:8px;
+		float:left;
+		width:760px;
+		height:80px;
+		border:1px solid #ccc;
+		margin-bottom:10px;
+		box-shadow:1px 1px 5px 1px;
+		-webkit-box-shadow:1px 1px 5px 1px;
+		-moz-box-shadow:1px 1px 5px 1px;
+		}
+			.msg p
+			{
+			padding-top:30px;
+			text-decoration:none;
+			font-size:16px;
+			color:#F56907;
+			text-align:center;
+			font-size:18px;
+			}
+.doctorsprofile
+{
+float:left;
+width:755px;
+height:182px;
+background:url(../images/mid-banner.png) no-repeat;
+margin-bottom:10px;
+}			
+.doctorsprofile img.doctorsprofilecontent
+{
+margin-top:50px;
+margin-left:15px;
+float:left;
+width:85px;
+height:100px;
+border:1px solid #ccc;
+margin-right:10px;
+}
+.doctorsprofile p
+{
+margin-top:45px;
+}
+.doctorsprofile p span
+{
+font-weight:bold;
+color:#F04E2F;
+font-size: 14px;
+}
+ul.innerorder
+{
+margin-left:60px;
+}
+ul.innerone
+{
+margin-left:30px;
+}
+ .Layer1
+ {
+  margin-top:0px; 
+ margin-left:0px;
+ background:none;
+ margin-bottom:5px;
+ border:1px solid #fff
+}
+img.surgeonimagecontentdoctors
+{
+float:right;
+margin-left:10px;
+}
+.closebutton
+{
+color:#06CBA9;
+float:right;
+margin-right:5px;
+
+}
+a.remove
+{
+color:#06CBA9;
+font-size:14px;
+}
+a.bottom
+{
+margin-bottom:10px;
+font-size:14px;
+}

@@ -1,0 +1,1244 @@
+.mobileform
+{
+display:none;
+}
+.Mobiledoctors
+{
+display:none;
+}
+.mobileformdoctors
+{
+display:none;
+}
+@media only screen  and (max-width:640px)
+{
+body
+{
+width:auto;
+}
+
+/* doctors page css here */
+.contactlink1
+{
+margin-top:20px;
+float:none;
+margin-right:0px;
+width:100%;
+text-align:center;
+}
+.doctorsprofile
+{
+background:#fff;
+float:left;
+margin-top:5px;
+width:100%;
+height:auto;
+background:none;
+margin-bottom:20px;
+}
+.doctorsprofile img.profilecontent
+{
+margin-left:10px;
+margin-right:10px;
+margin-top:00px;
+float:left;
+width:80px;
+height:110px;
+}
+.doctorsprofile h3
+{
+padding-top:0px;
+font-weight:normal;
+font-size:14px;
+text-align:justify;
+}
+
+.contentsurgeonpages
+{
+float:none;
+width:98%;
+height:auto;
+margin-left:1%;
+}
+.surgeonscontent-content
+{
+width:98%;
+margin-left:1%;
+}
+/* mobile form enquiry here */
+
+.mobileformdoctors
+{
+display:block;
+float:left;
+width:98%;
+margin-left:0.5%;
+height:auto;
+background:#fff;
+border:2px solid #64DCFF;
+margin-bottom:20px;
+}
+ 
+ 
+.mobileformdoctors  h2
+{
+font-size:16px;
+color:#fff;
+background:#64DCFF;
+text-align:center;
+padding-top:3px;
+height:23px;
+}
+.mobileformdoctors h3
+{
+padding-top:5px;
+height:15px;
+text-align:center;
+color:#0087B9;
+}
+.mobileformdoctors  form
+{
+margin-top:10px;
+margin-left:10px;
+margin-bottom:5px;
+}
+.mobileformdoctors  form .field
+{
+ min-height:35px;
+}
+.mobileformdoctors  form .field label
+{
+color: #64DCFF;
+}
+.mobileformdoctors  form .field input[type="text"]
+{
+color:#535353;
+background:none;
+border:1px solid  #64DCFF;
+width:98%;
+height:25px;
+} 
+.mobileformdoctors  form .field textarea
+{
+color:#fff;
+background: #64DCFF;
+border:none;
+width:98%;
+height:85px;
+}
+.mobileformdoctors  form .field select
+{
+color:#535353;
+background:none;
+border:1px solid  #64DCFF;
+width:98%;
+height:25px;
+}
+.mobileformdoctors  form .field select option
+{
+color:#fff;
+background: #64DCFF;
+}
+ .mobileformdoctors  .button
+{
+margin-top:5px;
+margin-left:0px;
+text-align:center;
+}
+.mobileformdoctors  .button input[type="submit"]
+{
+width:60px;
+height:25px;
+border:none;
+background: #64DCFF;
+color:#fff;
+font-weight:bold;
+cursor:pointer;
+margin-right:3px;
+}
+  
+.mobileformdoctors  .button input[type="reset"]
+{
+width:60px;
+height:25px;
+border:none;
+background: #64DCFF;
+color:#fff;
+font-weight:bold;
+cursor:pointer;
+}
+/* FRmodule */
+
+/* ends here doctors page here */
+.wrapper
+{
+width:100%;
+}
+.innerwrapper
+{
+width:100%;
+height:auto;
+float:none;
+}
+.header
+{
+float:none;
+width:100%;
+height:auto;
+}
+.logo
+{
+float:none;
+width:100%;
+height:99px;
+text-align:center;
+}
+.contactlink
+{
+margin-top:20px;
+float:none;
+margin-right:0px;
+text-align:center;
+}
+.maincontent
+{
+background:#fff;
+margin-top:10px;
+float:none;
+width:100%;
+border:none;
+}
+.banner
+{
+float:none;
+width:100%;
+height:auto;
+}
+.banner img
+{
+width:100%;
+height:auto;
+}
+.content
+{
+margin-top:10px;
+float:none;
+width:97%;
+height:auto;
+margin-left:1%;
+}
+.footer
+{
+float:none;
+width:100%;
+height:25px;
+background:#0087B6;
+}
+.desktoppanal
+{
+display:none;
+}
+
+
+.mobileform
+{
+display:block;
+width:98%;
+float:none;
+height:auto;
+margin-left:1%;
+background:#fff;
+border:1px solid #64DCFF;
+}
+ 
+ 
+.mobileform h2
+{
+font-size:16px;
+color:#fff;
+background:#64DCFF;
+text-align:center;
+padding-top:3px;
+height:23px;
+}
+.mobileform h3
+{
+padding-top:5px;
+height:15px;
+text-align:center;
+color:#0087B9;
+}
+.mobileform form
+{
+margin-top:10px;
+margin-left:10px;
+margin-bottom:5px;
+}
+.mobileform form .field
+{
+ min-height:35px;
+}
+.mobileform form .field label
+{
+color: #64DCFF;
+}
+.mobileform form .field input[type="text"]
+{
+color:#535353;
+background:none;
+border:1px solid  #64DCFF;
+width:98%;
+height:25px;
+}
+ 
+.mobileform form .field textarea
+{
+color:#fff;
+background: #64DCFF;
+border:none;
+width:98%;
+height:85px;
+}
+.mobileform form .field select
+{
+color:#535353;
+background:none;
+border:1px solid  #64DCFF;
+width:98%;
+height:25px;
+}
+.mobileform form .field select option
+{
+color:#fff;
+background: #64DCFF;
+}
+.mobileform .button
+{
+margin-top:5px;
+margin-left:0px;
+text-align:center;
+}
+.mobileform .button input[type="submit"]
+{
+width:60px;
+height:25px;
+border:none;
+background: #64DCFF;
+color:#fff;
+font-weight:bold;
+cursor:pointer;
+margin-right:3px;
+}
+  
+.mobileform .button input[type="reset"]
+{
+width:60px;
+height:25px;
+border:none;
+background: #64DCFF;
+color:#fff;
+font-weight:bold;
+cursor:pointer;
+}
+
+/* doctors page right panal here */
+
+/* FRmodule */
+.Mobiledoctors
+{
+display:block;
+width:98%;
+height:auto;
+float:none;
+background:#fff;
+margin-left:0.5%;
+margin-bottom:2%;
+border:2px solid #64DCFF;
+}
+.Mobiledoctors  h2
+{
+font-size:16px;
+color:#fff;
+background:#64DCFF;
+text-align:center;
+padding-top:3px;
+height:23px;
+}
+.Mobiledoctors .sugeons
+{
+padding-top:5px;
+margin-left:5px;
+padding-bottom:5px;
+width:98%;
+height:63px;
+border-bottom:1px dashed #64DCFF;
+}
+.sugeons a
+{
+text-decoration:none;
+}
+ 
+.sugeons span
+{
+font-weight:bold;
+}
+.sugeons p
+{
+color:#0087B9;
+line-height:1.3em;
+font-size:12px;
+}
+.sugeons p:hover
+{
+color:#95574F;
+}
+  img.surgeonscontent:hover
+  {
+  opacity:0.89;
+  }
+  img.surgeonscontent
+{
+margin-top:2px;
+float:left;
+width:50px;
+height:61px;
+margin-right:10px;
+ 
+}
+  img.surgeonscontent:hover
+{
+opacity:0.89;
+}
+.msg
+{
+margin-top:10px;
+margin-left:8px;
+margin-bottom:10px;
+width:96%;
+height:80px;
+border:1px solid #ccc;
+box-shadow:1px 1px 5px 1px #0087B9;
+}
+}
+
+/* ipad view in css */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+body
+{
+width:auto;
+}
+
+/* doctors page css here */
+.contactlink1
+{
+margin-top:20px;
+float:none;
+margin-right:0px;
+width:100%;
+text-align:center;
+}
+.doctorsprofile
+{
+background:#fff;
+float:left;
+margin-top:5px;
+width:100%;
+height:auto;
+background:none;
+margin-bottom:20px;
+}
+.doctorsprofile img.profilecontent
+{
+margin-left:10px;
+margin-right:10px;
+margin-top:00px;
+float:left;
+width:80px;
+height:110px;
+}
+.doctorsprofile h3
+{
+padding-top:0px;
+font-weight:normal;
+font-size:14px;
+text-align:justify;
+}
+
+.contentsurgeonpages
+{
+float:none;
+width:98%;
+height:auto;
+margin-left:1%;
+}
+.surgeonscontent-content
+{
+width:98%;
+margin-left:1%;
+}
+/* mobile form enquiry here */
+
+.mobileformdoctors
+{
+display:block;
+float:left;
+width:98%;
+margin-left:0.5%;
+height:auto;
+background:#fff;
+border:2px solid #64DCFF;
+margin-bottom:20px;
+}
+ 
+ 
+.mobileformdoctors  h2
+{
+font-size:16px;
+color:#fff;
+background:#64DCFF;
+text-align:center;
+padding-top:3px;
+height:23px;
+}
+.mobileformdoctors h3
+{
+padding-top:5px;
+height:15px;
+text-align:center;
+color:#0087B9;
+}
+.mobileformdoctors  form
+{
+margin-top:10px;
+margin-left:10px;
+margin-bottom:5px;
+}
+.mobileformdoctors  form .field
+{
+ min-height:35px;
+}
+.mobileformdoctors  form .field label
+{
+color: #64DCFF;
+}
+.mobileformdoctors  form .field input[type="text"]
+{
+color:#535353;
+background:none;
+border:1px solid  #64DCFF;
+width:98%;
+height:25px;
+} 
+.mobileformdoctors  form .field textarea
+{
+color:#fff;
+background: #64DCFF;
+border:none;
+width:98%;
+height:85px;
+}
+.mobileformdoctors  form .field select
+{
+color:#535353;
+background:none;
+border:1px solid  #64DCFF;
+width:98%;
+height:25px;
+}
+.mobileformdoctors  form .field select option
+{
+color:#fff;
+background: #64DCFF;
+}
+ .mobileformdoctors  .button
+{
+margin-top:5px;
+margin-left:0px;
+text-align:center;
+}
+.mobileformdoctors  .button input[type="submit"]
+{
+width:60px;
+height:25px;
+border:none;
+background: #64DCFF;
+color:#fff;
+font-weight:bold;
+cursor:pointer;
+margin-right:3px;
+}
+  
+.mobileformdoctors  .button input[type="reset"]
+{
+width:60px;
+height:25px;
+border:none;
+background: #64DCFF;
+color:#fff;
+font-weight:bold;
+cursor:pointer;
+}
+/* FRmodule */
+
+/* ends here doctors page here */
+.wrapper
+{
+width:100%;
+}
+.innerwrapper
+{
+width:100%;
+height:auto;
+float:none;
+}
+.header
+{
+float:none;
+width:100%;
+height:auto;
+}
+.logo
+{
+float:none;
+width:100%;
+height:99px;
+text-align:center;
+}
+.contactlink
+{
+margin-top:20px;
+float:none;
+margin-right:0px;
+text-align:center;
+}
+.maincontent
+{
+background:#fff;
+margin-top:10px;
+float:none;
+width:100%;
+border:none;
+}
+.banner
+{
+float:none;
+width:100%;
+height:auto;
+}
+.banner img
+{
+width:100%;
+height:auto;
+}
+.content
+{
+margin-top:10px;
+float:none;
+width:97%;
+height:auto;
+margin-left:1%;
+}
+.footer
+{
+float:none;
+width:100%;
+height:25px;
+background:#0087B6;
+}
+.desktoppanal
+{
+display:none;
+}
+
+
+.mobileform
+{
+display:block;
+width:98%;
+float:none;
+height:auto;
+margin-left:1%;
+background:#fff;
+border:1px solid #64DCFF;
+}
+ 
+ 
+.mobileform h2
+{
+font-size:16px;
+color:#fff;
+background:#64DCFF;
+text-align:center;
+padding-top:3px;
+height:23px;
+}
+.mobileform h3
+{
+padding-top:5px;
+height:15px;
+text-align:center;
+color:#0087B9;
+}
+.mobileform form
+{
+margin-top:10px;
+margin-left:10px;
+margin-bottom:5px;
+}
+.mobileform form .field
+{
+ min-height:35px;
+}
+.mobileform form .field label
+{
+color: #64DCFF;
+}
+.mobileform form .field input[type="text"]
+{
+color:#535353;
+background:none;
+border:1px solid  #64DCFF;
+width:98%;
+height:25px;
+}
+ 
+.mobileform form .field textarea
+{
+color:#fff;
+background: #64DCFF;
+border:none;
+width:98%;
+height:85px;
+}
+.mobileform form .field select
+{
+color:#535353;
+background:none;
+border:1px solid  #64DCFF;
+width:98%;
+height:25px;
+}
+.mobileform form .field select option
+{
+color:#fff;
+background: #64DCFF;
+}
+.mobileform .button
+{
+margin-top:5px;
+margin-left:0px;
+text-align:center;
+}
+.mobileform .button input[type="submit"]
+{
+width:60px;
+height:25px;
+border:none;
+background: #64DCFF;
+color:#fff;
+font-weight:bold;
+cursor:pointer;
+margin-right:3px;
+}
+  
+.mobileform .button input[type="reset"]
+{
+width:60px;
+height:25px;
+border:none;
+background: #64DCFF;
+color:#fff;
+font-weight:bold;
+cursor:pointer;
+}
+
+/* doctors page right panal here */
+
+/* FRmodule */
+.Mobiledoctors
+{
+display:block;
+width:98%;
+height:auto;
+float:none;
+background:#fff;
+margin-left:0.5%;
+margin-bottom:2%;
+border:2px solid #64DCFF;
+}
+.Mobiledoctors  h2
+{
+font-size:16px;
+color:#fff;
+background:#64DCFF;
+text-align:center;
+padding-top:3px;
+height:23px;
+}
+.Mobiledoctors .sugeons
+{
+padding-top:5px;
+margin-left:5px;
+padding-bottom:5px;
+width:98%;
+height:63px;
+border-bottom:1px dashed #64DCFF;
+}
+.sugeons a
+{
+text-decoration:none;
+}
+ 
+.sugeons span
+{
+font-weight:bold;
+}
+.sugeons p
+{
+color:#0087B9;
+line-height:1.3em;
+font-size:12px;
+}
+.sugeons p:hover
+{
+color:#95574F;
+}
+  img.surgeonscontent:hover
+  {
+  opacity:0.89;
+  }
+  img.surgeonscontent
+{
+margin-top:2px;
+float:left;
+width:50px;
+height:61px;
+margin-right:10px;
+ 
+}
+  img.surgeonscontent:hover
+{
+opacity:0.89;
+}
+.msg
+{
+margin-top:10px;
+margin-left:8px;
+margin-bottom:10px;
+width:96%;
+height:80px;
+border:1px solid #ccc;
+box-shadow:1px 1px 5px 1px #0087B9;
+}
+}
+
+/* mobile tablets view in css */
+@media only screen and (max-width: 980px) {
+body
+{
+width:auto;
+}
+
+/* doctors page css here */
+.contactlink1
+{
+margin-top:20px;
+float:none;
+margin-right:0px;
+width:100%;
+text-align:center;
+}
+.doctorsprofile
+{
+background:#fff;
+float:left;
+margin-top:5px;
+width:100%;
+height:auto;
+background:none;
+margin-bottom:20px;
+}
+.doctorsprofile img.profilecontent
+{
+margin-left:10px;
+margin-right:10px;
+margin-top:00px;
+float:left;
+width:80px;
+height:110px;
+}
+.doctorsprofile h3
+{
+padding-top:0px;
+font-weight:normal;
+font-size:14px;
+text-align:justify;
+}
+
+.contentsurgeonpages
+{
+float:none;
+width:98%;
+height:auto;
+margin-left:1%;
+}
+.surgeonscontent-content
+{
+width:98%;
+margin-left:1%;
+}
+/* mobile form enquiry here */
+
+.mobileformdoctors
+{
+display:block;
+float:left;
+width:98%;
+margin-left:0.5%;
+height:auto;
+background:#fff;
+border:2px solid #64DCFF;
+margin-bottom:20px;
+}
+ 
+ 
+.mobileformdoctors  h2
+{
+font-size:16px;
+color:#fff;
+background:#64DCFF;
+text-align:center;
+padding-top:3px;
+height:23px;
+}
+.mobileformdoctors h3
+{
+padding-top:5px;
+height:15px;
+text-align:center;
+color:#0087B9;
+}
+.mobileformdoctors  form
+{
+margin-top:10px;
+margin-left:10px;
+margin-bottom:5px;
+}
+.mobileformdoctors  form .field
+{
+ min-height:35px;
+}
+.mobileformdoctors  form .field label
+{
+color: #64DCFF;
+}
+.mobileformdoctors  form .field input[type="text"]
+{
+color:#535353;
+background:none;
+border:1px solid  #64DCFF;
+width:98%;
+height:25px;
+} 
+.mobileformdoctors  form .field textarea
+{
+color:#fff;
+background: #64DCFF;
+border:none;
+width:98%;
+height:85px;
+}
+.mobileformdoctors  form .field select
+{
+color:#535353;
+background:none;
+border:1px solid  #64DCFF;
+width:98%;
+height:25px;
+}
+.mobileformdoctors  form .field select option
+{
+color:#fff;
+background: #64DCFF;
+}
+ .mobileformdoctors  .button
+{
+margin-top:5px;
+margin-left:0px;
+text-align:center;
+}
+.mobileformdoctors  .button input[type="submit"]
+{
+width:60px;
+height:25px;
+border:none;
+background: #64DCFF;
+color:#fff;
+font-weight:bold;
+cursor:pointer;
+margin-right:3px;
+}
+  
+.mobileformdoctors  .button input[type="reset"]
+{
+width:60px;
+height:25px;
+border:none;
+background: #64DCFF;
+color:#fff;
+font-weight:bold;
+cursor:pointer;
+}
+/* FRmodule */
+
+/* ends here doctors page here */
+.wrapper
+{
+width:100%;
+}
+.innerwrapper
+{
+width:100%;
+height:auto;
+float:none;
+}
+.header
+{
+float:none;
+width:100%;
+height:auto;
+}
+.logo
+{
+float:none;
+width:100%;
+height:99px;
+text-align:center;
+}
+.contactlink
+{
+margin-top:20px;
+float:none;
+margin-right:0px;
+text-align:center;
+}
+.maincontent
+{
+background:#fff;
+margin-top:10px;
+float:none;
+width:100%;
+border:none;
+}
+.banner
+{
+float:none;
+width:100%;
+height:auto;
+}
+.banner img
+{
+width:100%;
+height:auto;
+}
+.content
+{
+margin-top:10px;
+float:none;
+width:97%;
+height:auto;
+margin-left:1%;
+}
+.footer
+{
+float:none;
+width:100%;
+height:25px;
+background:#0087B6;
+}
+.desktoppanal
+{
+display:none;
+}
+
+
+.mobileform
+{
+display:block;
+width:98%;
+float:none;
+height:auto;
+margin-left:1%;
+background:#fff;
+border:1px solid #64DCFF;
+}
+ 
+ 
+.mobileform h2
+{
+font-size:16px;
+color:#fff;
+background:#64DCFF;
+text-align:center;
+padding-top:3px;
+height:23px;
+}
+.mobileform h3
+{
+padding-top:5px;
+height:15px;
+text-align:center;
+color:#0087B9;
+}
+.mobileform form
+{
+margin-top:10px;
+margin-left:10px;
+margin-bottom:5px;
+}
+.mobileform form .field
+{
+ min-height:35px;
+}
+.mobileform form .field label
+{
+color: #64DCFF;
+}
+.mobileform form .field input[type="text"]
+{
+color:#535353;
+background:none;
+border:1px solid  #64DCFF;
+width:98%;
+height:25px;
+}
+ 
+.mobileform form .field textarea
+{
+color:#fff;
+background: #64DCFF;
+border:none;
+width:98%;
+height:85px;
+}
+.mobileform form .field select
+{
+color:#535353;
+background:none;
+border:1px solid  #64DCFF;
+width:98%;
+height:25px;
+}
+.mobileform form .field select option
+{
+color:#fff;
+background: #64DCFF;
+}
+.mobileform .button
+{
+margin-top:5px;
+margin-left:0px;
+text-align:center;
+}
+.mobileform .button input[type="submit"]
+{
+width:60px;
+height:25px;
+border:none;
+background: #64DCFF;
+color:#fff;
+font-weight:bold;
+cursor:pointer;
+margin-right:3px;
+}
+  
+.mobileform .button input[type="reset"]
+{
+width:60px;
+height:25px;
+border:none;
+background: #64DCFF;
+color:#fff;
+font-weight:bold;
+cursor:pointer;
+}
+
+/* doctors page right panal here */
+
+/* FRmodule */
+.Mobiledoctors
+{
+display:block;
+width:98%;
+height:auto;
+float:none;
+background:#fff;
+margin-left:0.5%;
+margin-bottom:2%;
+border:2px solid #64DCFF;
+}
+.Mobiledoctors  h2
+{
+font-size:16px;
+color:#fff;
+background:#64DCFF;
+text-align:center;
+padding-top:3px;
+height:23px;
+}
+.Mobiledoctors .sugeons
+{
+padding-top:5px;
+margin-left:5px;
+padding-bottom:5px;
+width:98%;
+height:63px;
+border-bottom:1px dashed #64DCFF;
+}
+.sugeons a
+{
+text-decoration:none;
+}
+ 
+.sugeons span
+{
+font-weight:bold;
+}
+.sugeons p
+{
+color:#0087B9;
+line-height:1.3em;
+font-size:12px;
+}
+.sugeons p:hover
+{
+color:#95574F;
+}
+  img.surgeonscontent:hover
+  {
+  opacity:0.89;
+  }
+  img.surgeonscontent
+{
+margin-top:2px;
+float:left;
+width:50px;
+height:61px;
+margin-right:10px;
+ 
+}
+  img.surgeonscontent:hover
+{
+opacity:0.89;
+}
+.msg
+{
+margin-top:10px;
+margin-left:8px;
+margin-bottom:10px;
+width:96%;
+height:80px;
+border:1px solid #ccc;
+box-shadow:1px 1px 5px 1px #0087B9;
+}
+}

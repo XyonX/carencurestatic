@@ -1,0 +1,794 @@
+*{
+margin:0px;
+padding:0px;
+}
+body 
+{
+color:#646566;
+font-size:14px;
+font-family:arial;
+line-height:1.5em;
+background:none;
+}
+ input::-webkit-input-placeholder {  
+    color: #0082CA;
+}  
+input:-moz-placeholder {  
+    color: #0082CA;
+}
+textarea::-webkit-input-placeholder {  
+    color: #0082CA;
+}
+/* left fixed */
+.FLfixed
+{
+position:fixed;
+width:190px;
+height:auto;
+background:url(../images/bg_gradiant.png) repeat-y;
+border:2px solid #0082CA;
+top:105px;
+left:10px;
+}
+.FLfixed h2
+{
+width:190px;
+height:25px;
+font-size:16px;
+background:#0079C1;
+color:#fff;
+text-align:center;
+padding-top:5px;
+}
+.FLfixed h3
+{
+width:190px;
+height:20px;
+font-size:16px;
+ 
+color:#0179b7;
+text-align:center;
+padding-top:8px;
+}
+.FLfixed  form
+{
+margin-top:10px;
+margin-left:10px;
+}
+.FLfixed  form .field label
+{
+color:#0079C1;
+}
+.FLfixed  form .field
+{
+min-height:50px;
+}
+.FLfixed  form .field input[type="text"]
+{
+width:170px;
+height:25px;
+background:none;
+border:1px solid #0082CA;
+}
+.FLfixed  form .field  select
+{
+width:170px;
+height:25px;
+background:none;
+border:1px solid #0082CA;
+color:#0079C1;
+}
+.FLfixed  form .field textarea
+{
+width:170px;
+height:60px;
+background:#fff;
+border:1px solid #0082CA;
+}
+.FLfixed  form .field1
+{
+min-height:35px;
+}
+.FLfixed  form .field1 input[type="text"]
+{
+width:170px;
+height:25px;
+background:none;
+border:1px solid #0082CA;
+}
+.FLfixed  form .field1  select
+{
+width:170px;
+height:25px;
+background:none;
+border:1px solid #0082CA;
+color:#0079C1;
+}
+.FLfixed  form .field1 textarea
+{
+width:170px;
+height:60px;
+background:#fff;
+border:1px solid #0082CA;
+}
+.submitbutton
+{
+margin-top:5px;
+margin-left:22px;
+margin-bottom:5px;
+}
+.submitbutton input[type="submit"]
+{
+width:60px;
+height:24px;
+border:none;
+background:#0079C1;
+color:#fff;
+cursor:pointer;
+}
+.submitbutton input[type="reset"]
+{
+width:60px;
+height:24px;
+border:none;
+background:#0079C1;
+color:#fff;
+cursor:pointer;
+}
+/* ends here left fixed */
+.FRabsolute
+{
+position:absolute;
+width:190px;
+height:auto;
+background:#B4C0B4;
+border:2px solid #fff;
+right:10px;
+float:left;
+top:0px;
+}
+.FRabsolute h2
+{
+width:190px;
+height:25px;
+font-size:16px;
+background:#0079C1;
+color:#fff;
+text-align:center;
+padding-top:5px;
+}
+.surgeons 
+{
+width:170px;
+height:70px;
+background:#fff;
+margin-left:10px;
+margin-top:5px;
+margin-bottom:5px;
+}
+.surgeons  a
+{
+text-decoration:none;
+}
+.surgeons  a img:hover
+{
+opacity:0.89;
+}
+.surgeons  a:hover
+{
+color:#0082CA;
+}
+.surgeons p:hover
+{
+color:#0082CA;
+}
+.surgeons span
+{
+font-weight:bold;
+}
+.surgeons p
+{
+font-size:11.5px;
+line-height:1.3em;
+color:#646566;
+}
+.surgeons  img.surgeonsimagecontent
+{
+float:left;
+margin-right:5px;
+margin-top:3px;
+margin-bottom:3px;
+width:55px;
+height:65px;
+}
+.wrapper
+{
+width:100%;
+height:486px;
+background:#92A393;
+ 
+}
+.wrapper-home
+{
+width:100%;
+height:335px;
+background:#92A393;
+ 
+}
+.innerwrapper
+{
+width:780px;
+margin:0 auto;
+}
+/* logo */
+.logo
+{
+padding-top:2px;
+margin-top:15px;
+float:left;
+width:260px;
+height:85px;
+background:#fff;
+border:1px solid #fff;
+border-radius:8px 0px 0px 0px;
+}
+/* sky module here */
+.skypebox
+{
+margin-top:8px;
+float:left;
+width:70px;
+height:auto;
+}
+.skypebox a img:hover
+{
+opacity:0.89;
+}
+.rightmodule
+{
+margin-top:15px;
+float:left;
+width:515px;
+height:87px;
+background:#0082CA;
+border:1px solid #0082CA;
+border-radius:0px 8px 0px 0px;
+}
+.rightmodule-aboutus
+{
+margin-top:15px;
+float:left;
+width:500px;
+height:87px;
+background:#0082CA;
+border:1px solid #0082CA;
+border-radius:0px 8px 0px 0px;
+}
+.innerrightmodule
+{
+margin-top:20px;
+margin-left:290px;
+}
+.innerrightmodule-aboutus
+{
+margin-top:0px;
+margin-left:170px;
+}
+/* doctors header */
+.boxfortour2india4health
+{
+margin-top:10px;
+float:left;
+width:150px;
+height:auto;
+position:relative; margin-left:15px;
+}
+.boxfortour2india4health h2
+{
+color: #03007e;
+font-size: 28px;
+line-height: 1.1em;
+font-family: arial;
+font-weight: bold;
+ 
+text-shadow: -1px -1px 0 #fff,
+                          0 -1px 0 #fff,
+                          1px -1px 0 #fff,
+                          1px 0 0 #fff,
+                          1px 1px 0 #fff,
+                          0 1px 0 #fff,
+                          -1px 1px 0 #fff,
+                          -1px 0 0 #fff;
+}
+.boxone
+{
+float:left;
+width:105px;
+height:auto;
+}
+.boxone p
+{
+color:#fff;
+
+}
+.boxone img.imagecontent
+{
+float:left;
+margin-left:35px;
+}
+.boxtwo
+{
+float:left;
+width:160px;
+height:auto;
+margin-right:15px;
+}
+.boxtwo p
+{
+color:#fff;
+font-size:16px;
+}
+.boxtwo span
+{
+font-weight:bold;
+}
+
+.boxthree
+{
+float:left;
+width:90px;
+height:auto;
+}
+.boxthree img.imagecontent
+{
+float:left;
+margin-left:22px;
+}
+.boxthree p
+{
+color:#fff;
+}
+.boxthree p a
+{
+text-decoration:none;
+color:#fff;
+}
+/* enquiry form pop up link */
+
+.boxthree-link
+{
+margin-top:15px;
+float:right;
+width:120px;
+height:auto;
+margin-right:20px;
+}
+ 
+.boxthree-link p
+{
+color:#fff;
+font-size:15px;
+}
+.boxthree-link p a
+{
+text-decoration:none;
+color:#fff;
+}
+/* banner content */
+.leftcontentbanner
+{
+margin-top:120px;
+float:left;
+width:250px;
+height:auto;
+}
+.leftcontentbanner p
+{
+font-family:Bookman Old Style;
+font-size:30px;
+line-height:1.2em;
+color:#fff;
+}
+.rightbanner
+{
+float:left;
+width:520px;
+height:384px;
+margin-left:5px;
+}
+/* main componet */
+.main-component
+{
+width:100%;
+height:550px;
+background:url(../images/bg2.png)  repeat-x;
+border-bottom:1px solid #ccc;
+-webkit-box-shadow: 0 8px 6px -6px #ccc;
+-moz-box-shadow: 0 8px 6px -6px #ccc;
+box-shadow: 0 8px 6px -6px #ccc;
+}
+.main-component-aboutus
+{
+width:100%;
+height:450px;
+background:url(../images/015-bg.png)  repeat-x;
+border-bottom:1px solid #ccc;
+-webkit-box-shadow: 0 8px 6px -6px #ccc;
+-moz-box-shadow: 0 8px 6px -6px #ccc;
+box-shadow: 0 8px 6px -6px #ccc;
+}
+.main-component-aboutus-dr-raghuram
+{
+width:100%;
+height:350px;
+background:url(../images/015-bg.png)  repeat-x;
+border-bottom:1px solid #ccc;
+-webkit-box-shadow: 0 8px 6px -6px #ccc;
+-moz-box-shadow: 0 8px 6px -6px #ccc;
+box-shadow: 0 8px 6px -6px #ccc;
+}
+.main-component-aboutus-dr-ravi
+{
+width:100%;
+height:230px;
+background:url(../images/015-bg.png)  repeat-x;
+border-bottom:1px solid #ccc;
+-webkit-box-shadow: 0 8px 6px -6px #ccc;
+-moz-box-shadow: 0 8px 6px -6px #ccc;
+box-shadow: 0 8px 6px -6px #ccc;
+}
+.main-component-aboutus-dr-jayant
+{
+width:100%;
+height:680px;
+background:url(../images/bg2.png)  repeat-x;
+border-bottom:1px solid #ccc;
+-webkit-box-shadow: 0 8px 6px -6px #ccc;
+-moz-box-shadow: 0 8px 6px -6px #ccc;
+box-shadow: 0 8px 6px -6px #ccc;
+}
+.main-component-aboutus-dr-ragiv
+{
+width:100%;
+height:400px;
+background:url(../images/bg2.png)  repeat-x;
+border-bottom:1px solid #ccc;
+-webkit-box-shadow: 0 8px 6px -6px #ccc;
+-moz-box-shadow: 0 8px 6px -6px #ccc;
+box-shadow: 0 8px 6px -6px #ccc;
+}
+.main-component-aboutus-dr-shashank
+{
+width:100%;
+height:1470px;
+background:#FAFBD9 url(../images/bg2.png)  repeat-x;
+border-bottom:1px solid #ccc;
+-webkit-box-shadow: 0 8px 6px -6px #ccc;
+-moz-box-shadow: 0 8px 6px -6px #ccc;
+box-shadow: 0 8px 6px -6px #ccc;
+}
+.main-component-aboutus-dr-nadakishore
+{
+width:100%;
+height:520px;
+background:#FAFBD9 url(../images/015-bg.png)  repeat-x;
+border-bottom:1px solid #ccc;
+-webkit-box-shadow: 0 8px 6px -6px #ccc;
+-moz-box-shadow: 0 8px 6px -6px #ccc;
+box-shadow: 0 8px 6px -6px #ccc;
+}
+.main-component-aboutus-dr-manohar
+{
+width:100%;
+height:625px;
+background:#FAFBD9 url(../images/bg1.png)  repeat-x;
+border-bottom:1px solid #ccc;
+-webkit-box-shadow: 0 8px 6px -6px #ccc;
+-moz-box-shadow: 0 8px 6px -6px #ccc;
+box-shadow: 0 8px 6px -6px #ccc;
+}
+.innermaincomponent
+{
+width:780px;
+margin:0 auto;
+}
+.mainbox1
+{
+ width:780px;
+ height:auto;
+}
+.mainbox1 h1
+{
+ padding-top:5px;
+ border-bottom:1px dashed #ccc;
+ color:#0077BF; 
+ line-height:1.4em;
+ font-size:20px;
+}
+.mainbox1 img.paragraphcontent
+{
+margin-top:5px;
+float:left;
+margin-right:10px;
+}
+.mainbox1 h3
+{
+margin-top:5px;
+text-align:justify;
+color:#646566;
+font-weight:normal;
+font-size:14px;
+}
+.mainbox1 h2
+{
+color:#3A77BB;
+border-bottom:1px dashed #ccc;
+line-height:1.4em;
+font-size:16px;
+}
+.mainbox1 img.paragraphcontent-right
+{
+float:right;
+margin-left:10px;
+}
+/* footer */
+.footer
+{
+width:100%;
+height:100px;
+background:#fff;
+ 
+}
+.innerfooter
+{
+margin:0 auto;
+width:780px;
+}
+.footerbox 
+{
+width:780px;
+height:48px;
+margin-top:10px;
+border-bottom:1px dashed #ccc;
+
+}
+.footerbox h2.calllink
+{
+padding:10px;
+font-size:16px;
+color:#fff;
+background:#0074BD;
+width:315px;
+height:20px;
+}
+.footerbox h2.calllink a
+{
+ text-decoration:none;
+ color:#fff;
+}
+.lastfooter
+{
+margin-top:5px;
+width:780px;
+height:auto;
+}
+.lastone
+{
+float:left;
+width:200px;
+height:auto;
+}
+.lastright
+{
+float:right;
+margin-top:5px;
+}
+.lastright ul
+{
+list-style:none;
+}
+.lastright ul li
+{
+float:left;
+display:inline;
+}
+.lastright ul li a
+{
+text-decoration:none;
+color:#666363;
+padding:0px 10px 5px 10px;
+}
+/* doctors page css here */
+.doctorspage
+{
+margin-top:20px;
+float:left;
+background:#fff;
+width:760px;
+border:1px solid #ccc;
+border-radius:5px;
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+height:auto;
+margin-bottom:10px;
+}
+.innerdoctorspage
+{
+margin-top:10px;
+width:750px;
+height:auto;
+margin-left:5px;
+}
+.innerdoctorspage img.doctorscontent
+{
+margin-top:3px;
+margin-right:10px;
+margin-left:15px;
+float:left;
+position:relative;
+border:1px solid #ccc;
+width:100px;
+height:120px;
+
+}
+.innerdoctorspage p
+{
+margin-top:40px;
+line-height:1.6em;
+font-size: 14px;
+}
+  .innerdoctorspage p span 
+  {
+  color: #0179b7;
+  }
+  .doctorsprofile
+  { 
+  float:left;
+width:746px;
+height:182px;
+background:url(../images/mid-banner.png) no-repeat; 
+  }
+ 
+.doctorscontenthere
+{
+  float:left;
+width:746px;
+height:auto;
+}
+.doctorscontenthere h2
+{
+ 
+border: 1px solid #D9D9D9;
+ 
+font-size: 18px;
+font-weight: normal;
+margin: 10px 0 5px;
+padding: 10px 10px 12px;
+background:#F5F5F5; 
+}
+.doctorscontenthere ul
+{
+margin-left:20px; 
+list-style-type:none; 
+}
+.doctorscontenthere ul li h3
+{
+padding-top:0px;
+padding-left:20px;
+ padding-bottom:0px;
+background:url(../images/arrow.png) no-repeat 0 5px;
+}
+.doctorscontenthere h3
+{
+margin-top:10px;
+margin-bottom:5px;
+text-align:justify;
+font-weight:normal;
+font-size:14px;
+}
+/* back to top */
+ 
+		
+		a.back-to-top {
+			position: fixed;
+			bottom: 2em;
+			right: 140px;
+			text-decoration: none;
+			color: #000000;
+			background:url(../images/top-button.png) no-repeat;
+			width:57px;
+			height:63px;
+			font-size: 12px;
+			padding: 1em;
+			display: none;
+			text-indent:-9999px;
+		}
+
+		.back-to-top:hover {	
+			 opacity:0.89;
+		}	
+		img {
+		border:none;
+		}
+		.msg
+		{
+		margin-top:8px;
+		margin-bottom:8px;
+		width:778px;
+		height:80px;
+		border:1px solid #0082CA;
+        float:left;		
+		position:relative;
+		border-radius:5px;
+		-webkit-border-radius:5px;
+		-moz-border-radius:5px;
+		}
+			.msg p
+			{
+			text-align:center;
+			padding-top:30px;
+			color:#0082CA;
+			font-size:18px;
+			}
+.main-component-thankcontact
+{
+width:100%;
+height:600px;
+background:url(../images/bg.png)  repeat-x;
+border-bottom:1px solid #ccc;
+-webkit-box-shadow: 0 8px 6px -6px #ccc;
+-moz-box-shadow: 0 8px 6px -6px #ccc;
+box-shadow: 0 8px 6px -6px #ccc;
+}
+/* backtohome */
+.backtohome
+{
+right:55px;
+float:left;
+position:absolute;
+width:150px;
+height:45px;
+top:25px;
+}
+.backtohome a img:hover
+{
+opacity:0.89;
+}
+  
+ .Layer1
+ {
+ margin-top:2px; 
+ margin-left:0px;
+ background:none;
+ margin-bottom:5px;
+ border:1px solid #0475a8;
+}
+img.columbia-hospital-india
+{
+float:right;
+margin-left:10px;
+}
+img.columbia-hospital-india1
+{
+height:115px;
+
+float:right;
+margin-left:10px;
+}
+ .closebutton
+{
+color:#fff;
+float:right;
+margin-right:5px;
+
+}
+a.remove
+{
+color:#fff;
+font-size:14px;
+}
+a.bottom
+{
+margin-bottom:10px;
+font-size:14px;
+}

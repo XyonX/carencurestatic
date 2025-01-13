@@ -1,0 +1,692 @@
+.mobileform
+{
+display:none;
+}
+.mobiledoctorsform
+{
+display:none;
+}
+/* mobile css */.rightfixed-bottom-mobile{display:none;}.mobilecontact{display:none;} @media only screen and (max-width: 640px) {body{background:url(../images/K1600_bg.jpg) repeat-x;margin-top:0px;}
+/* msg query css here */
+
+
+/* doctors page css here */
+.maincontent-doctors
+{
+width:100%;
+height:auto;
+background:#fff;
+}
+.mainbody-aboutus
+{
+margin-top:5px;
+width:98%;
+height:auto;
+border-bottom:none;
+border:none;
+float:none;
+margin-left:1%
+}
+.upperbody-doctors
+{
+width:98%;
+margin-left:1%;
+height:35px;
+background:#575757;
+border:none;
+text-align:center;
+}
+.doctorscontent
+{
+margin-top:10px;
+margin-left:1%;
+width:98%;
+height:auto;
+float:none;
+position:relative;
+overflow:hidden;
+}
+
+.profiledoctor
+{
+width:98%;
+float:none;
+height:182px;
+background:#90E8D8;
+position:relative;
+margin-bottom:10px;
+}
+
+.doctorscontent p.imageprofile
+{
+margin-top:0px;
+padding-top:10px;
+color:#013772;
+text-align:justify;
+font-weight:bold;
+margin-bottom:0px;
+padding-right:1%;
+padding-bottom:0px;
+}
+.doctorscontent h3
+{
+
+text-align:justify;
+padding-bottom:10px;
+font-weight:normal;
+font-size:14px;
+}
+
+.mobiledoctorsform
+{
+display:block;
+width:98%;
+height: auto;
+float:none;
+ margin-left:0.5%;
+ margin-bottom:2%;
+}
+
+.mobiledoctorsform .innerquickenquiry
+{
+width:97%;
+height:auto;
+border: solid 7px #0475a8;
+background-color: #FFF;
+margin-left:0px;
+}
+
+.mobiledoctorsform  .innerquickenquiry h2
+{
+width:100%;
+height:20px;
+background:#013772;
+padding-top:10px;
+text-align:center;
+color:#fff;
+font-size:18px;
+}
+.mobiledoctorsform  .innerquickenquiry h3
+{
+width:100%;
+height:10px;
+padding-top:5px;
+text-align:center;
+color:#013772;
+font-size:16px;
+font-weight:bold;
+}
+.mobiledoctorsform  .innerquickenquiry form
+{
+margin-top:5px;
+margin-left:10px;
+}
+.mobiledoctorsform   .innerquickenquiry .field1 label
+{
+color:#0475a8;
+ 
+}
+.mobiledoctorsform   .innerquickenquiry .field
+{
+min-height:35px;
+}
+.mobiledoctorsform   .innerquickenquiry .field input
+{
+width:96%;
+height:25px;
+border:1px solid #0475a8;
+}
+.mobiledoctorsform   .innerquickenquiry .field select
+{
+width:96%;
+height:25px;
+border:1px solid #0475a8;
+color:#0475a8;
+}
+.mobiledoctorsform   .innerquickenquiry .field textarea
+{
+width:96%;
+height:65px;
+border:1px solid #0475a8;
+}
+.mobiledoctorsform   .innerquickenquiry  .submitbutton
+{
+margin-top:5px;
+margin-left:8px;
+margin-bottom:10px;
+}
+.mobiledoctorsform   .innerquickenquiry  .submitbutton input[type='submit']
+{
+width:75px;
+height:28px;
+border:1px solid #0475a8;
+background:#0475a8;
+color:#fff;
+font-weight:bold;
+cursor:pointer;
+margin-right:5px;
+}
+.mobiledoctorsform   .innerquickenquiry  .submitbutton input[type='reset']
+{
+width:75px;
+cursor:pointer;
+height:28px;
+border:1px solid #0475a8;
+background:#0475a8;
+color:#fff;
+font-weight:bold;
+cursor:pointer;
+}
+
+
+/* ends doctors page css here */
+
+
+
+
+.msg
+{
+width:100%;
+
+}
+
+
+/* ends here msg query css here */
+
+.menuheader{display:none;}.banner{ margin-left:2%;padding-top:5px;width:100%;height:auto;}.banner img{width:100%;height:auto;} .banner-menu{display:none;}.menuborder{display:none;}.maincontent{background:none;width:95%;height:auto;}.innermaincontent{width:100%;}/* right fixed content here */.rightfixed{display:none}     .header{width:100%;height:auto;position:relative;}.innerheader{width:100%;margin:0 auto;}.logo{float:none;width:100%;height:90px;text-align:center;}/* contact no here */.mobilecontact{margin-top:5px;display:block;width:100%;height:25px;background:#013772;text-align:center;padding-top:5px;}.mobilecontact p{color:#fff;font-weight:bold;font-size:16px;}.mainbody{width:95%;height:auto;float:none;border:none;} .quickenquiry{margin-top:5px;width:100%;height: auto;position:relative;left: 0px;top: 0px;}.innerquickenquiry{width:95%;height:auto;margin-left:2%;}.innerquickenquiry h2{width:100%;text-align:center; }.innerquickenquiry form{margin-top:20px;margin-left:3%;}.innerquickenquiry .field{min-height:40px;}.innerquickenquiry .field input{width:95%;height:25px;border:1px solid #0475a8;}.innerquickenquiry .field textarea{width:95%;height:60px;border:1px solid #0475a8;}.innerquickenquiry  .submitbutton{margin-top:5px;margin-left:8px;margin-bottom:10px;} .submitbutton{text-align:center;}.upperbody{ display:none;}.contentleft{float:none;width:100%;margin-left:3%;}.contentleft h3{margin-left:1%;width:100%;}.contentright{float:none;border-left:none;width:100%;height:auto;margin-left:3%;}.contentright ul{list-style:none;margin-left:20px;margin-top:20px;}.contentright ul li{ padding:8px 0px 0px 15px ; color:#575a5d;}.callimage{display:none;} .footerimageright { display:none; }.borderbottom{float:none;border-top:5px solid #013772;width:100%;height:auto;border-bottom:5px solid #18A98B;}  .contentright span { border-bottom:none;  }.desktoppanal{display:none;}
+/* enquiry form css here */
+.mobileform
+{
+display:block;
+margin-top:1%;
+width:98%;
+margin-left:3%;
+height: auto;
+float:none;
+}
+.mobileform .innerquickenquiry
+{
+width:98%;
+height:auto;
+border: solid 7px #0475a8;
+background-color: #FFF;
+margin-left:1%;
+}
+.mobileform .innerquickenquiry h2
+{
+width:100%;
+height:30px;
+background:#013772;
+padding-top:10px;
+text-align:center;
+color:#fff;
+font-size:18px;
+}
+.mobileform .innerquickenquiry h3
+{
+width:100%;
+height:20px;
+padding-top:5px;
+text-align:center;
+color:#013772;
+font-size:16px;
+}
+.mobileform .innerquickenquiry form
+{
+margin-top:5px;
+margin-left:10px;
+}
+.mobileform .innerquickenquiry .field1 label
+{
+color:#0475a8;
+}
+.mobileform .innerquickenquiry .field1
+{
+min-height:35px;
+}
+.mobileform .innerquickenquiry .field1 input
+{
+width:98%;
+height:25px;
+border:1px solid #0475a8;
+}
+.mobileform .innerquickenquiry .field1 select
+{
+width:98%;
+height:25px;
+border:1px solid #0475a8;
+color:#0475a8;
+}
+.mobileform .innerquickenquiry .field1 textarea
+{
+width:98%;
+height:65px;
+border:1px solid #0475a8;
+}
+.innerquickenquiry  .submitbutton
+{
+margin-top:5px;
+margin-left:0px;
+margin-bottom:10px;
+text-align:center;
+}
+.innerquickenquiry  .submitbutton input[type='submit']
+{
+width:75px;
+height:28px;
+border:1px solid #0475a8;
+background:#0475a8;
+color:#fff;
+font-weight:bold;
+cursor:pointer;
+margin-right:5px;
+}
+.innerquickenquiry  .submitbutton input[type='reset']
+{
+width:75px;
+cursor:pointer;
+height:28px;
+border:1px solid #0475a8;
+background:#0475a8;
+color:#fff;
+font-weight:bold;
+cursor:pointer;
+}
+
+/* ends here enquiry form css here */
+
+
+
+}
+@media screen and (max-width: 980px) {body{background:#fff;margin-top:0px;}
+
+
+/* doctors page css here */
+.maincontent-doctors
+{
+width:100%;
+height:auto;
+background:#fff;
+}
+.mainbody-aboutus
+{
+margin-top:5px;
+width:98%;
+height:auto;
+border-bottom:none;
+border:none;
+float:none;
+margin-left:1%
+}
+.upperbody-doctors
+{
+width:98%;
+margin-left:1%;
+height:35px;
+background:#575757;
+border:none;
+text-align:center;
+}
+.doctorscontent
+{
+margin-top:10px;
+margin-left:1%;
+width:98%;
+height:auto;
+float:none;
+position:relative;
+overflow:hidden;
+}
+
+.profiledoctor
+{
+width:98%;
+float:none;
+height:182px;
+background:#90E8D8;
+position:relative;
+margin-bottom:10px;
+}
+
+.doctorscontent p.imageprofile
+{
+margin-top:0px;
+padding-top:10px;
+color:#013772;
+text-align:justify;
+font-weight:bold;
+margin-bottom:0px;
+padding-right:1%;
+padding-bottom:0px;
+}
+.doctorscontent h3
+{
+
+text-align:justify;
+padding-bottom:10px;
+font-weight:normal;
+font-size:14px;
+}
+
+.mobiledoctorsform
+{
+display:block;
+width:98%;
+height: auto;
+float:none;
+ margin-left:0.5%;
+ margin-bottom:2%;
+}
+
+.mobiledoctorsform .innerquickenquiry
+{
+width:97%;
+height:auto;
+border: solid 7px #0475a8;
+background-color: #FFF;
+margin-left:0px;
+}
+
+.mobiledoctorsform  .innerquickenquiry h2
+{
+width:100%;
+height:20px;
+background:#013772;
+padding-top:10px;
+text-align:center;
+color:#fff;
+font-size:18px;
+}
+.mobiledoctorsform  .innerquickenquiry h3
+{
+width:100%;
+height:10px;
+padding-top:5px;
+text-align:center;
+color:#013772;
+font-size:16px;
+font-weight:bold;
+}
+.mobiledoctorsform  .innerquickenquiry form
+{
+margin-top:5px;
+margin-left:10px;
+}
+.mobiledoctorsform   .innerquickenquiry .field1 label
+{
+color:#0475a8;
+ 
+}
+.mobiledoctorsform   .innerquickenquiry .field
+{
+min-height:35px;
+}
+.mobiledoctorsform   .innerquickenquiry .field input
+{
+width:96%;
+height:25px;
+border:1px solid #0475a8;
+}
+.mobiledoctorsform   .innerquickenquiry .field select
+{
+width:96%;
+height:25px;
+border:1px solid #0475a8;
+color:#0475a8;
+}
+.mobiledoctorsform   .innerquickenquiry .field textarea
+{
+width:96%;
+height:65px;
+border:1px solid #0475a8;
+}
+.mobiledoctorsform   .innerquickenquiry  .submitbutton
+{
+margin-top:5px;
+margin-left:8px;
+margin-bottom:10px;
+}
+.mobiledoctorsform   .innerquickenquiry  .submitbutton input[type='submit']
+{
+width:75px;
+height:28px;
+border:1px solid #0475a8;
+background:#0475a8;
+color:#fff;
+font-weight:bold;
+cursor:pointer;
+margin-right:5px;
+}
+.mobiledoctorsform   .innerquickenquiry  .submitbutton input[type='reset']
+{
+width:75px;
+cursor:pointer;
+height:28px;
+border:1px solid #0475a8;
+background:#0475a8;
+color:#fff;
+font-weight:bold;
+cursor:pointer;
+}
+
+
+/* ends doctors page css here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menuheader{display:none;}.banner{width:100%;height:auto;margin-left:2%;}.banner img{width:100%;height:auto;} .banner-menu{display:none;}.menuborder{display:none;}.maincontent{background:none;width:95%;height:auto;}.innermaincontent{width:100%;}/* contact no here */.mobilecontact{margin-top:5px;display:block;width:100%;height:25px;background:#013772;text-align:center;padding-top:5px;}.mobilecontact p{color:#fff;font-weight:bold;font-size:16px;}/* right fixed content here */.rightfixed-bottom-mobile{display:block;width:100%;height: auto;position: relative;right: 0px;top: 5px;margin-left:2%;margin-bottom:10px;} .contentright span { border-bottom:none; }.rightfixed-bottom-mobile .innerright{width:95%;height:auto;border: solid 7px #0475a8;background-color: #FFF;}.rightfixed-bottom-mobile .innerright h2{width:100%; }.rightfixed{display:none;} .rightfixed-bottom-mobile .surgeons{margin-top:5px;width:100%;height:65px;border-bottom:1px solid #0475a8;}.rightfixed-bottom-mobile .surgeons p{color:#575a5d;line-height:1.4em;font-size:13px; }.rightfixed-bottom-mobile .surgeons p span{font-weight:bold;font-size:12px;}.rightfixed-bottom-mobile img.imagecontent-right{float:left;width:55px;height:55px;margin-left:5px;margin-right:10px;border:1px solid #ccc;}.header{width:100%;height:auto;position:relative;}.innerheader{width:100%;margin:0 auto;}.logo{float:none;width:100%;height:90px;text-align:center;}.mainbody{ width:95%;height:auto;float:none;border:none;} .quickenquiry{margin-top:5px;width:100%;height: auto;position:relative;left: 0px;top: 0px;}.innerquickenquiry{width:95%;height:auto;margin-left:2%;}.innerquickenquiry h2{width:100%;text-align:center; }.innerquickenquiry form{margin-top:20px;margin-left:3%;}.innerquickenquiry .field{min-height:40px;}.innerquickenquiry .field input{width:95%;height:25px;border:1px solid #0475a8;}.innerquickenquiry .field textarea{width:95%;height:60px;border:1px solid #0475a8;}.innerquickenquiry  .submitbutton{margin-top:5px;margin-left:8px;margin-bottom:10px;} .submitbutton{text-align:center;}.upperbody{ display:none;}.contentleft{float:none;width:100%;margin-left:3%;}.contentleft h3{margin-left:1%;width:100%;}.contentright{float:none;border-left:none;width:100%;height:auto;margin-left:3%;}.contentright ul{list-style:none;margin-left:20px;margin-top:20px;}.contentright ul li{ padding:8px 0px 0px 15px ; color:#575a5d;}.callimage{display:none;} .footerimageright { display:none; }.borderbottom{float:none;border-top:5px solid #013772;width:100%;height:auto;border-bottom:5px solid #18A98B;}.desktoppanal{display:none;}
+/* enquiry form css here */
+.mobileform
+{
+display:block;
+margin-top:1%;
+width:98%;
+margin-left:3%;
+height: auto;
+float:none;
+}
+.mobileform .innerquickenquiry
+{
+width:98%;
+height:auto;
+border: solid 7px #0475a8;
+background-color: #FFF;
+margin-left:1%;
+}
+.mobileform .innerquickenquiry h2
+{
+width:100%;
+height:30px;
+background:#013772;
+padding-top:10px;
+text-align:center;
+color:#fff;
+font-size:18px;
+}
+.mobileform .innerquickenquiry h3
+{
+width:100%;
+height:20px;
+padding-top:5px;
+text-align:center;
+color:#013772;
+font-size:16px;
+}
+.mobileform .innerquickenquiry form
+{
+margin-top:5px;
+margin-left:10px;
+}
+.mobileform .innerquickenquiry .field1 label
+{
+color:#0475a8;
+}
+.mobileform .innerquickenquiry .field1
+{
+min-height:35px;
+}
+.mobileform .innerquickenquiry .field1 input
+{
+width:98%;
+height:25px;
+border:1px solid #0475a8;
+}
+.mobileform .innerquickenquiry .field1 select
+{
+width:98%;
+height:25px;
+border:1px solid #0475a8;
+color:#0475a8;
+}
+.mobileform .innerquickenquiry .field1 textarea
+{
+width:98%;
+height:65px;
+border:1px solid #0475a8;
+}
+.innerquickenquiry  .submitbutton
+{
+margin-top:5px;
+margin-left:0px;
+margin-bottom:10px;
+text-align:center;
+}
+.innerquickenquiry  .submitbutton input[type='submit']
+{
+width:75px;
+height:28px;
+border:1px solid #0475a8;
+background:#0475a8;
+color:#fff;
+font-weight:bold;
+cursor:pointer;
+margin-right:5px;
+}
+.innerquickenquiry  .submitbutton input[type='reset']
+{
+width:75px;
+cursor:pointer;
+height:28px;
+border:1px solid #0475a8;
+background:#0475a8;
+color:#fff;
+font-weight:bold;
+cursor:pointer;
+}
+
+/* ends here enquiry form css here */
+
+ }
+@media only screen and (min-width: 768px) and (max-width: 959px) {body{background:#fff;margin-top:0px;}.menuheader{display:none;}.banner{padding-top:5px;width:100%;height:auto;}.banner img{width:100%;height:auto;} .contentright span { border-bottom:none; }.banner-menu{display:none;}.rightfixed{display:none;} .menuborder{display:none;}.maincontent{background:none;width:95%;height:auto;}.innermaincontent{width:100%;} /* contact no here */.mobilecontact{margin-top:5px;display:block;width:100%;height:25px;background:#013772;text-align:center;padding-top:5px;}.mobilecontact p{color:#fff;font-weight:bold;font-size:16px;}.header{width:100%;height:auto;position:relative;}.innerheader{width:100%;margin:0 auto;}.logo{float:none;width:100%;height:90px;text-align:center;}.mainbody{ width:95%;height:auto;float:none;border:none;} .quickenquiry{margin-top:5px;width:100%;height: auto;position:relative;left: 0px;top: 0px;}.innerquickenquiry{width:95%;height:auto;margin-left:2%;}.innerquickenquiry h2{width:100%;text-align:center; }.innerquickenquiry form{margin-top:20px;margin-left:3%;}.innerquickenquiry .field{min-height:40px;}.innerquickenquiry .field input{width:95%;height:25px;border:1px solid #0475a8;}.innerquickenquiry .field textarea{width:95%;height:60px;border:1px solid #0475a8;}.innerquickenquiry  .submitbutton{margin-top:5px;margin-left:8px;margin-bottom:10px;} .submitbutton{text-align:center;}.upperbody{ display:none;}.contentleft{float:none;width:100%;margin-left:3%;}.contentleft h3{margin-left:1%;width:100%;}.contentright{float:none;border-left:none;width:100%;height:auto;margin-left:3%;}.contentright ul{list-style:none;margin-left:20px;margin-top:20px;}.contentright ul li{ padding:8px 0px 0px 15px ; color:#575a5d;}.callimage{display:none;} .footerimageright { display:none; }.borderbottom{float:none;border-top:5px solid #013772;width:100%;height:auto;border-bottom:5px solid #18A98B;}.rightfixed{display:none;} .desktoppanal{display:none;}
+/* enquiry form css here */
+.mobileform
+{
+display:block;
+margin-top:1%;
+width:98%;
+margin-left:3%;
+height: auto;
+float:none;
+}
+.mobileform .innerquickenquiry
+{
+width:98%;
+height:auto;
+border: solid 7px #0475a8;
+background-color: #FFF;
+margin-left:1%;
+}
+.mobileform .innerquickenquiry h2
+{
+width:100%;
+height:30px;
+background:#013772;
+padding-top:10px;
+text-align:center;
+color:#fff;
+font-size:18px;
+}
+.mobileform .innerquickenquiry h3
+{
+width:100%;
+height:20px;
+padding-top:5px;
+text-align:center;
+color:#013772;
+font-size:16px;
+}
+.mobileform .innerquickenquiry form
+{
+margin-top:5px;
+margin-left:10px;
+}
+.mobileform .innerquickenquiry .field1 label
+{
+color:#0475a8;
+}
+.mobileform .innerquickenquiry .field1
+{
+min-height:35px;
+}
+.mobileform .innerquickenquiry .field1 input
+{
+width:98%;
+height:25px;
+border:1px solid #0475a8;
+}
+.mobileform .innerquickenquiry .field1 select
+{
+width:98%;
+height:25px;
+border:1px solid #0475a8;
+color:#0475a8;
+}
+.mobileform .innerquickenquiry .field1 textarea
+{
+width:98%;
+height:65px;
+border:1px solid #0475a8;
+}
+.innerquickenquiry  .submitbutton
+{
+margin-top:5px;
+margin-left:0px;
+margin-bottom:10px;
+text-align:center;
+}
+.innerquickenquiry  .submitbutton input[type='submit']
+{
+width:75px;
+height:28px;
+border:1px solid #0475a8;
+background:#0475a8;
+color:#fff;
+font-weight:bold;
+cursor:pointer;
+margin-right:5px;
+}
+.innerquickenquiry  .submitbutton input[type='reset']
+{
+width:75px;
+cursor:pointer;
+height:28px;
+border:1px solid #0475a8;
+background:#0475a8;
+color:#fff;
+font-weight:bold;
+cursor:pointer;
+}
+
+/* ends here enquiry form css here */
+}

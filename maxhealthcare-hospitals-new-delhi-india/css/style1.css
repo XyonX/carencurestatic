@@ -1,0 +1,112 @@
+ 
+
+
+/*General Pop-up Background*/
+#vpb_pop_up_background
+{
+	display:none;
+	_position:absolute; /* hack for internet explorer 6*/
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;
+	background:#000000;
+	border:1px solid #cecece;
+	position:fixed;
+	z-index:99999999;
+}
+
+
+/*Sign Up Box*/
+#vpb_signup_pop_up_box
+{
+	display:none;
+	width:250px;
+	border: solid 7px #0475a8;
+	background-color: #FFF;
+	box-shadow: 0 0 20px #000;
+	-moz-box-shadow: 0 0 20px #000;
+	-webkit-box-shadow: 0 0 20px #000;
+	-webkit-border-radius: 0px;-moz-border-radius: 0px;border-radius: 0px;
+	padding:10px;
+	padding-left:20px;
+	padding-right:20px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+	top: 25%; 
+	right: 40%;
+   text-align:center;	
+	position:fixed;
+	z-index:9999999999;
+}
+ #vpb_signup_pop_up_box h2
+ {
+ height:30px;
+ color:#3F86BA;
+ text-align:center;
+ }
+
+
+/*Textarea Boxes and Input Boxes Style*/
+.vpb_textAreaBoxInputs {min-width:230px;  height:10px;font-family:Verdana, Geneva, sans-serif; font-size:12px;padding:7px; padding-left:10px; padding-right:10px;border: 1px solid #3F86BA;outline:none;border-radius: 2px;-moz-border-radius: 2px;-webkit-border-radius:2px; line-height:20px;}
+.vpb_textAreaBoxInputs:focus {outline:none;border: 1px solid #3F86BA;box-shadow: 0 0 10px #3F86BA;-moz-box-shadow: 0 0 10px #3F86BA;-webkit-box-shadow: 0 0 10px #3F86BA;}
+ select.selectbox
+ {
+ width:250px;
+ height:25px;
+ border: 1px solid #0475a8;
+ color:#0475a8;
+ }
+ 
+input.submitbutton
+{
+ 
+ 
+background:none;
+border:1px solid #3F86BA;
+width: 80px;
+height: 30px;
+color: #fff;
+font-size: 12px;
+cursor: pointer;
+margin-left:40px; 
+color:#3F86BA;
+font-weight:bold;
+}
+ 
+input.resetbutton
+{
+background:none;
+border:1px solid #3F86BA;
+width: 80px;
+height: 30px;
+color: #fff;
+font-size: 12px;
+cursor: pointer;
+margin-left:10px; 
+color:#3F86BA;
+font-weight:bold;
+}
+input.resetbutton:hover
+{
+ color:#0B3D61;
+}
+input.resetbutton:hover
+ {
+ background:none;
+ border:1px solid #0B3D61;
+ font-size: 12px;
+ cursor: pointer;
+ color:#0B3D61;
+ font-weight:bold;
+ }
+ input.submitbutton:hover
+ {
+ background:none;
+ border:1px solid #0B3D61;
+ font-size: 12px;
+ cursor: pointer;
+ color:#0B3D61;
+ font-weight:bold;
+ }
+  

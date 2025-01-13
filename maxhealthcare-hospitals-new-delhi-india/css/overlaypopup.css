@@ -1,0 +1,60 @@
+ 
+ 
+
+.main-content {
+	height: 800px;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.overlay-bg {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height:100%;
+	width: 100%;
+	cursor: pointer;
+	 
+ 
+}
+	.overlay-content {
+	 
+	    padding-top:1%;
+	    padding-left:0 %;
+	    padding-bottom:1%;
+		width: 14%;
+		position: relative;
+		top: 80%;
+		left: 42%;
+		margin: 0 0 0 -20%; /* add negative left margin for half the width to center the div */
+		cursor: default;
+	}
+	.overlay-content h3
+	{
+ 
+	height:25px;
+	margin-left:10px;
+	}
+.overlay-content h2
+{
+text-align:center;
+color:#CD210C;
+
+}
+ 
+	.close-btn 
+	{
+	 position:relative;
+	 cursor:pointer;
+	 border:none;
+	 background:transparent;
+	 float:right;
+	 margin:-108px 0 0 0;
+	 margin-left:2px; 
+ 
+  }
+	 
+
+
+

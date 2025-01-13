@@ -1,0 +1,644 @@
+*{
+margin:0px;
+padding:0px;
+}
+body
+{
+line-height:1.5em;
+color:#3F86BA;
+font-size:12px;
+font-family:arial;
+background:url(../images/bg.JPG) repeat-x left top #4389BC;
+}
+img
+{
+border:none;
+}
+a:hover
+{
+color:#1868A1;
+}
+.wrapper
+{
+width:780px;
+margin:0 auto;
+}
+.innerwrapper
+{
+width:780px;
+height:auto;
+}
+/* header */
+.header
+{
+float:left;
+width:780px;
+height:auto;
+}
+.header .logo
+{
+margin-top:5px;
+float:left;
+width:300px;
+height:105px;
+}
+.header .quicklink
+{
+margin-top:40px;
+float:right;
+width:160px;
+height:auto;
+margin-right:20px;
+}
+.quicklink  a img:hover
+{
+opacity:0.89;
+}
+.header .quicklink-aboutus
+{
+margin-top:50px;
+float:left;
+width:160px;
+height:auto;
+margin-left:50px;
+
+}
+.quicklink-aboutus  a img:hover
+{
+opacity:0.89;
+}
+/* menu here */
+.menu
+{
+float:left;
+width:780px;
+height:25px;
+background:#3F86BA;
+}
+
+/*component*/
+.component
+{
+margin-top:3px;
+float:left;
+background:#fff;
+overflow:hidden;
+width:778px;
+height:auto;
+position:relative;
+border:1px solid #ccc;
+}
+.banner
+{
+float:left;
+width:778px;
+height:281px;
+position:relative;
+}
+/* content */
+.content
+{
+float:left;
+width:765px;
+height:auto;
+margin-left:5px;
+}
+.content-doctors
+{
+float:left;
+width:760px;
+height:auto;
+margin-left:10px;
+}
+.content-doctors h3
+{
+padding-top:5px;
+padding-bottom:5px;
+text-align:justify;
+width:755px;
+}
+.content-doctors h3
+{
+padding-bottom:5px;
+text-align:justify;
+color:#3F86BA;
+font-size:12px;
+font-weight: normal;
+font-variant: normal;
+text-transform: none;
+text-decoration: none;
+text-align: justify;
+}
+.content-doctors h2
+{
+padding-top:5px;
+padding-bottom:5px;
+width:765px;
+color:#3F86BA;
+text-align:justify;
+font-weight: bold;
+font-variant: normal;
+text-transform: none;
+text-decoration: none;
+text-align: justify;
+font-size:16px;
+}
+.content-doctors ul.unordelist
+{
+margin-top:3px;
+margin-bottom:5px;
+margin-left:30px;
+list-style-type:square;
+
+}
+ 
+.content-doctors ul.unordelist li h3
+{
+text-align:justify;
+width:725px;
+color:#3F86BA;
+padding-top:3px;
+padding-bottom:3px;
+
+}
+ 
+.doctorsprofile
+{
+margin-top:8px;
+float:left;
+width:755px;
+height:182px;
+background:url(../images/mid-banner.png) no-repeat;
+margin-bottom:10px;
+border:1px solid #ccc;
+}
+.doctorsprofile img.surgeonimagecontent
+{
+float:left;
+margin-top:60px;
+margin-left:15px;
+margin-right:10px;
+width:75px;
+height:95px;
+border:1px solid #ccc;
+}
+.doctorsprofile p
+{
+padding-top:0px;
+margin-top:60px;
+}
+.doctorsprofile p span
+{
+font-weight:bold;
+}
+
+.innercontent
+{
+margin-top:5px;
+float:left;
+width:765px;
+height:30px;
+border:1px solid #3F86BA;
+background:#EBF2F8;
+}
+.innercontent h1
+{
+padding-top:5px;
+padding-left:10px;
+font-size:16px;
+color:#3F86BA;
+}
+.article
+{
+margin-top:10px;
+float:left;
+width:765px;
+height:auto;
+position:relative;
+}
+.article h3
+{
+padding-bottom:8px;
+text-align:justify;
+color:#3F86BA;
+font-size:12px;
+font-weight: normal;
+font-variant: normal;
+text-transform: none;
+text-decoration: none;
+text-align: justify;
+}
+.article img.imagecontent
+{
+float:left;
+width:217px;
+height:176px;
+margin-right:8px;
+}
+.article h2
+{
+padding-bottom:8px;
+width:765px;
+color:#3F86BA;
+text-align:justify;
+font-weight: bold;
+font-variant: normal;
+text-transform: none;
+text-decoration: none;
+text-align: justify;
+font-size:16px;
+}
+ul.listcontent
+{
+list-style-type:square;
+color:#3F86BA;
+margin-left:35px;
+}
+
+ul.listcontent li h3
+{
+color:#3F86BA;
+text-align:justify;
+padding-top:5px;
+padding-bottom:5px;
+}
+/* Bottom link */
+.bottomlink
+{
+float:left;
+margin-top:40px;
+width:778px;
+height:55px;
+margin-bottom:5px; 
+}
+.innerbottomlink
+{
+position:relative;
+padding-top:8px;
+padding-left:10px;
+width:282px;
+background:url(../images/click-here.jpg) no-repeat;
+height:60px;
+ 
+}
+.innerbottomlink a 
+{
+color:#fff;
+text-decoration:none;
+font-weight:bold;
+font-size:12px;
+}
+/* footer */
+.footer
+{
+float:left;
+width:778px;
+height:30px;
+position:relative;
+}
+.footer p
+{
+text-align:center;
+font-weight:bold;
+}
+
+/* left module fixed */
+.FLmodule
+{
+position:fixed;
+width:200px;
+height:auto;
+top:111px;
+left:10px;
+background:#4389BC;
+border:1px solid #4389BC;
+}
+.innerflmodule h1
+{
+padding-top:5px;
+font-size:16px;
+text-align:center; 
+height:22px;
+background:#fff;
+}
+.innerflmodule h2
+{
+padding-top:8px;
+font-size:16px;
+text-align:center; 
+height:22px;
+color:#fff;
+}
+.innerflmodule form
+{
+padding-top:5px;
+margin-left:6px;
+}
+.innerflmodule form .field 
+{
+min-height:45px;
+}
+.innerflmodule form .field  label
+{
+color:#fff;
+}
+.innerflmodule form .field input[type="text"]
+{
+ width:185px;
+ height:22px;
+ border:1px solid #fff;
+ background:none;
+ color:#fff;
+}
+ .innerflmodule form .field select
+{
+ width:185px;
+ height:22px;
+ border:1px solid #fff;
+ background:none;
+ color:#fff;
+}
+ .innerflmodule form .field select option
+ {
+ background:#4389BC;
+ color:#fff;
+ }
+ .innerflmodule form .field textarea
+{
+ width:185px;
+ height:100px;
+ border:1px solid #fff;
+ color: #3F86BA;
+}
+
+
+.innerflmodule form .field1 
+{
+min-height:35px;
+}
+
+.innerflmodule form .field1 input[type="text"]
+{
+ width:185px;
+ height:22px;
+ border:1px solid #fff;
+ background:none;
+ color:#fff;
+}
+ .innerflmodule form .field1 select
+{
+ width:185px;
+ height:22px;
+ border:1px solid #fff;
+ background:none;
+ color:#fff;
+}
+ .innerflmodule form .field1 select option
+ {
+ background:#4389BC;
+ color:#fff;
+ }
+ .innerflmodule form .field1 textarea
+{
+ width:185px;
+ height:100px;
+ border:1px solid #fff;
+ color: #3F86BA;
+}
+/* submitbutton */
+.submitbutton
+{
+margin-top:3px;
+margin-bottom:5px;
+}
+.submitbutton input[type="submit"]
+{
+width:60px;
+height:22px;
+border:none;
+background:#fff;
+color: #3F86BA;
+margin-left:20px;
+font-weight:bold;
+cursor:pointer;
+}
+.submitbutton input[type="submit"]:hover
+{
+color: #0E3D5E;
+}
+.submitbutton input[type="reset"]:hover
+{
+color: #0E3D5E;
+}
+.submitbutton input[type="reset"]
+{
+width:60px;
+height:22px;
+border:none;
+background:#fff;
+color: #3F86BA;
+margin-left:10px;
+font-weight:bold;
+cursor:pointer;
+}
+
+/* FR */
+.FRabsolute
+{
+position:absolute;
+width:200px;
+height:auto;
+top:0px;
+right:10px;
+background:#4389BC;
+border:1px solid #4389BC;
+ 
+}
+.innerFRabsolute h1
+{
+padding-top:5px;
+font-size:16px;
+text-align:center; 
+height:22px;
+background:#fff;
+}
+.surgeons
+{
+padding-top:10px;
+margin-left:10px;
+width:180px;
+height:80px;
+border-bottom:1px dashed #fff;
+}
+.surgeons h3
+{
+line-height:1.4em;
+font-size:12px;
+font-weight: normal;
+font-variant: normal;
+text-transform: none;
+text-decoration: none;
+}
+.surgeons img.surgeonsimages
+{
+float:left;
+width:50px;
+height:65px;
+margin-right:9px;
+ 
+}
+.surgeons p
+{
+line-height:1.3em;
+}
+.surgeons span
+{
+font-weight:bold;
+}
+ input::-webkit-input-placeholder {  
+    color: #fff;
+}  
+input:-moz-placeholder {  
+    color: #fff;
+}
+textarea::-webkit-input-placeholder {  
+    color: #fff;
+}
+.surgeons img.surgeonsimages:hover
+{
+opacity:0.89;
+}
+.surgeons a
+{
+ text-decoration:none;
+ color:#fff;
+}
+.surgeons a:hover
+{
+ color:#DED9D9;
+}
+/* back to top */
+
+		a.back-to-top {
+			position: fixed;
+			bottom: 2em;
+			right: 140px;
+			text-decoration: none;
+			color: #000000;
+			background:url(../images/top-button.png) no-repeat;
+			width:57px;
+			height:63px;
+			font-size: 12px;
+			padding: 1em;
+			display: none;
+			text-indent:-9999px;
+		}
+
+/* doctors page css here */
+.rightmodule
+{
+margin-top:40px;
+float:right;
+margin-right:20px;
+height:auto;
+}	
+.rightmodule h2
+{
+ width:150px;
+color: #03007e;
+font-size: 28px;
+line-height: 1.1em;
+font-family: arial;
+font-weight: bold;
+}	
+/* message */
+.message
+{
+margin-left:3px;
+float:left;
+width:770px;
+height:80px;
+border:1px solid #3F86BA;
+margin-bottom:3px;
+}
+.message p
+{
+padding-top:30px;
+text-align:center;
+font-size:18px;
+}
+	 .Layer1
+ {
+  margin-top:0px; 
+ margin-left:0px;
+ background:none;
+ margin-bottom:5px;
+ border:1px solid #fff
+}	 	
+.skype
+{
+float:left;
+width:40px;
+height:40px;
+margin-top:48px;
+margin-left:200px;
+margin-right:20px;
+}
+.skype a img:hover
+{
+opacity:0.89;
+}
+.contactno
+{
+float:right;
+margin-top:40px;
+margin-right:20px;
+}
+.contactno span
+{
+font-weight:bold;
+}
+
+.contactno p
+{
+font-size:16px;
+line-height:1.3em;
+}
+.contactno-doctors
+{
+float:right;
+margin-top:35px;
+margin-right:20px; 
+}
+.contactno-doctors p span
+{
+font-weight:bold;
+}
+.contactno-doctors p
+{
+font-size:16px;
+line-height:1.3em;
+font-weight:bold;
+}
+img.surgeonpagesimages
+{
+float:right;
+margin-left:10px;
+}
+	 .closebutton
+{
+color:#4389BC;
+float:right;
+margin-right:5px;
+
+}
+a.remove
+{
+color:#4389BC;
+font-size:14px;
+}
+a.bottom
+{
+margin-bottom:10px;
+font-size:14px;
+}

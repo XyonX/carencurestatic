@@ -1,0 +1,461 @@
+<!doctype html>
+<html itemscope itemtype="http://schema.org/Physician"  xmlns:og="http://ogp.me/ns#">
+<head>
+
+<meta name="robots" content="index,follow"/>
+<meta name="googlebot" content="index,follow"/>
+
+<meta name="viewport" content="width=device-width; initial-scale=1.1"/>
+<meta http-equiv="X--UA-Compatible" content="IE=edge, chrome=1"/> 	
+<meta charset="utf-8"/>
+<meta name="keywords" content="Dr. Hrishikesh Pai Fortis Hospital India"/>
+<meta name="Description" content="Dr. Hrishikesh Pai Fortis Hospital India, The expert team of Fortis IVF Bloom is been headed by Dr. Hrishikesh Pai, (M.D, F.C.P.S, F.I.C.O.G) & Dr. Nandita Palshelkar (M.D, F.C.P.S., M.I.C.O.G). The IVF group has been practicing ART & IVF since last 17 year. They have done more than 10,000 patient and achieved pregnancy rate of 40-50% in women less than 35 years of age. "/>
+<title>Dr. Hrishikesh Pai Fortis Hospital India</title>
+<link rel="stylesheet" type="text/css" href="../css/style.css"/>
+<link href="../style/style.css" rel="stylesheet" type="text/css" media="all" />
+ <link rel="stylesheet" type="text/css" href="../css/mobile.css"/>
+ <link rel="canonical" href="https://www.careandcure.us/fortis-healthcare-hospital-mumbai-delhi-banglore-india/doctors/dr-hrishikesh-pai.html">	
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	
+<script type="text/javascript">
+function validateForm()
+{
+
+var a=document.forms["enquiryform"]["name"].value;
+var b=document.forms["enquiryform"]["emailid"].value;
+var c=document.forms["enquiryform"]["gender"].value;
+var d=document.forms["enquiryform"]["age"].value;
+var e=document.forms["enquiryform"]["phoneNo"].value;
+var f=document.forms["enquiryform"]["country"].value;
+var g=document.forms["enquiryform"]["enquiry"].value;
+ 
+if(a=="" || a==null)
+{
+alert("Name Can not be Blank");
+document.enquiryform.name.focus();
+return false;
+}
+if(b=="" || b==null)
+{
+alert("Email Address Can not be Blank");
+return false;
+}
+else
+{
+var atpos=b.indexOf("@");
+var dotpos=b.lastIndexOf(".");
+if (atpos<1 || dotpos<atpos+2 || dotpos+2>=b.length)
+  {
+  alert("Invalid E-mail Address Please Re-Enter");
+  document.enquiryform.emailid.focus();
+  return false;
+  }
+  }
+if(c=="" || c==null)
+{
+alert("Gender Can not be Blank");
+document.enquiryform.emailid.focus();
+return false;
+}
+if(d=="" || d==null)
+{
+alert("Age Can not be Blank");
+document.enquiryform.age.focus();
+return false;
+}  
+if(e=="" || e==null)
+{
+alert("phoneNo Can not be Blank");
+document.enquiryform.phoneNo.focus();
+return false;
+} 
+if(f==-1 || f==null)
+{
+alert("Please Select a Country");
+document.enquiryform.country.focus();
+return false;
+}
+if(g=="" || g==null)
+{
+alert("Enquiry Can not be Blank");
+document.enquiryform.country.focus();
+return false;
+}
+ }
+</script> 
+
+
+<script type="text/javascript">
+function validateFormMobile()
+{
+
+var a=document.forms["enquiryformMobile"]["name"].value;
+var b=document.forms["enquiryformMobile"]["emailid"].value;
+var c=document.forms["enquiryformMobile"]["gender"].value;
+var d=document.forms["enquiryformMobile"]["age"].value;
+var e=document.forms["enquiryformMobile"]["phoneNo"].value;
+var f=document.forms["enquiryformMobile"]["country"].value;
+var g=document.forms["enquiryformMobile"]["enquiry"].value;
+ 
+if(a=="" || a==null)
+{
+alert("Name Can not be Blank");
+document.enquiryformMobile.name.focus();
+return false;
+}
+if(b=="" || b==null)
+{
+alert("Email Address Can not be Blank");
+return false;
+}
+else
+{
+var atpos=b.indexOf("@");
+var dotpos=b.lastIndexOf(".");
+if (atpos<1 || dotpos<atpos+2 || dotpos+2>=b.length)
+  {
+  alert("Invalid E-mail Address Please Re-Enter");
+  document.enquiryformMobile.emailid.focus();
+  return false;
+  }
+  }
+if(c=="" || c==null)
+{
+alert("Gender Can not be Blank");
+document.enquiryformMobile.emailid.focus();
+return false;
+}
+if(d=="" || d==null)
+{
+alert("Age Can not be Blank");
+document.enquiryformMobile.age.focus();
+return false;
+}  
+if(e=="" || e==null)
+{
+alert("phoneNo Can not be Blank");
+document.enquiryformMobile.phoneNo.focus();
+return false;
+} 
+if(f==-1 || f==null)
+{
+alert("Please Select a Country");
+document.enquiryformMobile.country.focus();
+return false;
+}
+if(g=="" || g==null)
+{
+alert("Enquiry Can not be Blank");
+document.enquiryformMobile.country.focus();
+return false;
+}
+ 
+    
+  }
+</script>
+
+
+
+  <script type="text/javascript">
+$(document).ready(function(){
+    
+    //called when key is pressed in textbox
+	$("#age").keypress(function (e)  
+	{ 
+	  //if the letter is not digit then display error and don't type anything
+	  if( e.which!=8 && e.which!=0 && (e.which<48 || e.which>57))
+	  {
+		//display error message
+		alert("Please enter proper numeric value in age");
+		$("#errmsg").html("Number Only").show().fadeOut("slow"); 
+	    return false;
+      }	
+	});
+	$("#cnumber").keypress(function (a)  
+	{ 
+	  //if the letter is not digit then display error and don't type anything
+	  if( a.which!=8 && a.which!=0 && (a.which<48 || a.which>57))
+	  {
+		//display error message
+		$("#errmsg1").html("Number Only").show().fadeOut("slow"); 
+	    return false;
+      }	
+	});
+
+  });
+</script>
+  <style style="text/css">
+		 
+		
+		a.back-to-top {
+			position: fixed;
+			bottom: 2em;
+			right: 140px;
+			text-decoration: none;
+			color: #000000;
+			background:url(../images/top.png) no-repeat;
+			width:57px;
+			height:63px;
+			font-size: 12px;
+			padding: 1em;
+			display: none;
+			text-indent:-9999px;
+		}
+
+		.back-to-top:hover {	
+			background:url(../images/top.png) no-repeat;
+		}	
+	</style>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-28299984-1"></script>
+<script>
+ window.dataLayer = window.dataLayer || [];
+ function gtag(){dataLayer.push(arguments);}
+ gtag('js', new Date());
+
+ gtag('config', 'UA-28299984-1'); 
+</script>
+
+<script type="text/javascript" src="../jquery.min.js"></script>
+<script src="../stickynote.js"></script>
+
+<script>
+var mysticky2=new stickynote({
+	content:{divid:'stickynote2', source:'inline'},
+	pos:['left', 'top'],
+	showfrequency:'always'  //<--no comma following last setting!
+})
+</script> 
+
+<!-- right module script here -->
+<script src="../stickynote1.js"></script>
+<script type="text/javascript">
+var mysticky21 = new stickynote21({
+	content:{divid:'stickynote21',source:'inline'},
+	pos:['right','top','bottom'],
+	showfrequency:'always'  //<--no comma following last setting!
+})
+
+</script>
+</head>
+<body class="aboutus" onLoad="DrawCaptcha();">
+<div class="wrapper-header-aboutus">
+<div class="inner-header-wrapper">
+<div class="another-header-back-aboutus">
+
+<div class="logo-aboutus">
+<a href="../index.html" class="logoaboutus"><img alt="Fortis hospital india logo" src="../images/logo.png" width="142" height="74"/></a>
+</div>
+<div class="emergencynumber-aboutus">
+ <h2 class="contactno"><a href="tel:+91-9325887033">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CALL US</h2>
+<h2>+91-98607-55000</a></h2>
+</div>
+<div class="rightmodule-aboutus">
+</div>
+</div>
+<!-- position fixed left -->
+
+<!-- ends here -->
+<div class="desktopform">
+<div class="rightabsolute" id="stickynote21">
+ <h2>FORTIS TOP SURGEONS <a href="#" onClick="mysticky21.showhidenote('hide');return false" class="bottom" style="margin-right:5px;float:right;"><b class="closebutton">[X]</b></a></h2>
+ 	 
+ 
+ 
+	 <div class="surgeons">
+ <a href="../doctors/dr-manoj-miglani.html"><p><img src="../images/Dr- Manoj-Miglani.JPG" class="imagecontent" alt="Dr. Manoj Miglani-Fortis Healthcare"/><span>Dr. Manoj Miglani</span><br/>
+M.B.B.S., 
+M.S., Orthopaedics</p></a></div>
+ <div class="surgeons">
+ <a href="../doctors/dr-mohan-keshavamurthy.html"><p><img src="../images/Dr- Mohan-Keshavamurthy.JPG" alt="Dr. Mohan Keshavamurthy-Fortis Healthcare" class="imagecontent"/><span>Dr. Mohan Keshavamurthy</span><br/>
+
+M.S., M.Ch., F.R.C.S. </p></a></div>
+ <div class="surgeons">
+ <a href="../doctors/dr-rajesh-sharma.html"><p><img src="../images/Dr- Rajesh-Sharma.JPG" class="imagecontent" alt="Dr. Rajesh Sharma-Fortis Healthcare"/><span>Dr. Rajesh Sharma</span><br/>
+
+MBBS, MS
+Paediatric Cardiac Surgery </p></a></div>
+ <div class="surgeons">
+<a href="../doctors/dr-jalaj-baxi-oncology.html"><p><img src="../images/Dr-Jalaj-Baxi.JPG" class="imagecontent" alt="Dr. Jalaj Baxi-Fortis Healthcare"/><span>Dr. Jalaj Baxi</span><br/>
+
+Senior Consultant </p></a>
+ </div>
+<div class="surgeons">
+<a href="../doctors/dr-krishna-subramony-iyer.html"><p><img src="../images/Dr-Krishna-Subramony-Iyer.JPG" alt="Dr. Krishna Subramony Iyer-Fortis Healthcare" class="imagecontent"/><span>Dr. Krishna Subramony Iyer</span><br/>
+Pediatric Cardiology </p></a>
+</div>
+ <div class="surgeons" style="height:70px;">
+<a href="../doctors/dr-randeep-wadhawan.html"><p><img src="../images/Dr-RANDEEP-WADHAWAN.JPG" class="imagecontent" alt="Dr. RANDEEP WADHAWAN-Fortis Healthcare"/><span>Dr. Randeep Wadhswan</span><br/>
+MBBS, M.S, FIAGES, FMAS, FAIS, FICS (USA) Bariatric / Gastrointestinal</p></a></div>
+ <div class="surgeons" style="height:70px;">
+<a href="../doctors/dr-s-radhakrishnan.html"><p><img src="../images/Dr-S-Radhakrishnan.JPG" class="imagecontent" alt="Dr. S Radhakrishnan-Fortis Healthcare"/><span>Dr. S Radhakrishnan</span><br/>
+
+Pediatric Cardiology </p></a></div>
+ 
+ <div class="surgeons">
+<a href="../doctors/dr-vivek-vij.html"><p><img src="../images/Dr-Vivek-Vij.JPG" class="imagecontent" alt="Dr. Vivek Vij-Fortis Healthcare"/><span>Dr. Vivek Vij</span><br/>
+
+MS, DNB, MRCS (Ed.)</p></a></div>
+<div class="surgeons" style="height:80px;">
+<a href="../doctors/dr-ashoke-seth.html"><p><img src="../images/dr-ashoke-seth.JPG" alt="Dr. ashoke seth-Fortis Healthcare" class="imagecontent"/><span>Dr. Ashoke Seth </span><br/>
+FRCP (Lond, EDIN, IREL), FACC, FESC, FSCAI, FCSI, Dsc &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cardiology</p></a>
+ </div>
+ 
+</div>
+</div>
+<!--banner here -->
+<div class="banner-aboutus">
+<div class="innerbanneraboutus">
+<div class="aboutusbannerback">
+<div class="aboutdoctorcontent">
+<p><img src="../images/Dr- Hrishikesh-Pai .JPG" alt="Dr. Hrishikesh Pai-Fortis Healthcare" class="aboutusimagecont"><span>Dr. Hrishikesh Pai</span> <br/>The expert team of Fortis IVF Bloom is been headed by <br/>Dr. Hrishikesh Pai, (M.D, F.C.P.S, F.I.C.O.G) & Dr. Nandita Palshelkar (M.D, F.C.P.S., M.I.C.O.G). The IVF group has been practicing ART & IVF since last 17 year. They have done more than 10,000 patient and achieved pregnancy rate of 40-50% in women less than 35 years of age.
+</p>
+</div>
+</div>
+</div>
+</div>
+<!-- mobile enquiry form here -->
+
+<!-- position fixed left -->
+
+<!-- ends here -->
+
+<!-- ends here mobile enquiry form here -->
+
+<div class="maincontent-aboutus">
+<div class="innermainpage-aboutus">
+<div class="inneraboutuspagecontent"> 
+ 
+<div class="introduction">
+<h2 class="aboutuspageprofilei">In Vitro Fertilization - (IVF)</h2>
+<a href="../index.html"  target="_new"><img src="../images/fortis-hospital-infra-1.jpg" alt="fortis hospital india" class="surgeonscontentimagefor6"></a>
+<h3>Infertility affects upto 15% of couples , who are unable to have children .Various techniques of Assisted reproduction has now made it possible to treat almost all forms of infertility ,and help such couples to achieve pregnancy. These techniques are now responsible for the birth of around 2 million children worldwide. Fortis La Femme IVF centre offers the latest services, with success rates equivalent to the west, at very affordable costs, but without compromising on quality. This has been possible by making use of the latest equipment, best quality disposable and imported culture media, high-class competent service and very economical professional fees. This objective has enabled our unit to be at the forefront in offering fertility services in India. Our goal is to offer the most advanced and globally competitive ART programs and services. All these centers are equipped with the state-of-the-art 'Embryology Laboratory' and staffed with the team of highly trained professionals.</h3>
+<h2 class="aboutuspageprofilei">Facilities Offered</h2>
+<h3><p><strong>IUI :(Intrauterine Insemination)- </strong>1st line of treatment of infertile couples. The semen is processed in C02 incubator with special culture media and then the best quality sperms are placed in the uterine cavity around the time of ovulation.</h3>
+<h3><strong>IVF: (In vitro Fertilization)-</strong> It `s also useful for unexplained infertility,endometriosis,failed IUI,etc. The eggs are removed vaginally using a needle attached to ultrasound probe & mixed with Husband's sperms & kept in the incubator for two days. The fertilized egg (embryo) is then replaced into the uterus (womb).</h3>
+<h3><strong>ICSI: (Infra Cytoplasmic Sperm Injection)- </strong>Is a specialized technique for males with low or zero sperm count. The eggs are removed & each egg is injected with a single motile sperm. These eggs are incubated for two days & the embryos are put back into the womb, by this technique men with counts as low as 0.5 million or men with no sperms (Azoospermia) have started becoming fathers (using MESA/TESE procedures). The advent of ICSI has totally revolutionized the treatment of male infertility.</h3>
+<h3><strong>Embryo Freezing:</strong> The extra embryos formed during an IVF or ICSI cycle are frozen with the help of techniques like slow freezing and vitrification & stored in liquid nitrogen at -196 C. these can be used by the patient for subsequent cycles.
+Semen Banking: Semen bank for donor samples & patients undergoing chemotherapy / radiation. We have quality donors who are thoroughly screened at three monthly intervals for HIV Virus & all other diseases. Semen freezing & storage for
+husbands are undergoing vasectomy, cancer therapy, or those working outside India for long periods, is also carried out.</h3>
+<h3>Egg and Embryo Donation: Egg donation for women more than 40 years of age. These techniques have helped older women i.e. above 40yrs & menopausal women to achieve pregnancy. Usually the waiting period for eggs & embryos runs into weeks& months abroad. Therefore we have some of patients flying down from all over the world to perform the procedure at our unit.</h3>
+<h3><strong>Assisted Laser Hatching:</strong>Technology useful in achieving pregnancy in older patients and couples with previous failure of IVF/ICSI cycles. With the help of laser energy the covering of the embryo is cut (laser hatching) or just thinned (laser thinning)
+prior to embryo transfer.</h3>
+<h3><strong>Blastocyst Culture: </strong>The embryos are grown in the
+incubator for five days till they reach the blastocyst stage. These embryos are transferred back into the womb. This helps in improving pregnancy rates.</h3>
+<h3><strong>Surrogacy:</strong> Surrogacy for those who cant carry their pregnancy. The embryos are transferred in the womb of another woman who carries the pregnancy for 9 months.
+This is a new service started by the unit. We have successfully delivered many surrogates. In one of the couples, the eggs were borrowed from on anonymous egg donor, fertilized with the husband's sperm & the resultant embryos were replaced into a surrogate womb. The delivered children were than adopted by the couple!!</h3>
+<h3><strong>Oocyte Bank:</strong> Eggs can be frozen & stored for many years. Useful for young unmarried women who want to postpone childbearing & also for young cancer patients before chemo therapy, radiotherapy or surgery..</h3>
+<h3><strong>Ovarian Tissue Bank: </strong>For young women undergoing chemo / radiation therapy for cancer.
+Counselling: Patient education & counseling sessions offered by well qualified & trained personal.</h3>
+ 
+
+<h2 class="aboutuspageprofilei">The Laboratory (The Heart of IVF Program)</h2>
+ <h3>Fortis La Femme fertility clinic is equipped with sophisticated state of the art technology & manned by highly trained & skilled personnel..</h3>
+ <h3>The lab is housed in a sterile Hepa Filtered Environment. The Japanese Nikon SMZ 2 B Stereo zoom & Nikon Diaphot 300 Inverted microscopes are placed in sterile Laminar airflows, to reduce contamination. The lab has as many as THREE German carbon dioxide Incubators. All the disposables used in the process of IVF are imported from UK & Australia. The Medicult culture media are specially flown in from Denmark. The vitiolife media is flown in from Sweden These media are batch tested with stringent quality controls. In short we are making use of the best possible equipment & materials to achieve results equivalent to the west.
+Additionally, the Centre has the latest facilities of EMBRYO FREEZING (Cryologic - Australia) & MICROMANIPULATION ICSI (Narishige Japan & Research Instruments U. K.), Assisted Laser Hatching (Fertilase Laser).</h3>
+
+ </div>
+<div class="bottomcontent">
+<h2>OUR GROUP  BRANDS </h2>
+<img src="../images/group_logo.jpg" alt="Group logo fortis"/><img src="../images/group_logo1.jpg" alt="Fortis Hospital Group logo"/><img src="../images/group_logo2.jpg" alt="Group logo Fortis "/><img src="../images/fmrilogo.jpg" alt="Fortis hospital india logo group"/>
+</div>
+</div>
+</div>
+</div>
+ 
+<!-- ends here -->
+</div>
+
+</div>
+
+<!-- mobile body content here -->
+<div class="rightabsolute-mobile">
+ <h2>TOP SURGEONS</h2>
+  <div id="scrollbar1-mobile">
+		<div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
+ <div class="viewport">
+ <div class="overview">
+ 
+	 <div class="surgeons">
+ <a href="../doctors/dr-manoj-miglani.html"><p><img src="../images/Dr- Manoj-Miglani.JPG" class="imagecontent" alt="Dr. Manoj Miglani"/><span>Dr. Manoj Miglani</span>
+
+M.S. Orthopaedics ,M.B.B.S.</p></a></div>
+ <div class="surgeons">
+ <a href="../doctors/dr-mohan-keshavamurthy.html"><p><img src="../images/Dr- Mohan-Keshavamurthy.JPG" alt="Dr. Mohan Keshavamurthy" class="imagecontent"/><span>Dr. Mohan Keshavamurthy</span>
+
+M.S., M.Ch., F.R.C.S. </p></a></div>
+ <div class="surgeons">
+ <a href="../doctors/dr-rajesh-sharma.html"><p><img src="../images/Dr- Rajesh-Sharma.JPG" class="imagecontent" alt="Dr. Rajesh Sharma"/><span>Dr. Rajesh Sharma</span>
+
+MBBS, MS
+Paediatric Cardiac Surgery </p></a></div>
+ <div class="surgeons">
+<a href="../doctors/dr-jalaj-baxi-oncology.html"><p><img src="../images/Dr-Jalaj-Baxi.JPG" class="imagecontent" alt="Dr. Jalaj Baxi"/><span>Dr. Jalaj Baxi</span>
+
+Senior Consultant </p></a>
+ </div>
+<div class="surgeons">
+<a href="../doctors/dr-krishna-subramony-iyer.html"><p><img src="../images/Dr-Krishna-Subramony-Iyer.JPG" alt="Dr. Krishna Subramony Iyer" class="imagecontent"/><span>Dr. Krishna Subramony Iyer</span>
+Pediatric Cardiology </p></a>
+</div>
+ <div class="surgeons" style="height:70px;">
+<a href="../doctors/dr-randeep-wadhawan.html"><p><img src="../images/Dr-RANDEEP-WADHAWAN.JPG" class="imagecontent" alt="Dr. RANDEEP WADHAWAN"/><span>Dr. Randeep Wadhswan</span>
+MBBS, M.S, FIAGES, FMAS, FAIS, FICS (USA) Bariatric / Gastrointestinal</p></a></div>
+ <div class="surgeons" style="height:70px;">
+<a href="../doctors/dr-s-radhakrishnan.html"><p><img src="../images/Dr-S-Radhakrishnan.JPG" class="imagecontent" alt="Dr. S Radhakrishnan"/><span>Dr. S Radhakrishnan</span>
+
+Pediatric Cardiology </p></a></div>
+ 
+ <div class="surgeons">
+<a href="../doctors/dr-vivek-vij.html"><p><img src="../images/Dr-Vivek-Vij.JPG" class="imagecontent" alt="Dr. Vivek Vij"/><span>Dr. Vivek Vij</span>
+
+MS, DNB, MRCS (Ed.)</p></a></div>
+<div class="surgeons" style="height:70px;">
+<a href="../doctors/dr-ashoke-seth.html"><p><img src="../images/dr-ashoke-seth.JPG" alt="Dr. ashoke seth" class="imagecontent"/><span>Dr. ASHOKE SETH </span>
+FRCP (LOND, EDIN, IREL), FACC, FESC, FSCAI, FCSI, Dsc Cardiology</p></a>
+ </div>
+ 
+ 
+ 
+ 
+				 </div>
+		</div>
+	</div>	
+</div>
+<!-- ends here -->
+ <!-- footer here -->
+ <div class="footer">
+ <div class="innerfooter">
+ 
+ 
+ </div>
+ </div>
+ <!-- back to top *-->
+<a href="#" class="back-to-top">Back to Top</a>
+<script>            
+			jQuery(document).ready(function() {
+				var offset = 220;
+				var duration = 500;
+				jQuery(window).scroll(function() {
+					if (jQuery(this).scrollTop() > offset) {
+						jQuery('.back-to-top').fadeIn(duration);
+					} else {
+						jQuery('.back-to-top').fadeOut(duration);
+					}
+				});
+				
+				jQuery('.back-to-top').click(function(event) {
+					event.preventDefault();
+					jQuery('html, body').animate({scrollTop: 0}, duration);
+					return false;
+				})
+			});
+		</script>
+<!-- mobile body content here -->
+<!-- back to home page button here -->
+<div class="backtohome">
+<a href="../index.html" class="linkforhome"></a>
+</div>
+<!-- ends here backto home buttons -->
+</body>
+</html>

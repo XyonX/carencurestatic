@@ -1,0 +1,857 @@
+.doctorsmobilepanal
+{
+ display:none;
+}
+ .mobileform
+{
+display:none;
+}
+.mobiledoctorsform
+{
+display:none;
+}
+@media only screen and (max-width:640px)
+{
+body
+{
+background:#fff;
+width:auto;
+}
+
+/* doctors page css here */
+.homebutton
+{
+display:none;
+}
+.quickenquiry-doctors
+{
+display:none;
+}
+.doctorsprofile
+{
+float:none;
+margin-top:5px;
+margin-left:0.7%; 
+margin-bottom:10px;
+width:98%;
+height:182px;
+background:#CCE2DF;
+}
+.content-doctors
+{ 
+float:none;
+width:97%;
+margin-left:1%;
+height:auto;
+}
+
+ 
+.mobiledoctorsform
+ {
+ display:block;
+ width:97%;
+ height:auto;
+ background:#018774;
+ top:0px;
+ margin-left:1%;
+ float:none;
+ border:1px solid #018774;
+ margin-bottom:1%;
+ }
+.mobiledoctorsform  h2
+  {
+  font-size:16px;
+  background:#FFFFFF;
+  color:#018774;
+  padding-top:5px;
+  text-align:center;
+  height:25px;
+  }
+  .mobiledoctorsform  h3
+  {
+  font-size:16px;
+  color:#fff;
+  padding-top:5px;
+  text-align:center;
+  height:22px;
+  }
+   .mobiledoctorsform  form
+	{
+	margin-top:5px;
+	margin-left:6px;
+	}
+	.mobiledoctorsform  form .field  label
+	{
+	color:#fff;
+	}
+	.mobiledoctorsform form .field 
+	{
+	min-height:33px;
+	}
+	  .mobiledoctorsform form .field input[type="text"]
+	  {
+	  color:#fff;
+ width:98%;
+	  height:25px;
+	  background:none;
+	  border:1px solid #fff;
+	  }
+	   .mobiledoctorsform form .field textarea
+	  {
+ width:98%;
+	  height:80px;
+	  background:#fff;
+	  border:none;
+	  color:#018774;
+	  }
+	  .mobiledoctorsform form .field select
+	  {
+	  width:98%;
+	  height:25px;
+	  color:#fff;
+	 background:none;
+	  border:1px solid #fff;
+	  }
+	    .mobiledoctorsform form .field select option
+	  {
+	  background:#fff;
+	 color:#027463;
+	  }
+  .mobiledoctorsform	  .button
+	  {
+	  margin-top:3px;
+	  margin-left:0px;
+	  text-align:center;
+	  margin-bottom:5px;
+	  }
+	    .button input[type="submit"]
+		{
+		width:60px;
+		height:25px;
+		border:none;
+		background:#fff;
+		color:#018774;
+		font-weight:bold;
+		cursor:pointer;
+		margin-right:5px;
+		}
+		 .button input[type="submit"]:hover
+		{
+		 
+		color:#053D35;
+		}
+		 .button input[type="reset"]:hover
+		{
+	 
+		color:#053D35;
+		}
+		.button input[type="reset"]
+		{
+		width:60px;
+		height:25px;
+		border:none;
+		background:#fff;
+	color:#018774;
+		font-weight:bold;
+		cursor:pointer;
+		}
+		/* right module absolute */
+
+
+/* ends here doctors page css here */
+
+
+
+
+.msg
+			{
+		    margin-left:4px;
+		   float:none;
+		   width:97%;
+			
+			}
+/* wrapper */
+.wrapper
+{
+width:100%;
+margin-left:0%;
+}
+.innnerwrapper
+{
+background:#fff;
+float:none;
+width:100%;
+margin-left:0%;
+height:auto;
+}
+.header
+{
+width:100%;
+height:auto;
+float:none;
+
+}
+.logo
+{
+float:none;
+width:100%;
+height:auto;text-align:center;
+margin-left:0px;
+}
+.contactno
+{
+float:none;
+margin-top:15px;
+margin-left:0;
+text-align:center;
+width:100%;
+height:auto;
+}
+.menu
+{
+float:none;
+width:98%; 
+margin-left:0.5%;
+}
+
+.banner
+{
+float:none;
+width:100%;
+height:auto;
+}
+.banner img
+{
+width:100%;
+height:auto;
+}
+
+.content
+{ 
+float:none;
+width:98%;
+height:auto;
+margin-left:0.5%;
+}
+.content h1
+{
+width:98%;
+margin-bottom:1%;
+}
+.content h2
+{
+width:98%;
+margin-left:0px;
+}
+.content h3
+{
+width:98%;
+}
+
+a.back-to-top {
+			
+			right: 0px;
+		}
+		
+.desktoppanal
+{
+display:none;
+}
+
+/* mobile enquiry form css here */
+ .mobileform
+ {
+ margin-top:1%;
+ margin-bottom:1%;
+ width:98%;
+ height:auto;
+ background:#018774;
+ margin-left:0.5%;
+ border:1px solid #018774;
+ float:none;
+ display:block;
+ }
+ 
+  .mobileform  h2
+  {
+  font-size:16px;
+  background:#FFFFFF;
+  color:#018774;
+  padding-top:5px;
+  text-align:center;
+  height:25px;
+  }
+    .mobileform h3
+  {
+  font-size:16px;
+ 
+  color:#fff;
+  padding-top:5px;
+  text-align:center;
+  height:22px;
+  }
+      .mobileform form
+	{
+	margin-top:5px;
+	margin-left:6px;
+	}
+	 .mobileform  form .field  label
+	{
+	color:#fff;
+	}
+	 .mobileform  form .field 
+	{
+	min-height:33px;
+	}
+	   .mobileform  form .field input[type="text"]
+	  {
+	  color:#fff;
+	  width:98%;
+	  height:25px;
+	  background:none;
+	  border:1px solid #fff;
+	  }
+	     .mobileform form .field textarea
+	  {
+	 width:98%;
+	  height:80px;
+	  background:#fff;
+	  border:none;
+	  color:#018774;
+	  }
+	   .mobileform form .field select
+	  {
+	  width:98%;
+	  height:25px;
+	  color:#fff;
+	 background:none;
+	  border:1px solid #fff;
+	  }
+	     .mobileform form .field select option
+	  {
+	  background:#fff;
+	 color:#027463;
+	  }
+	.mobileform  .button
+	  {
+	  margin-top:3px;
+	  margin-left:0px;
+	  text-align:center;
+	  margin-bottom:5px;
+	  }
+	  .mobileform   .button input[type="submit"]
+		{
+		width:60px;
+		height:25px;
+		border:none;
+		background:#fff;
+		color:#018774;
+		font-weight:bold;
+		cursor:pointer;
+		margin-right:5px;
+		}
+	 .mobileform   .button input[type="submit"]:hover
+		{
+		 
+		color:#053D35;
+		}
+		.mobileform  .button input[type="reset"]:hover
+		{
+	 
+		color:#053D35;
+		}
+	.mobileform 	.button input[type="reset"]
+		{
+		width:60px;
+		height:25px;
+		border:none;
+		background:#fff;
+	    color:#018774;
+		font-weight:bold;
+		cursor:pointer;
+		}
+/* ends here mobile enquiry form css */		
+
+/* doctors panal css here */
+		/* right module absolute */
+ .doctorsmobilepanal
+ {
+ display:block;
+ width:98%;
+ height:auto;
+ float:none;
+ margin-bottom:1%;
+ margin-left:0.5%;
+ background:#018774;
+ border:1px solid #018774;
+ }
+  .doctorsmobilepanal  h2
+  {
+  font-size:16px;
+  background:#fff;
+  color:#018774;
+  padding-top:5px;
+  text-align:center;
+  height:25px;
+  }
+ .doctorsmobilepanal   .sugeons
+{
+margin-left:6px;
+padding-top:8px; 
+margin-bottom:5px;
+width:98%;
+height:95px;
+border-bottom:1px dashed #fff;
+}
+ 
+ .doctorsmobilepanal .sugeons span
+{
+font-weight:bold;
+}
+ .doctorsmobilepanal .sugeons p
+{
+color:#fff;
+line-height:1.4em;
+font-size:12px;
+width:190px;
+}
+ .doctorsmobilepanal .sugeons p:hover
+{
+color:#eee;
+}
+ .doctorsmobilepanal .sugeons img.surgeonscontent
+{
+float:left;
+width:70px;
+height:80px;
+border:1px solid #ccc;
+margin-right:10px;
+}
+ .doctorsmobilepanal .sugeons  img.surgeonscontent:hover
+{
+opacity:0.89;
+}
+
+/* ends here doctors panal here */
+
+}
+
+/* ipad layouts */
+@media only screen and (max-width:978px)
+{
+ 
+ 
+/* doctors page css here */
+.homebutton
+{
+display:none;
+}
+.quickenquiry-doctors
+{
+display:none;
+}
+.doctorsprofile
+{
+float:none;
+margin-top:5px;
+margin-left:0.7%; 
+margin-bottom:10px;
+width:98%;
+height:182px;
+background:#CCE2DF;
+}
+.content-doctors
+{ 
+float:none;
+width:97%;
+margin-left:1%;
+height:auto;
+}
+
+ 
+.mobiledoctorsform
+ {
+ display:block;
+ width:97%;
+ height:auto;
+ background:#018774;
+ top:0px;
+ margin-left:1%;
+ float:none;
+ border:1px solid #018774;
+ margin-bottom:1%;
+ }
+.mobiledoctorsform  h2
+  {
+  font-size:16px;
+  background:#FFFFFF;
+  color:#018774;
+  padding-top:5px;
+  text-align:center;
+  height:25px;
+  }
+  .mobiledoctorsform  h3
+  {
+  font-size:16px;
+  color:#fff;
+  padding-top:5px;
+  text-align:center;
+  height:22px;
+  }
+   .mobiledoctorsform  form
+	{
+	margin-top:5px;
+	margin-left:6px;
+	}
+	.mobiledoctorsform  form .field  label
+	{
+	color:#fff;
+	}
+	.mobiledoctorsform form .field 
+	{
+	min-height:33px;
+	}
+	  .mobiledoctorsform form .field input[type="text"]
+	  {
+	  color:#fff;
+ width:98%;
+	  height:25px;
+	  background:none;
+	  border:1px solid #fff;
+	  }
+	   .mobiledoctorsform form .field textarea
+	  {
+ width:98%;
+	  height:80px;
+	  background:#fff;
+	  border:none;
+	  color:#018774;
+	  }
+	  .mobiledoctorsform form .field select
+	  {
+	  width:98%;
+	  height:25px;
+	  color:#fff;
+	 background:none;
+	  border:1px solid #fff;
+	  }
+	    .mobiledoctorsform form .field select option
+	  {
+	  background:#fff;
+	 color:#027463;
+	  }
+  .mobiledoctorsform	  .button
+	  {
+	  margin-top:3px;
+	  margin-left:0px;
+	  text-align:center;
+	  margin-bottom:5px;
+	  }
+	    .button input[type="submit"]
+		{
+		width:60px;
+		height:25px;
+		border:none;
+		background:#fff;
+		color:#018774;
+		font-weight:bold;
+		cursor:pointer;
+		margin-right:5px;
+		}
+		 .button input[type="submit"]:hover
+		{
+		 
+		color:#053D35;
+		}
+		 .button input[type="reset"]:hover
+		{
+	 
+		color:#053D35;
+		}
+		.button input[type="reset"]
+		{
+		width:60px;
+		height:25px;
+		border:none;
+		background:#fff;
+	color:#018774;
+		font-weight:bold;
+		cursor:pointer;
+		}
+		/* right module absolute */
+
+
+/* ends here doctors page css here */
+
+/* wrapper */
+.wrapper
+{
+width:100%;
+margin-left:0%;
+}
+.innnerwrapper
+{
+background:#fff;
+float:none;
+width:100%;
+margin-left:0%;
+height:auto;
+}
+.header
+{
+width:100%;
+height:auto;
+float:none;
+
+}
+.logo
+{
+float:none;
+width:100%;
+height:auto;text-align:center;
+margin-left:0px;
+}
+.logo img{width: 100%;}    
+.contactno
+{
+float:none;
+margin-top:15px;
+margin-left:0;
+text-align:center;
+width:100%;
+height:auto;
+}
+.menu
+{
+float:none;
+width:98%; 
+margin-left:0.5%;
+}
+
+.banner
+{
+float:none;
+width:100%;
+height:auto;
+}
+.banner img
+{
+width:100%;
+height:auto;
+}
+
+.content
+{ 
+float:none;
+width:98%;
+height:auto;
+margin-left:0.5%;
+}
+.content h1
+{
+width:98%;
+margin-bottom:1%;
+}
+.content h2
+{
+width:98%;
+margin-left:0px;
+}
+.content h3
+{
+width:98%;
+}
+
+a.back-to-top {
+			
+			right: 0px;
+		}
+		
+.desktoppanal
+{
+display:none;
+}
+
+/* mobile enquiry form css here */
+ .mobileform
+ {
+ margin-top:1%;
+ margin-bottom:1%;
+ width:98%;
+ height:auto;
+ background:#018774;
+ margin-left:0.5%;
+ border:1px solid #018774;
+ float:none;
+ display:block;
+ }
+ 
+  .mobileform  h2
+  {
+  font-size:16px;
+  background:#FFFFFF;
+  color:#018774;
+  padding-top:5px;
+  text-align:center;
+  height:25px;
+  }
+    .mobileform h3
+  {
+  font-size:16px;
+ 
+  color:#fff;
+  padding-top:5px;
+  text-align:center;
+  height:22px;
+  }
+      .mobileform form
+	{
+	margin-top:5px;
+	margin-left:6px;
+	}
+	 .mobileform  form .field  label
+	{
+	color:#fff;
+	}
+	 .mobileform  form .field 
+	{
+	min-height:33px;
+	}
+	   .mobileform  form .field input[type="text"]
+	  {
+	  color:#fff;
+	  width:98%;
+	  height:25px;
+	  background:none;
+	  border:1px solid #fff;
+	  }
+	     .mobileform form .field textarea
+	  {
+	 width:98%;
+	  height:80px;
+	  background:#fff;
+	  border:none;
+	  color:#018774;
+	  }
+	   .mobileform form .field select
+	  {
+	  width:98%;
+	  height:25px;
+	  color:#fff;
+	 background:none;
+	  border:1px solid #fff;
+	  }
+	     .mobileform form .field select option
+	  {
+	  background:#fff;
+	 color:#027463;
+	  }
+	.mobileform  .button
+	  {
+	  margin-top:3px;
+	  margin-left:0px;
+	  text-align:center;
+	  margin-bottom:5px;
+	  }
+	  .mobileform   .button input[type="submit"]
+		{
+		width:60px;
+		height:25px;
+		border:none;
+		background:#fff;
+		color:#018774;
+		font-weight:bold;
+		cursor:pointer;
+		margin-right:5px;
+		}
+	 .mobileform   .button input[type="submit"]:hover
+		{
+		 
+		color:#053D35;
+		}
+		.mobileform  .button input[type="reset"]:hover
+		{
+	 
+		color:#053D35;
+		}
+	.mobileform 	.button input[type="reset"]
+		{
+		width:60px;
+		height:25px;
+		border:none;
+		background:#fff;
+	    color:#018774;
+		font-weight:bold;
+		cursor:pointer;
+		}
+/* ends here mobile enquiry form css */		
+
+/* doctors panal css here */
+		/* right module absolute */
+ .doctorsmobilepanal
+ {
+ display:block;
+ width:98%;
+ height:auto;
+ float:none;
+ margin-bottom:1%;
+ margin-left:0.5%;
+ background:#018774;
+ border:1px solid #018774;
+ }
+  .doctorsmobilepanal  h2
+  {
+  font-size:16px;
+  background:#fff;
+  color:#018774;
+  padding-top:5px;
+  text-align:center;
+  height:25px;
+  }
+ .doctorsmobilepanal   .sugeons
+{
+margin-left:6px;
+padding-top:8px; 
+margin-bottom:5px;
+width:98%;
+height:95px;
+border-bottom:1px dashed #fff;
+}
+ 
+ .doctorsmobilepanal .sugeons span
+{
+font-weight:bold;
+}
+ .doctorsmobilepanal .sugeons p
+{
+color:#fff;
+line-height:1.4em;
+font-size:12px;
+width:190px;
+}
+ .doctorsmobilepanal .sugeons p:hover
+{
+color:#eee;
+}
+ .doctorsmobilepanal .sugeons img.surgeonscontent
+{
+float:left;
+width:70px;
+height:80px;
+border:1px solid #ccc;
+margin-right:10px;
+}
+ .doctorsmobilepanal .sugeons  img.surgeonscontent:hover
+{
+opacity:0.89;
+}
+.msg
+			{
+		    margin-left:4px;
+		   float:none;
+		   width:97%;
+			
+			}
+/* ends here doctors panal here */
+
+}

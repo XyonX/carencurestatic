@@ -1,0 +1,532 @@
+*{
+margin:0px;
+padding:0px;
+}
+body
+{
+line-height:1.5em;
+color:#6C6D6D;
+font-size:14px;
+background:url(../images/bg.jpg) repeat-x;
+font-family:arial;
+}
+img
+{
+border:none;
+}
+a
+{
+text-decoration:none;
+}
+ input::-webkit-input-placeholder {  
+    color: #fff;  
+}  
+input:-moz-placeholder {  
+    color: #fff;  
+}  
+
+.wrapper
+{
+width:780px;
+margin:0 auto;
+}
+.innerwrapper
+{
+width:780px;
+height:auto;
+float:left;
+
+}
+.logo
+{
+margin-top:5px;
+margin-left:0px;
+margin-right:320px;
+float:left;
+width:215px;
+height:81px;
+}
+.logo-doctors
+{
+margin-top:5px;
+margin-left:0px;
+margin-right:230px;
+float:left;
+width:215px;
+height:81px;
+}
+.FLbox2doctors 
+{
+margin-top:20px;
+float:left;
+width:150px;
+height:auto;
+margin-left:30px;
+}
+.FLbox2doctors h2
+{
+color: #03007e;
+font-size: 28px;
+line-height: 1.1em;
+font-family: arial;
+font-weight: bold;
+}
+.FLbox
+{
+margin-top:26px;
+float:right;
+width:140px;
+height:auto;
+margin-right:50px;
+}
+.FLbox p
+{
+color:#1B9A98;
+line-height:1.4em;
+}
+.FLbox p:hover
+{
+color:#E52C3A;
+}
+.FLbox p span
+{
+font-weight:bold;
+font-size:16px;
+}
+.skype
+{
+margin-top:30px;
+float:left;
+width:50px;
+height:40px;
+margin-right:20px;
+margin-left:6px;
+
+}
+.FLbox1
+{
+margin-top:32px;
+float:left;
+width:150px;
+height:50px;
+}
+.FLbox1  a img:hover
+{
+opacity:0.89;
+}
+/* mainbody here */
+.mainbody
+{
+margin-top:34px;
+float:left;
+width:778px;
+height:auto;
+border:1px solid #33BBB9;
+background:#fff;
+}
+.banner{
+float:left;
+width:778px;
+height:316px;
+}
+.banner-doctors{
+margin-top:10px;
+margin-bottom:10px;
+float:left;
+width:755px;
+background:url(../images/mid-banner.png) no-repeat;
+height:182px;
+margin-left:11px;
+}
+.banner-doctors img.surgeonscontentimage
+{
+float:left;
+width:95px;
+height:110px;
+border:1px solid #1B9A98;
+margin-top:50px;
+margin-left:20px;
+margin-right:10px;
+}
+.banner-doctors h3 span
+{
+font-weight:bold;
+color:#1B9A98;
+}
+.banner-doctors h3
+{
+margin-top:50px;
+font-weight:normal;
+font-size:14px;
+}
+
+.content
+{
+float:left;
+width:770px;
+height:auto;
+margin-left:10px;
+}
+.content h1
+{
+ padding-left:10px;
+ color:#24B6B4;
+ font-size:20px;
+ border-bottom:1px solid #24B6B4;
+ line-height:1.5em;
+ margin-left:-10px;
+ margin-bottom:15px;
+ width:768px;
+}
+.content img.contentimage
+{
+float:left;
+width:242px;
+height:180px;
+margin-right:10px;
+}
+.content h2
+{
+ color:#24B6B4;
+ padding-top:5px;
+ padding-bottom:5px;
+ font-size:16px;
+  
+}
+.content h3
+{
+width:755px;
+height:auto;
+padding-top:5px;
+padding-bottom:5px;
+text-align:justify;
+font-weight:normal;
+font-size:14px;
+}
+.content ul.orderlist
+{
+list-style-type:square;
+margin-left:20px;
+margin-bottom:5px;
+}
+.content ul.orderlist li h3
+{
+width:735px;
+}
+/* bottom link footer */
+.calllink
+{
+margin-top:50px;
+margin-left:-10px;
+width:285px;
+height:56px;
+background:url(../images/footer-iimage.jpg) no-repeat;
+}
+.calllink h4
+{
+padding-top:8px;
+padding-left:10px;
+color:#fff;
+line-height:1.3em;
+}
+.calllink h4 a
+{
+
+color:#fff;
+}
+/* footer */
+.footer
+{
+margin-top:10px;
+margin-bottom:5px;
+float:left;
+width:100%;
+height:0px;
+border-bottom:3px dotted #24B6B4;
+}
+/* FL */
+.FL
+{
+width:200px;
+height:auto;
+position:fixed;
+background:#1B9A98;
+top:125px;
+left:10px;
+z-index:999;
+border:2px solid #fff;
+}
+.FL h2
+{
+background:#fff;
+color:#1B9A98;
+padding-top:5px;
+height:25px;
+text-align:center;
+font-size:14px;
+}
+.FL h3
+{
+color:#fff;
+padding-top:6px;
+height:18px;
+text-align:center;
+font-size:16px;
+}
+.FL form
+{
+margin-top:10px;
+margin-left:10px;
+margin-bottom:5px;
+}
+.FL form .field
+{
+ min-height:50px;
+}
+.FL form .field label
+{
+color:#fff;
+}
+.FL form .field input[type="text"]
+{
+color:#fff;
+background:none;
+border:1px solid #fff;
+width:178px;
+height:25px;
+}
+ .Layer1
+ {
+  margin-top:0px; 
+ margin-left:0px;
+ background:none;
+ margin-bottom:5px;
+ border:1px solid #fff
+}
+.FL form .field textarea
+{
+color:#1B9A98;
+background:#fff;
+border:none;
+width:178px;
+height:80px;
+}
+.FL form .field select
+{
+color:#fff;
+background:none;
+border:1px solid #fff;
+width:178px;
+height:25px;
+}
+.FL form .field select option
+{
+color:#fff;
+background:#1B9A98;
+}
+.FL .button
+{
+margin-top:5px;
+margin-left:23px;
+}
+.FL .button input[type="submit"]
+{
+width:60px;
+height:25px;
+border:none;
+background:#fff;
+color:#1B9A98;
+font-weight:bold;
+cursor:pointer;
+margin-right:3px;
+}
+.FL .button input[type="submit"]:hover
+{
+ color:#175C5B;
+ font-weight:bold;
+}
+.FL .button input[type="reset"]:hover
+{
+ color:#175C5B;
+ font-weight:bold;
+}
+.FL .button input[type="reset"]
+{
+width:60px;
+height:25px;
+border:none;
+background:#fff;
+color:#1B9A98;
+font-weight:bold;
+cursor:pointer;
+}
+
+
+.FL form .field1
+{
+ min-height:35px;
+}
+
+.FL form .field1 input[type="text"]
+{
+color:#fff;
+background:none;
+border:1px solid #fff;
+width:178px;
+height:25px;
+}
+
+.FL form .field1 textarea
+{
+color:#1B9A98;
+background:#fff;
+border:none;
+width:178px;
+height:80px;
+}
+.FL form .field1 select
+{
+color:#fff;
+background:none;
+border:1px solid #fff;
+width:178px;
+height:25px;
+}
+.FL form .field1 select option
+{
+color:#fff;
+background:#1B9A98;
+}
+/* FRmodule */
+.FRmodule
+{
+position:absolute;
+width:200px;
+height:auto;
+right:10px;
+float:left;
+top:0px;
+background:#1B9A98;
+border:2px solid #fff;
+}
+.FRmodule h2
+{
+background:#fff;
+color:#1B9A98;
+padding-top:5px;
+height:25px;
+text-align:center;
+font-size:17px;
+}
+.sugeons
+{
+ 
+padding-top:10px;
+margin-left:10px;
+width:180px;
+height:75px;
+border-bottom:1px dashed #fff;
+}
+.sugeons span
+{
+font-weight:bold;
+}
+.sugeons p
+{
+color:#fff;
+line-height:1.3em;
+}
+.sugeons p:hover
+{
+color:#B01217;
+}
+  img.surgeonscontent:hover
+  {
+  opacity:0.89;
+  }
+  img.surgeonscontent
+{
+margin-top:2px;
+float:left;
+width:50px;
+height:60px;
+margin-right:10px;
+border:1px solid #fff;
+}
+  img.surgeonscontent:hover
+{
+opacity:0.89;
+}
+.homebutton
+{
+position:absolute;
+width:138px;
+height:44px;
+right:45px;
+top:35px;
+background:none;
+border:none;
+}
+ .homebutton a img:hover
+ {
+ opacity:0.89;
+ }
+ a.back-to-top {
+			position: fixed;
+			bottom: 2em;
+			right: 140px;
+			text-decoration: none;
+			color: #000000;
+			background:url(../images/top-button.png) no-repeat;
+			width:57px;
+			height:63px;
+			font-size: 12px;
+			padding: 1em;
+			display: none;
+			text-indent:-9999px;
+		}
+
+		.back-to-top:hover {	
+		 opacity:0.89;
+		}
+ .msg
+{
+margin-top:10px;
+margin-left:10px;
+margin-bottom:10px;
+float:left;
+width:755px;
+height:80px;
+border:1px solid #1B9A98;
+box-shadow:1px 1px 5px 1px #1B9A98;
+}
+ .msg h3
+ {
+ padding-top:30px;
+ text-align:center;
+ 
+ }
+ img.jaslokhospitalimage
+ {
+ margin-top:10px;
+ float:right;
+ margin-left:10px;
+ margin-right:12px;
+ }
+  .closebutton
+{
+color:#1B9A98;
+float:right;
+margin-right:5px;
+
+}
+a.remove
+{
+color:#1B9A98;
+font-size:14px;
+}
+a.bottom
+{
+margin-bottom:10px;
+font-size:14px;
+}

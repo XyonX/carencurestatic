@@ -1,0 +1,563 @@
+*{
+margin:0px;
+padding:0px;
+}
+body
+{
+line-height:1.5em;
+color:#03695b;
+font-family:arial;
+background:#b6d7d2;
+font-size:14px;
+}
+/* wrapper */
+.wrapper
+{
+width:780px;
+margin:0 auto;
+border-right:1px solid #93B4AF;
+border-left:1px solid #93B4AF;
+box-shadow:1px 1px 15px 1px #93B4AF;
+}
+.innnerwrapper
+{
+float:left;
+background:#fff; 
+width:780px;
+height:auto;
+border-right:1px solid #93B4AF;
+border-left:1px solid #93B4AF;
+box-shadow:1px 1px 15px 1px #93B4AF;
+}
+.header
+{
+width:780px;
+height:100px;
+float:left;
+}
+input::-webkit-input-placeholder
+{
+color:white;
+}
+input:-moz-input-placeholder {  
+   color:white;
+}
+.logo
+{
+float:left;
+width:410px;
+height:70px;
+margin-top:8px;
+margin-left:8px;
+}
+.quickenquiry
+{
+float:right;
+width:140px;
+height:45px;
+margin-top:18px;
+}
+.quickenquiry a img:hover
+{
+opacity:0.89;
+}
+.quickenquiry-doctors a img:hover
+{
+opacity:0.89;
+}
+.quickenquiry-doctors
+{
+float:right;
+width:140px;
+height:45px;
+margin-top:18px;
+margin-right:20px;
+}
+.texttour2india
+{
+float:left;
+width:150px;
+height:auto;
+margin-top:26px;
+margin-left:20px;
+}
+.texttour2india h2
+{
+color: #03007e;
+font-size: 28px;
+line-height: 1.1em;
+font-family: arial;
+font-weight: bold;
+
+}
+.menu
+{
+float:left;
+width:778px;
+height:30px;
+background:#027463;
+border:1px solid #027463;
+border-radius:4px;
+-webkit-border-radius:4px;
+-moz-border-radius:4px;
+}
+.banner
+{
+float:left;
+width:780px;
+height:291px;
+}
+.content
+{ 
+float:left;
+width:780px;
+height:auto;
+}
+.content h1
+{
+padding-top:10px;
+padding-left:10px;
+color:#fff;
+font-size:17px;
+width:768px;
+height:30px;
+background:#036F5F;
+border:1px solid #036F5F;
+border-radius:4px;
+-webkit-border-radius:4px;
+-moz-border-radius:4px;
+}
+.content h2
+{
+padding-top:6px;
+padding-left:12px;
+color:#fff;
+font-size:16px;
+width:770px;
+height:29px;
+background:#83bbb3;
+margin-left:-2px;
+}
+.content h3
+{
+width:770px;
+padding-top:5px;
+padding-bottom:5px;
+text-align:justify;
+margin-left:5px; 
+font-weight:normal;
+font-size:14px;
+}
+.content ul.listorder
+{
+list-style-type:none;
+margin-left:10px;
+margin-bottom:5px;
+}
+.content ul.listorder li h3
+{
+text-align:justify;
+padding-top:5px;
+background:url(../images/bullet.jpg) no-repeat 0  12px;
+padding-left:15px;
+padding-bottom:0px; 
+}
+.calllink
+{
+margin-top:20px;
+width:281px;
+height:43px;
+background:url(../images/footerimage.jpg) no-repeat;
+margin-bottom:5px;
+}
+.calllink h4
+{
+line-height:1.3em;
+font-size:14px;
+color:#fff;
+padding-top:5px;
+padding-left:10px;
+}
+.calllink h4 a
+{
+text-decoration:none;
+color:#fff;
+}
+.footer
+{
+width:100%;
+height:25px;
+float:left;
+background:#027161;
+}
+img
+{
+border:none;
+}
+a
+{
+text-decoration:none;
+}
+/* fixed here -*/
+ .FL
+ {
+ width:200px;
+ position:fixed;
+ height:auto;
+ background:#018774;
+ top:100px;
+ left:10px;
+ z-index:999;
+ border:1px solid #018774;
+ }
+  .FL h2
+  {
+  font-size:16px;
+  background:#FFFFFF;
+  color:#018774;
+  padding-top:5px;
+  text-align:center;
+  height:25px;
+  }
+    .FL h3
+  {
+  font-size:16px;
+ 
+  color:#fff;
+  padding-top:5px;
+  text-align:center;
+  height:22px;
+  }
+    .FL form
+	{
+	margin-top:5px;
+	margin-left:6px;
+	}
+	.FL form .field  label
+	{
+	color:#fff;
+	}
+	.FL form .field 
+	{
+	min-height:33px;
+	}
+	  .FL form .field input[type="text"]
+	  {
+	  color:#fff;
+	  width:184px;
+	  height:25px;
+	  background:none;
+	  border:1px solid #fff;
+	  }
+	    .FL form .field textarea
+	  {
+	  width:184px;
+	  height:80px;
+	  background:#fff;
+	  border:none;
+	  color:#018774;
+	  }
+	  .FL form .field select
+	  {
+	  width:184px;
+	  height:25px;
+	  color:#fff;
+	 background:none;
+	  border:1px solid #fff;
+	  }
+	    .FL form .field select option
+	  {
+	  background:#fff;
+	 color:#027463;
+	  }
+	  .button
+	  {
+	  margin-top:3px;
+	  margin-left:20px;
+	  margin-bottom:5px;
+	  }
+	    .button input[type="submit"]
+		{
+		width:60px;
+		height:25px;
+		border:none;
+		background:#fff;
+		color:#018774;
+		font-weight:bold;
+		cursor:pointer;
+		margin-right:5px;
+		}
+		 .button input[type="submit"]:hover
+		{
+		 
+		color:#053D35;
+		}
+		 .button input[type="reset"]:hover
+		{
+	 
+		color:#053D35;
+		}
+		.button input[type="reset"]
+		{
+		width:60px;
+		height:25px;
+		border:none;
+		background:#fff;
+	color:#018774;
+		font-weight:bold;
+		cursor:pointer;
+		}
+		/* right module absolute */
+ .rightmodule
+ {
+ width:200px;
+ height:auto;
+ position:absolute;
+ float:left;
+ right:10px;
+ background:#018774;
+ top:120px;
+ border:1px solid #018774;
+ }
+  .rightmodule h2
+  {
+  font-size:16px;
+  background:#fff;
+  color:#018774;
+  padding-top:5px;
+  text-align:center;
+  height:25px;
+  }
+  .sugeons
+{
+margin-left:6px;
+padding-top:8px; 
+margin-bottom:5px;
+width:180px;
+height:95px;
+border-bottom:1px dashed #fff;
+}
+.sugeons span
+{
+ 
+}
+.sugeons span
+{
+font-weight:bold;
+}
+.sugeons p
+{
+color:#fff;
+line-height:1.4em;
+font-size:12px;
+width:190px;
+}
+.sugeons p:hover
+{
+color:#eee;
+}
+.sugeons img.surgeonscontent
+{
+float:left;
+width:70px;
+height:80px;
+border:1px solid #ccc;
+margin-right:10px;
+}
+.sugeons  img.surgeonscontent:hover
+{
+opacity:0.89;
+}
+a 
+{
+text-decoration:none;
+}
+
+a.back-to-top {
+			position: fixed;
+			bottom: 2em;
+			right: 140px;
+			text-decoration: none;
+			color: #000000;
+			background:url(../images/top-button.png) no-repeat;
+			width:57px;
+			height:63px;
+			font-size: 12px;
+			padding: 1em;
+			display: none;
+			text-indent:-9999px;
+		}
+
+		.back-to-top:hover {	
+		 opacity:0.89;
+		}
+		/* home button */
+		.homebutton
+		{
+		position:absolute;
+		top:50px;
+		right:80px;
+		width:140px;
+		height:50px;
+		float:left;
+		}
+			.homebutton a img:hover
+			{
+			opacity:0.89;
+			}
+			/* messge */
+			.msg
+			{
+		    margin-left:4px;
+		   float:left;
+		   width:770px;
+			height:80px;
+			border-bottom:1px solid #027463;
+			border-top:1px solid #027463;
+			border-left:1px solid #027463;
+			border-right:1px solid #027463;
+			box-shadow:1px 1px 5px 1px #027463;
+			margin-top:10px;
+			margin-bottom:10px;
+			}
+				.msg p
+				{
+				text-align:center;
+				font-size:18px;
+				padding-top:30px;
+				}
+.doctorsprofile
+{
+float:left;
+margin-top:10px;
+margin-left:12px; 
+margin-bottom:10px;
+width:755px;
+height:182px;
+background:url(../images/mid-banner.jpg) no-repeat;
+}				
+.doctorsprofile img.doctorsprofilecontent
+{
+float:left;
+margin-top:40px;
+margin-left:20px;
+width:100px;
+height:120x;
+border:1px solid #ccc;
+margin-right:10px;
+}
+.doctorsprofile span
+{
+font-weight:bold;
+}
+.doctorsprofile  p
+{
+padding-top:40px;
+}
+/* doctors page css */
+.content-doctors
+{ 
+float:left;
+width:750px;
+height:auto;
+margin-left:15px;
+}
+.content-doctors h2
+{
+margin-top:5px;
+margin-bottom:5px;
+font-size:16px;
+} 
+.content-doctors h3
+{
+padding-top:3px;
+padding-bottom:3px;
+text-align:justify;
+font-weight:normal;
+font-size:14px;
+}
+ 
+ 
+.content-doctors ul.listorder
+{
+list-style-type:none;
+margin-left:10px;
+}
+.content-doctors ul.listorder li 
+{
+text-align:justify;
+ 
+background:url(../images/bullet.jpg) no-repeat 0  10px;
+padding-left:15px;
+  
+}
+
+.content-doctors ul.listorder1 
+{
+list-style-type:none;
+margin-left:10px;
+margin-bottom:10px;
+}
+.content-doctors ul.listorder1 li h3
+{
+text-align:justify;
+padding-top:5px;
+background:url(../images/bullet-1.png) no-repeat 0  9px;
+padding-left:20px;
+font-size:14px;
+font-weight:normal;
+}
+  .Layer1
+ {
+  margin-top:0px; 
+ margin-left:0px;
+ background:none;
+ margin-bottom:5px;
+ border:1px solid #fff
+}
+.contactno
+{
+float:left;
+margin-top:30px;
+margin-left:150px;
+}
+.contactno span
+{
+font-weight:bold;
+}
+.contactno p
+{
+font-size:16px;
+line-height:1.3em;
+}
+img.homecontentimagelilavati
+{
+float:left;
+margin-top:0px;
+width:200px;
+margin-right:5px;
+height:100px;
+}
+ .surgeoncontentimagehere
+ {
+ float:right;
+ margin-right:30px;
+ margin-left:10px;
+ }
+ .closebutton
+{
+color:#018774;
+float:right;
+margin-right:5px;
+
+}
+a.remove
+{
+color:#018774;
+font-size:14px;
+}
+a.bottom
+{
+margin-bottom:10px;
+font-size:14px;
+}

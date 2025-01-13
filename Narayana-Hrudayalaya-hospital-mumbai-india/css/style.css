@@ -1,0 +1,438 @@
+*{
+margin:0px;
+padding:0px;
+}
+body
+{
+line-height:1.6em;
+font-size:13px;
+font-family:arial;
+color:#777777;
+background:#fff;
+}
+.header
+{
+width:100%;
+height:125px;
+background:#fff;
+float:left;
+border-bottom:6px solid #0D219C;
+}
+.innerheader
+{
+width:780px;
+margin:0 auto;
+}
+ .msg
+		 {
+		 margin-top:10px;
+		 FLOAT:LEFT;
+		 width:770px;
+		 border:1px solid #ccc;
+		 box-shadow:1px 1px 10px 1px;
+		 border-radius:4px;
+		 margin-left:5px;
+		 height:60px;
+		 margin-bottom:10px;
+		 }
+		 	 .msg p
+			 {
+			 text-align:center;
+			 font-size:18px;
+			 padding-top:22px;
+			 }
+.logo
+{
+margin-top:5px;
+float:left;
+width:400px;
+height:auto;
+}
+.contactno
+{
+margin-top:50px;
+float:right;
+width:200px;
+height:auto;
+margin-right:20px;
+}
+.mainbody
+{
+float:left;
+width:100%;
+height:auto;
+background:#7AD9FC url(../images/background-image-naryana-health.jpg)  repeat-x ;
+}
+.innermainbody
+{
+width:780px;
+margin:0 auto;
+}
+.bannercontent
+{
+margin-top:20px;
+border:1px solid #ccc;
+width:780px;
+height:auto;
+float:left;
+border-radius:8px;
+ background:#fff;
+ margin-bottom:20px;
+}
+.banner
+{
+float:left;
+width:779px;
+height:420px;
+margin-right:1px;
+margin-top:5px; 
+}
+.content
+{
+margin-top:5px;
+float:left;
+width:755px;
+height:auto;
+margin-left:15px;
+
+}
+.content ul
+{
+list-style-type:square;
+margin-left:15px;
+}
+
+img.homepagecontent
+{
+float:left;
+width:229px;
+height:151px;
+margin-right:10px;
+}
+.content h2
+{
+font-size:17px;
+color:#2B3DA8;
+text-align:justify;
+margin-bottom:8px;
+margin-top:8px;
+}
+.content h3
+{
+font-weight:normal;
+text-align:justify;
+padding-top:5px;
+padding-bottom:5px;
+}
+
+.FL
+ {
+ top:150px;
+ left:10px;
+ position:fixed;
+ width:190px;
+ height:auto;
+ background:#0D219C;
+ border:2px solid #0D219C;
+ }
+ .FL h2
+ {
+ padding-top:5px;
+ padding-bottom:5px;
+ font-size:16.8px;
+ color:#fff;
+ text-align:center;
+ }
+  input::-webkit-input-placeholder {  
+    color:#0D219C; 
+} 
+  input::-webkit-textarea-placeholder {  
+    color: #0D219C;
+}   
+ ::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:#0D219C;
+}
+textarea::-webkit-input-placeholder {  color:#0D219C;}
+ 
+ .innerFL
+ {
+ width:190px;
+ height:auto;
+  background:#7AD9FC;
+ }
+  .innerFL h3
+  {
+  text-align:center;
+  color:#0D219C;
+  padding-top:5px;
+  height:22px;
+ 
+  }
+  .innerFL form
+  {
+  padding-top:5px;
+  margin-left:5px;
+  padding-bottom:5px;
+  }
+  .innerFL form .field
+{
+min-height:35px;
+}  
+  .innerFL form .field label
+  {
+  color:#0D219C;
+  font-size:15px;
+  }
+    .innerFL form .field input[type="text"]
+	{
+	width:175px;
+	height:25px;
+	border:1px solid #fff;
+	background:none;
+	 color:#0D219C;
+	}
+	.innerFL form .field textarea
+	{
+	width:175px;
+	height:70px;
+	border:none;
+	background:#fff;
+		 color:#0D219C;
+	}
+	 
+	 .innerFL form .field select
+	{
+	width:175px;
+	height:25px;
+	border:1px solid #fff;
+	background:none;
+	color:#0D219C;
+	font-size:14px;
+	}
+	 .innerFL form .field select option
+	{
+  background:#7AD9FC;
+	 color:#0D219C;
+	}
+  .Layer1
+{
+ margin-top:0px; 
+ margin-left:0px;
+ background:none;
+ margin-bottom:5px;
+ border:1px solid #fff
+}
+.FL .button
+{
+margin-top:5px;
+margin-left:23px;
+}
+.FL .button input[type="submit"]
+{
+width:60px;
+height:25px;
+border:none;
+background:#fff;
+color:#0D219C;
+font-weight:bold;
+cursor:pointer;
+margin-right:3px;
+}
+.FL .button input[type="submit"]:hover
+{
+color:#0D219C;
+ font-weight:bold;
+}
+.FL .button input[type="reset"]:hover
+{
+color:#0D219C;
+ font-weight:bold;
+}
+.FL .button input[type="reset"]
+{
+width:60px;
+height:25px;
+border:none;
+background:#fff;
+color:#0D219C;
+font-weight:bold;
+cursor:pointer;
+}
+
+/* FRmodule */
+.FRmodule
+{
+position:absolute;
+width:200px;
+height:auto;
+right:10px;
+float:left;
+top:150px;
+  background:#7AD9FC;
+ border:2px solid #0D219C;
+}
+.FRmodule h2
+{
+ background:#0D219C;
+color:#fff;
+padding-top:5px;
+height:25px;
+text-align:center;
+font-size:17px;
+}
+ 
+.sugeons
+{
+ 
+padding-top:5px;
+margin-left:10px;
+width:180px;
+height:70px;
+border-bottom:1px dashed #fff;
+}
+.sugeons span
+{
+font-weight:bold;
+}
+.sugeons p
+{
+color:#fff;
+line-height:1.3em;
+font-size:12px;
+}
+.sugeons   a
+{
+text-decoration:none;
+}
+.sugeons p:hover
+{
+color:#2B3DA8;
+}
+  img.surgeonscontent:hover
+  {
+  opacity:0.89;
+  }
+  img.surgeonscontent
+{
+margin-top:2px;
+float:left;
+width:50px;
+height:60px;
+margin-right:10px;
+border:1px solid #fff;
+}
+  img.surgeonscontent:hover
+{
+opacity:0.89;
+}
+/* footer */
+.footer
+{
+float:left;
+width:100%;
+height:40px;
+background:#0D219C;
+}
+.doctorsprofile
+{
+margin-top:20px;
+float:left;
+width:780px;
+height:213px;
+background:url(../images/narayana-health-innerpage-banner.png) no-repeat;
+}
+
+.doctorspagecontent
+{
+margin-top:15px;
+float:left;
+width:780px;
+height:auto;
+border:1px solid #ccc;
+border-radius:8px;
+background:#fff;
+margin-bottom:20px;
+}
+.innercontentdoctors
+{
+margin-top:8px;
+float:left;
+width:760px;
+margin-left:10px;
+height:auto;
+}
+.FLdoctors
+{
+width:60px;
+height:auto;
+float:left;
+}
+.surgeonscontent
+{
+float:left;
+margin-top:8px;
+width:695px;
+height:auto;
+}
+.surgeonscontent h1
+{
+font-size:20px;
+text-align:justify;
+color: #0D219C;
+margin-bottom:10px;
+}
+.surgeonscontent h2
+{
+font-size:16px;
+color: #0D219C;
+text-align:justify;
+padding-top:0px;
+ 
+}
+img.doctorsprofileimage
+{
+float:left;
+margin-top:80px;
+margin-left:20px;
+margin-right:10px;
+width:70px;
+height:90px;
+}
+.doctorsprofile h3
+{
+margin-top:80px;
+font-weight:normal;
+text-align:justify;
+color:#0D219C;
+}
+.surgeonscontent h3
+{
+font-weight:normal;
+text-align:justify;
+padding-top:6px;
+padding-bottom:6px;
+width:500px;
+}
+.surgeonscontent ul
+{
+list-style-type:square;
+margin-left:20px;
+}
+
+.closebutton
+{
+color:#fff;
+float:right;
+margin-right:5px;
+
+}
+a.remove
+{
+color:#fff;
+font-size:14px;
+}
+a.bottom
+{
+margin-bottom:10px;
+font-size:14px;
+}
