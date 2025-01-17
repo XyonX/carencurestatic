@@ -16,21 +16,21 @@ a:hover {
 #wrapper {
   width: 900px;
   margin: auto;
-  border: 1px solid #20b1aa;
-  box-shadow: 1px 1px 40px 1px #20b1aa;
+  border: 1px solid #4a90e2;
+  box-shadow: 1px 1px 40px 1px #4a90e2;
   border-top: 0px;
   background-color: #fff;
 }
 #top {
   height: 35px;
   line-height: 30px;
-  color: #dc4379;
+  color: #4A90E2;
   font-weight: 600;
   padding: 0 6px;
   font-size: 17.5px;
 }
 #top a {
-  color: #dc4379;
+  color: #4A90E2;
 }
 #logo {
   background-image: url(indianhealthguru.com-images/header-bg.jpg);
@@ -44,7 +44,7 @@ a:hover {
 }
 .footer-links,
 .nav {
-  background-color: #21a5a2;
+  background-color: #4A90E2;
   border-bottom: #ffffff solid 1px;
 }
 .footer-links ul,
@@ -89,7 +89,7 @@ a:hover {
   border-right: 0px;
 }
 .footer-nav {
-  background-color: #2dd7ca;
+  background-color: #87CEEB;
   border-bottom: #ffffff solid 1px;
 }
 .footer-nav ul {
@@ -152,7 +152,7 @@ a:hover {
 }
 .yellow-border {
   padding-left: 100px;
-  border-top: #21a5a2 solid 4px;
+  border-top: #4A90E2 solid 4px;
 }
 .img-left {
   float: left;
@@ -168,8 +168,8 @@ a:hover {
   position: fixed;
   top: 90px;
   left: 10px;
-  background-color: #a8eee9;
-  border: #21a5a2 solid 2px;
+  background-color: #87CEEB;
+  border: #4A90E2 solid 2px;
 }
 #consulation-form p {
   margin: 9px 0;
@@ -181,8 +181,8 @@ a:hover {
   position: absolute;
   top: 90px;
   right: 10px;
-  background-color: #a8eee9;
-  border: #21a5a2 solid 2px;
+  background-color: #87CEEB;
+  border: #4A90E2 solid 2px;
 }
 .top-hospitals-listing {
   font-size: 12px;
@@ -198,30 +198,30 @@ a:hover {
   text-align: center;
 }
 .input-btn {
-  border: #21a5a2 solid 1px;
+  border: #4A90E2 solid 1px;
   width: 170px;
   height: 20px;
 }
 .input-btn-age {
-  border: #21a5a2 solid 1px;
+  border: #4A90E2 solid 1px;
   width: 40px;
   height: 20px;
 }
 .select-btn {
-  border: #21a5a2 solid 1px;
+  border: #4A90E2 solid 1px;
   width: 170px;
   height: 25px;
 }
 .textarea-btn {
-  border: #21a5a2 solid 1px;
+  border: #4A90E2 solid 1px;
   width: 162px;
   height: 60px;
 }
 .submit-btn {
-  border: #21a5a2 solid 1px;
+  border: #4A90E2 solid 1px;
   color: #ffffff;
   font-weight: bold;
-  background-color: #21a5a2;
+  background-color: #4A90E2;
   height: 30px;
   cursor: pointer;
 }
@@ -238,8 +238,8 @@ a:hover {
   clear: left;
 }
 .left-heading {
-  background-color: #21a5a2;
-  border: #21a5a2 solid 1px;
+  background-color: #4A90E2;
+  border: #4A90E2 solid 1px;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -249,11 +249,11 @@ a:hover {
   color: #fff;
 }
 .quick-link {
-  border: #21a5a2 solid 1px;
+  border: #4A90E2 solid 1px;
   padding: 2px;
 }
 .quick-link2 {
-  border: #9f1d4b solid 1px;
+  border: #4a90e2 solid 1px;
   padding: 2px;
 }
 .curve-border-5 {
@@ -292,7 +292,7 @@ a:hover {
 .footermenu {
   line-height: 24px;
   text-align: center;
-  background-color: #2dd7ca;
+  background-color: #87CEEB;
   color: #5b4b00;
   border-bottom: #babab9 solid 1px;
 }
@@ -350,7 +350,7 @@ a:hover {
   list-style: none;
 }
 .side-menu li {
-  background: #20b1aa url(indianhealthguru.com-images/menu-arrow.png) no-repeat;
+  background: #4a90e2 url(indianhealthguru.com-images/menu-arrow.png) no-repeat;
   margin-bottom: 2px;
   line-height: 23px;
   background-position: 2px 8px;
@@ -362,10 +362,10 @@ a:hover {
   padding-left: 22px;
 }
 .side-menu2 li {
-  background-color: #dc4379;
+  background-color: #4A90E2;
   background-repeat: no-repeat;
-  border: 1px solid #9f1d4b;
-  box-shadow: 1px 1px 2px 1px #9f1d4b;
+  border: 1px solid #4a90e2;
+  box-shadow: 1px 1px 2px 1px #4a90e2;
   margin-bottom: 2px;
   line-height: 23px;
   background-position: 2px 8px;
@@ -421,7 +421,7 @@ a:hover {
   float: left;
 }
 .greencolor {
-  color: #22968e;
+  color: #4A90E2;
 }
 .redcolor {
   color: #af3333;
@@ -436,10 +436,10 @@ a:hover {
   font-size: 11px;
 }
 .colorpink {
-  color: #e8457e;
+  color: #FF6F61;
 }
 .block-content {
-  border: #20b1aa solid 1px;
+  border: #4a90e2 solid 1px;
   margin: 15px auto;
   padding: 0 15px 0 0px;
   -webkit-border-radius: 10px;
@@ -474,13 +474,13 @@ a:hover {
 .clikhere {
   width: 560px;
   margin: auto;
-  background-color: #a8eee9;
+  background-color: #87CEEB;
   padding: 10px 0;
   font-size: 12px;
   line-height: 200%;
   text-align: center;
   font-weight: bold;
-  border: #20b1aa solid 1px;
+  border: #4a90e2 solid 1px;
   -webkit-border-radius: 9px;
   -moz-border-radius: 9px;
   border-radius: 9px;
@@ -515,11 +515,11 @@ a:hover {
 .table-border-color,
 .table-border-color tr,
 .table-border-color td {
-  border: 1px solid #21a5a2;
+  border: 1px solid #4A90E2;
   line-height: 24px;
 }
 .table-border-color tr:nth-child(odd) {
-  background-color: #a8eee9;
+  background-color: #87CEEB;
 }
 .table-border-color tr:nth-child(even) {
   background-color: #f8dae4;
@@ -532,8 +532,16 @@ a:hover {
   border-collapse: collapse;
 }
 .table-download td {
-  border-bottom: 1px solid #21a5a2;
+  border-bottom: 1px solid #4A90E2;
 }
 .bg-gray {
   background-color: #e4e4e4;
 }
+
+
+
+
+
+
+
+

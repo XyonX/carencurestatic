@@ -1,8 +1,8 @@
 #faqs dt, #faqs dd { padding: 0 50px 0 30px }
 #faqs dt { font-size:1em; font-weight:bold; color: #fff; background-color:#000; cursor: pointer; height: 40px; margin: 0 0px 15px 0}
 #faqs dd { font-size: 1em; margin: 0 0 20px 25px}
-#faqs dt { background:#21a5a2 url(../careandcure.us-images/plus-icon.png) no-repeat right; padding-top:3px;}
-#faqs .expanded { background:#21a5a2 url(../careandcure.us-images/minus-icon.png) no-repeat right; padding-top:3px;}
+#faqs dt { background:#4A90E2 url(../careandcure.us-images/plus-icon.png) no-repeat right; padding-top:3px;}
+#faqs .expanded { background:#4A90E2 url(../careandcure.us-images/minus-icon.png) no-repeat right; padding-top:3px;}
 
 .bsPriceTable1027 .testimonial {
     background: #FF4136 none repeat scroll 0 0;
@@ -75,4 +75,5 @@
     z-index: 1;
 }
         
+
 

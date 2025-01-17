@@ -6086,7 +6086,7 @@ button.close {
 /*# sourceMappingURL=bootstrap.css.map */
 .Highlight {
        color: #fff;
-    background-color: #e8457e;
+    background-color: #FF6F61;
     border-radius: 25px;
     box-sizing: border-box;
     display: block;
@@ -6104,7 +6104,7 @@ button.close {
 }
         
 .Highlight a {
-      background-color: #21a5a2;
+      background-color: #4A90E2;
     border-radius: 14px;
     color: #fff;
     margin: 0px 0px 0px 14px;
@@ -6114,3 +6114,4 @@ button.close {
     font-weight: bold;
     font-size: 12pt;
 } 
+

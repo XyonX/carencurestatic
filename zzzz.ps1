@@ -2,8 +2,8 @@
 $directory = Split-Path -Parent $MyInvocation.MyCommand.Path
 
 # Define the target word or string to replace
-$targetWord = ''
-$replacementWord = ""
+$targetWord = '#FF6F61'
+$replacementWord = "#FF6F61"
 
 # File types to process (optional: adjust as needed, e.g., *.txt, *.html, *.cs)
 $fileTypes = "*.*"  # Processes all file types. Adjust if needed.
@@ -32,6 +32,18 @@ Get-ChildItem -Path $directory -Filter $fileTypes -Recurse | ForEach-Object {
 }
 
 Write-Host "Completed processing all files in the directory and subfolders." -ForegroundColor Cyan
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
