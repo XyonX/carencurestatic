@@ -159,18 +159,16 @@ a:hover {
 
 #content-left {
   float: left;
-  width: 170px;
+
   padding: 10px 5px;
 }
 
 #main-content-right {
-  width: 720px;
-  float: left;
+  width: 100%;
 }
 
 #content-right {
-  float: left;
-  width: 578px;
+  width: 90%;
   border-right: #ecebeb solid 1px;
   border-left: #ecebeb solid 1px;
 }
@@ -502,7 +500,7 @@ a:hover {
 }
 
 #content {
-  margin: 12px;
+  margin: 12px 30px;
   line-height: 150%;
   text-align: justify;
 }
