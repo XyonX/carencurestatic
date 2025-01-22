@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 # Get the current working directory (the root directory of your script)
 directory = os.getcwd()
 
-new_code_file_name = "services.html"  # File containing the new <div> code
+new_code_file_name = "zz.html"  # File containing the new <div> code
 
 # Ensure the new_code_file_name exists
 if not os.path.isfile(new_code_file_name):
@@ -34,13 +34,17 @@ def process_html_file(html_file_path):
         # Replace the old <div> with the new <div>
         if old_div and new_div:
             old_div.replace_with(new_div)
+            print(f"Replaced 'top-hospitals' div in {html_file_path}")
         elif not old_div:
             print(f"Warning: No div with id 'top-hospitals' found in {html_file_path}")
+        elif not new_div:
+            print(f"Warning: No div with id 'top-hospitals' found in {new_code_file_name}")
 
-        # Write the modified HTML back to the same file
+        # Write the modified HTML back to the same file, preserving special entities
         with open(html_file_path, "w", encoding="utf-8") as output_file:
-            output_file.write(soup.prettify())
+            output_file.write(soup.prettify(formatter="html"))
         print(f"Processed: {html_file_path}")
+
     except Exception as e:
         print(f"Error processing {html_file_path}: {e}")
 

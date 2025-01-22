@@ -43,9 +43,9 @@ def process_html_file(html_file_path):
             img_element.decompose()
             print(f"Removed <img> tag inside id='logo' from {html_file_path}")
 
-    # Write the modified HTML back to the same file
+    # Write the modified HTML back to the same file, preserving &nbsp; and other entities
     with open(html_file_path, "w", encoding="utf-8") as file:
-        file.write(soup.prettify())
+        file.write(soup.prettify(formatter="html"))
     print(f"Processed: {html_file_path}")
 
 
