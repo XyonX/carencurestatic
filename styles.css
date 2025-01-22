@@ -168,7 +168,7 @@ a:hover {
 }
 
 #content-right {
-  width: 90%;
+  width: 100%;
   border-right: #ecebeb solid 1px;
   border-left: #ecebeb solid 1px;
 }
@@ -219,7 +219,7 @@ a:hover {
   position: absolute;
   top: 90px;
   right: 10px;
-  background-color: #87ceeb;
+  background-color: #ffffff;
   border: #4a90e2 solid 2px;
 }
 
