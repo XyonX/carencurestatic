@@ -39,15 +39,68 @@ a:hover {
 #top a {
   color: #4a90e2;
 }
-
 #logo {
-  background-image: url(careandcure.com-images/header-bg.jpg);
+  position: relative; /* Required to position child elements */
+  width: 100%; /* Width of the banner */
+  height: 160px; /* Adjust this to the height of your banner */
+  background: url(careandcure.com-images/header-bg4.png) no-repeat center center;
+  background-size: cover; /* Ensures the banner covers the container */
+  display: flex; /* Flexbox for aligning content */
+  justify-content: space-between; /* Distributes text to the left, images to the right */
+  align-items: center; /* Aligns all content vertically in the middle */
+  overflow: hidden; /* Ensures images stay within the banner */
+}
 
-  height: 160px;
+#logo div {
+  position: relative; /* For text placement */
+  z-index: 3; /* Ensure text is above images */
+  color: white; /* Set text color */
+  padding-left: 20px; /* Add spacing on the left side */
+  font-family: Arial, sans-serif; /* Adjust font style */
+}
+
+#logo h1 {
+  margin: 0;
+  font-size: 40px; /* Adjust font size as needed */
+  font-family: "Bernard MT Condensed", Arial, sans-serif; /* Fallback fonts */
+  font-weight: normal; /* Ensure the font weight matches the Bernard style */
+  color: rgb(0, 32, 96); /* Ensure text is visible */
+  letter-spacing: 2px; /* Adjust letter spacing (e.g., 2px) */
+}
+
+#logo p {
+  font-family: "calibri";
+  color: rgb(0, 32, 96); /* Ensure text is visible */
+  margin: 5px 0 0; /* Add some spacing between h1 and p */
+  font-size: 20px; /* Adjust font size for the description */
 }
 
 #logo img {
-  margin: 35px 0 0 1px;
+  position: absolute; /* Allows overlapping of images */
+  max-width: 100%; /* Ensures the image never overflows horizontally */
+  max-height: 100%; /* Ensures the image never overflows vertically */
+  height: auto; /* Maintains the aspect ratio */
+  width: auto; /* Maintains the aspect ratio */
+  transform: scale(1); /* Default scaling */
+  transition: transform 0.3s ease; /* Smooth scaling animation */
+  background: none;
+}
+
+/* First image (base layer) */
+#logo img:first-of-type {
+  z-index: 1; /* Base layer */
+  right: 50px; /* Adjust horizontal position of the first image */
+  top: 50%; /* Align vertically to the middle */
+  transform: translateY(-50%) scale(1.5); /* Center vertically */
+  margin-right: 150px;
+}
+
+/* Second image (top layer) */
+#logo img:last-of-type {
+  z-index: 2; /* Top layer */
+  right: 20px; /* Adjust horizontal position of the second image */
+  top: 50%; /* Align vertically to the middle */
+  transform: translateY(-70%) translateX(10%) scale(1); /* Center vertically and scale */
 }
 
 .nav {
