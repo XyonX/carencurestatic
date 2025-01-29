@@ -21,8 +21,8 @@ a:hover {
 #wrapper {
   width: 900px;
   margin: auto;
-  border: 1px solid #4a90e2;
-  box-shadow: 1px 1px 40px 1px #4a90e2;
+  border: 1px solid #6cace7;
+  box-shadow: 1px 1px 40px 1px #6cace7;
   border-top: 0px;
   background-color: #fff;
 }
@@ -30,14 +30,14 @@ a:hover {
 #top {
   height: 35px;
   line-height: 30px;
-  color: #4a90e2;
+  color: #6cace7;
   font-weight: 600;
   padding: 0 6px;
   font-size: 17.5px;
 }
 
 #top a {
-  color: #4a90e2;
+  color: #6cace7;
 }
 #logo {
   position: relative; /* Required to position child elements */
@@ -66,11 +66,13 @@ a:hover {
   font-weight: normal; /* Ensure the font weight matches the Bernard style */
   color: rgb(0, 32, 96); /* Ensure text is visible */
   letter-spacing: 2px; /* Adjust letter spacing (e.g., 2px) */
+  text-align: center;
 }
 
 #logo p {
   font-family: "calibri";
   color: rgb(0, 32, 96); /* Ensure text is visible */
+  font-weight: bold;
   margin: 5px 0 0; /* Add some spacing between h1 and p */
   font-size: 20px; /* Adjust font size for the description */
 }
@@ -91,7 +93,7 @@ a:hover {
   z-index: 1; /* Base layer */
   right: 50px; /* Adjust horizontal position of the first image */
   top: 50%; /* Align vertically to the middle */
-  transform: translateY(-50%) scale(1.5); /* Center vertically */
+  transform: translateY(-50%) scale(1.3); /* Center vertically */
   margin-right: 150px;
 }
 
@@ -100,7 +102,7 @@ a:hover {
   z-index: 2; /* Top layer */
   right: 20px; /* Adjust horizontal position of the second image */
   top: 50%; /* Align vertically to the middle */
-  transform: translateY(-70%) translateX(10%) scale(1); /* Center vertically and scale */
+  transform: translateY(-50%) translateX(10%) scale(1); /* Center vertically and scale */
 }
 
 .nav {
@@ -108,7 +110,7 @@ a:hover {
 
 .footer-links,
 .nav {
-  background-color: #4a90e2;
+  background-color: #6cace7;
   border-bottom: #ffffff solid 1px;
 }
 
@@ -137,11 +139,11 @@ a:hover {
 .nav li:nth-child(1),
 .nav li:nth-child(2),
 .nav li:nth-child(3) {
-  width: 224px;
+  width: 139px;
 }
 
 .nav li:nth-child(4) {
-  width: 225px;
+  width: 139px;
   border-right: 0px;
 }
 
@@ -210,22 +212,114 @@ a:hover {
   float: right;
 }
 
+#main-content-right {
+  width: 720px;
+  float: left;
+  margin-top: 20px;
+}
+
 #content-left {
   float: left;
-
   padding: 10px 5px;
 }
 
-#content-right {
+#content-left2 {
+  margin-top: 20px;
+  float: left;
+  width: 165px;
+  padding: 0px 5px;
+  background-color: #87ceeb;
+  margin: 0px 5px;
+  margin-top: 20px;
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+#consultantFormDemo {
   width: 100%;
+}
+
+/* Style all form elements */
+#consultantFormDemo input,
+#consultantFormDemo select,
+#consultantFormDemo textarea {
+  width: 100%;
+  box-sizing: border-box; /* Include padding/border in element's width */
+  max-width: 100%; /* Prevent overflow */
+  margin: 2px 0;
+}
+
+/* Specific adjustments */
+.input-btn-age {
+  width: 50% !important; /* Make age field narrower */
+}
+
+.select-btn {
+  appearance: none; /* Remove default dropdown arrow */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: white
+    url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>')
+    no-repeat right 5px center;
+  background-size: 12px;
+}
+
+.textarea-btn {
+  resize: vertical; /* Allow only vertical resizing */
+}
+
+.submit-btn {
+  width: auto;
+  padding: 4px 12px;
+}
+
+/* Responsive adjustments */
+#consultantFormDemo p {
+  margin: 5px 0;
+}
+
+/*
+#content-left2 p {
+  margin: 9px 0;
+  padding: 0 0 0 10px;
+}
+
+#content-left2 h3 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}*/
+
+#content-right {
+  /*
+  width: 100%;
+  border-right: #ecebeb solid 1px;
+  border-left: #ecebeb solid 1px;*/
+  float: left;
+  width: 560px;
   border-right: #ecebeb solid 1px;
   border-left: #ecebeb solid 1px;
 }
 
 #content-right-right {
   float: right;
-  width: 130px;
-  padding: 10px 5px;
+  width: 148px;
+  padding: 0px 5px;
+}
+
+.sidebar {
+  border: solid 1px #9dc3e6;
+  padding: 2px 2px;
+}
+.sidebar-link {
+  display: block; /* Makes each link take full width */
+  width: 100%;
+  height: 30px;
+  background-color: #9dc3e6;
+  margin-bottom: 2px;
+  list-style: none;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 600;
 }
 
 .img-border {
@@ -234,7 +328,7 @@ a:hover {
 
 .yellow-border {
   padding-left: 100px;
-  border-top: #4a90e2 solid 4px;
+  border-top: #6cace7 solid 4px;
 }
 
 .img-left {
@@ -254,7 +348,7 @@ a:hover {
   top: 90px;
   left: 10px;
   background-color: #87ceeb;
-  border: #4a90e2 solid 2px;
+  border: #6cace7 solid 2px;
 }
 
 #consulation-form p {
@@ -269,7 +363,7 @@ a:hover {
   top: 90px;
   right: 10px;
   background-color: #87ceeb;
-  border: #4a90e2 solid 2px;
+  border: #6cace7 solid 2px;
 }
 
 .top-hospitals-listing {
@@ -289,34 +383,34 @@ a:hover {
 }
 
 .input-btn {
-  border: #4a90e2 solid 1px;
+  border: #6cace7 solid 1px;
   width: 170px;
   height: 20px;
 }
 
 .input-btn-age {
-  border: #4a90e2 solid 1px;
+  border: #6cace7 solid 1px;
   width: 40px;
   height: 20px;
 }
 
 .select-btn {
-  border: #4a90e2 solid 1px;
+  border: #6cace7 solid 1px;
   width: 170px;
   height: 25px;
 }
 
 .textarea-btn {
-  border: #4a90e2 solid 1px;
+  border: #6cace7 solid 1px;
   width: 162px;
   height: 60px;
 }
 
 .submit-btn {
-  border: #4a90e2 solid 1px;
+  border: #6cace7 solid 1px;
   color: #ffffff;
   font-weight: bold;
-  background-color: #4a90e2;
+  background-color: #6cace7;
   height: 30px;
   cursor: pointer;
 }
@@ -338,8 +432,8 @@ a:hover {
 }
 
 .left-heading {
-  background-color: #4a90e2;
-  border: #4a90e2 solid 1px;
+  background-color: #6cace7;
+  border: #6cace7 solid 1px;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -350,12 +444,12 @@ a:hover {
 }
 
 .quick-link {
-  border: #4a90e2 solid 1px;
+  border: #6cace7 solid 1px;
   padding: 2px;
 }
 
 .quick-link2 {
-  border: #4a90e2 solid 1px;
+  border: #6cace7 solid 1px;
   padding: 2px;
 }
 
@@ -476,10 +570,12 @@ a:hover {
 }
 
 .side-menu li {
-  background: #4a90e2 url(careandcure.com-images/menu-arrow.png) no-repeat;
+  background: #6cace7 url(careandcure.com-images/menu-arrow.png) no-repeat;
   margin-bottom: 2px;
   line-height: 23px;
   background-position: 2px 8px;
+  text-align: right;
+  padding-right: 5px;
 }
 
 .side-menu li a {
@@ -490,10 +586,10 @@ a:hover {
 }
 
 .side-menu2 li {
-  background-color: #4a90e2;
+  background-color: #6cace7;
   background-repeat: no-repeat;
-  border: 1px solid #4a90e2;
-  box-shadow: 1px 1px 2px 1px #4a90e2;
+  border: 1px solid #6cace7;
+  box-shadow: 1px 1px 2px 1px #6cace7;
   margin-bottom: 2px;
   line-height: 23px;
   background-position: 2px 8px;
@@ -549,7 +645,7 @@ a:hover {
 }
 
 #content {
-  margin: 12px 30px;
+  margin: 12px 15px;
   line-height: 150%;
   text-align: justify;
 }
@@ -561,7 +657,7 @@ a:hover {
 }
 
 .greencolor {
-  color: #4a90e2;
+  color: #6cace7;
 }
 
 .redcolor {
@@ -584,7 +680,7 @@ a:hover {
 }
 
 .block-content {
-  border: #4a90e2 solid 1px;
+  border: #6cace7 solid 1px;
   margin: 15px auto;
   padding: 0 15px 0 0px;
   -webkit-border-radius: 10px;
@@ -629,7 +725,7 @@ a:hover {
   line-height: 200%;
   text-align: center;
   font-weight: bold;
-  border: #4a90e2 solid 1px;
+  border: #6cace7 solid 1px;
   -webkit-border-radius: 9px;
   -moz-border-radius: 9px;
   border-radius: 9px;
@@ -670,7 +766,7 @@ a:hover {
 .table-border-color,
 .table-border-color tr,
 .table-border-color td {
-  border: 1px solid #4a90e2;
+  border: 1px solid #6cace7;
   line-height: 24px;
 }
 
@@ -691,7 +787,7 @@ a:hover {
 }
 
 .table-download td {
-  border-bottom: 1px solid #4a90e2;
+  border-bottom: 1px solid #6cace7;
 }
 
 .bg-gray {
@@ -709,7 +805,7 @@ mob-h1 {
   font-weight: bold;
   font-style: italic;
   padding: 8px 8px;
-  background: #4a90e2;
+  background: #6cace7;
   border-radius: 4px;
   font-family: Verdana, Arial, Helvetica, sans-serif;
 }
@@ -723,7 +819,7 @@ mob-h1 {
   line-height: 150%;
   text-align: center;
   font-weight: bold;
-  border: #4a90e2 solid 1px;
+  border: #6cace7 solid 1px;
   -webkit-border-radius: 9px;
   -moz-border-radius: 9px;
   border-radius: 9px;
@@ -748,7 +844,7 @@ mob-h1 {
 .callforaction_box_model {
   border: 2px solid #fff;
   border-radius: 14px;
-  background: #4a90e2;
+  background: #6cace7;
   color: #fff;
   font-family: Verdana, Arial, Helvetica, sans-serif;
   font-size: 15px;
@@ -835,7 +931,7 @@ h2 a:hover {
 
   text-align: center;
 
-  background-color: #4a90e2;
+  background-color: #6cace7;
 
   font-size: 16px;
 
@@ -913,7 +1009,7 @@ h2 a:hover {
 
 .image-block h3 {
   font-size: 17px;
-  color: #4a90e2 !important;
+  color: #6cace7 !important;
   font-weight: 600;
 }
 
@@ -953,7 +1049,7 @@ h2 a:hover {
 
 .image-block {
   width: 100%;
-  border: 1px solid #4a90e2;
+  border: 1px solid #6cace7;
   margin-bottom: 10px !important;
   margin-right: 10px;
   padding: 5px !important;
@@ -1115,7 +1211,7 @@ h1.newtesti {
   padding: 5px 5px;
   background: #e49b15;
   border-bottom: #babab9 solid 1px;
-  background-image: linear-gradient(#4a90e2, #4a90e2) !important;
+  background-image: linear-gradient(#6cace7, #6cace7) !important;
   font-size: 16px;
   color: #ffff;
   border-radius: 5px;
@@ -1132,12 +1228,12 @@ h1.newtesti {
 
 .online-consult-button {
   padding: 3px;
-  background-color: #4a90e2;
+  background-color: #6cace7;
   border-radius: 2px !important;
   color: #fff !important;
   font-size: 16px;
   line-height: 35px;
-  background-image: linear-gradient(#4a90e2, #4a90e2) !important;
+  background-image: linear-gradient(#6cace7, #6cace7) !important;
   margin-left: 174px;
 }
 
