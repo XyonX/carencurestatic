@@ -20,42 +20,47 @@ def process_html_file(page_path):
             base_html = f.read()
         soup_base = BeautifulSoup(base_html, "html.parser")
 
-        # Find content containers
-        page_content = soup_page.find("div", id="main-content-right")
+        # Find content areas
+        original_content = soup_page.find("div", id="main-content-right")
         base_container = soup_base.find("section", id="content")
+        base_main_div = soup_base.find("div", id="main-content-right")
 
-        if not page_content:
-            print(f"No main-content-right in {page_path}")
+        if not all([original_content, base_container, base_main_div]):
+            missing = []
+            if not original_content: missing.append("Original page content")
+            if not base_container: missing.append("Base content container")
+            if not base_main_div: missing.append("Base main div")
+            print(f"Skipping {page_path} - Missing: {', '.join(missing)}")
             return
 
-        if not base_container:
-            print(f"No content section in base layout")
-            return
-
-        # Clear base container and inject page content
+        # Clear base content area and insert original content
         base_container.clear()
-        for child in page_content.contents:
-            # Convert to string and reparse to avoid cross-soup issues
-            temp_soup = BeautifulSoup(str(child), "html.parser")
-            base_container.append(temp_soup)
+        for child in original_content.contents:
+            base_container.append(child.copy())
 
-        # Preserve original doctype if exists
-        if soup_base.contents and isinstance(soup_base.contents[0], Doctype):
-            doctype = str(soup_base.contents[0])
+
+        # Replace original page's main div with updated base version
+        original_content.replace_with(base_main_div)
+
+         # Preserve original doctype if exists
+        if soup_page.contents and isinstance(soup_page.contents[0], Doctype):
+            doctype = soup_page.contents[0]
         else:
-            doctype = "<!DOCTYPE html>"
+            doctype = Doctype("html")
 
-        # Rebuild final HTML
-        final_html = f"{doctype}\n{soup_base.html.unwrap().prettify()}"
-        
-        # Write back to original file
+        # Rebuild final HTML with proper formatting
+        final_html = []
+        final_html.append(str(doctype))
+        final_html.append(soup_page.prettify(formatter="html"))
+
+        # Write back to file
         with open(page_path, "w", encoding="utf-8") as f:
-            f.write(final_html)
+            f.write('\n'.join(final_html))
             
-        print(f"Updated: {page_path}")
+        print(f"Successfully updated: {page_path}")
 
     except Exception as e:
-        print(f"Failed {page_path}: {str(e)}")
+        print(f"Error processing {page_path}: {str(e)}")
 
 # Process all HTML files except base layout
 for root, _, files in os.walk(directory):
