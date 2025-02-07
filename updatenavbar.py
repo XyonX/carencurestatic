@@ -26,10 +26,10 @@ def process_html_file(html_file_path):
         soup = BeautifulSoup(html, "html.parser")
 
         # Parse the new HTML code and extract the desired <div>
-        new_div = BeautifulSoup(new_code_html, "html.parser").find("div", id="nav")
+        new_div = BeautifulSoup(new_code_html, "html.parser").find("div", class_="nav")
 
         # Find the existing <div> with id="nav" in the original HTML
-        old_div = soup.find("div", id="nav")
+        old_div = soup.find("div", class_="nav")
 
         # Replace the old <div> with the new <div>
         if old_div and new_div:
