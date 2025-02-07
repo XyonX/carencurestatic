@@ -1,12 +1,12 @@
 import os
-from bs4 import BeautifulSoup, Doctype
+import copy
+from bs4 import BeautifulSoup, Doctype, NavigableString
 
 directory = os.getcwd()
 base_layout_name = "BaseLayout.html"
 
 def process_html_file(page_path):
     try:
-        # Skip processing the base layout file itself
         if os.path.basename(page_path) == base_layout_name:
             return
 
@@ -36,26 +36,20 @@ def process_html_file(page_path):
         # Clear base content area and insert original content
         base_container.clear()
         for child in original_content.contents:
-            base_container.append(child.copy())
-
+            # Handle different node types properly
+            if isinstance(child, NavigableString):
+                # Create new string instance to avoid cross-soup issues
+                base_container.append(type(child)(child))
+            else:
+                # Create proper copy of tag elements
+                base_container.append(copy.copy(child))
 
         # Replace original page's main div with updated base version
-        original_content.replace_with(base_main_div)
+        original_content.replace_with(copy.copy(base_main_div))
 
-         # Preserve original doctype if exists
-        if soup_page.contents and isinstance(soup_page.contents[0], Doctype):
-            doctype = soup_page.contents[0]
-        else:
-            doctype = Doctype("html")
-
-        # Rebuild final HTML with proper formatting
-        final_html = []
-        final_html.append(str(doctype))
-        final_html.append(soup_page.prettify(formatter="html"))
-
-        # Write back to file
-        with open(page_path, "w", encoding="utf-8") as f:
-            f.write('\n'.join(final_html))
+        # Write the modified HTML back to the same file, preserving special entities
+        with open(page_path, "w", encoding="utf-8") as output_file:
+            output_file.write(soup_page.prettify(formatter="html"))
             
         print(f"Successfully updated: {page_path}")
 
