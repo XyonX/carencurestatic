@@ -110,7 +110,7 @@ a:hover {
 
 .footer-links,
 .nav {
-  background-color: #6cace7;
+  background-color: #d9add7;
   border-bottom: #ffffff solid 1px;
 }
 
@@ -215,7 +215,7 @@ a:hover {
 #main-content-right {
   width: 720px;
   float: left;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 #content-left {
@@ -224,13 +224,12 @@ a:hover {
 }
 
 #content-left2 {
-  margin-top: 20px;
   float: left;
   width: 165px;
   padding: 0px 5px;
-  background-color: #87ceeb;
+  background-color: #d9add7;
   margin: 0px 5px;
-  margin-top: 20px;
+  margin-top: 5px;
   box-sizing: border-box; /* Include padding in width calculation */
 }
 
@@ -314,7 +313,7 @@ a:hover {
   display: block; /* Makes each link take full width */
   width: 100%;
   height: 30px;
-  background-color: #9dc3e6;
+  background-color: #d9add7;
   margin-bottom: 2px;
   list-style: none;
   color: #ffffff;
@@ -383,34 +382,30 @@ a:hover {
 }
 
 .input-btn {
-  border: #6cace7 solid 1px;
   width: 170px;
   height: 20px;
 }
 
 .input-btn-age {
-  border: #6cace7 solid 1px;
   width: 40px;
   height: 20px;
 }
 
 .select-btn {
-  border: #6cace7 solid 1px;
   width: 170px;
   height: 25px;
 }
 
 .textarea-btn {
-  border: #6cace7 solid 1px;
   width: 162px;
   height: 60px;
 }
 
 .submit-btn {
-  border: #6cace7 solid 1px;
+  border: 1px #9c0695;
   color: #ffffff;
   font-weight: bold;
-  background-color: #6cace7;
+  background-color: #9b59b6;
   height: 30px;
   cursor: pointer;
 }
@@ -432,8 +427,8 @@ a:hover {
 }
 
 .left-heading {
-  background-color: #6cace7;
-  border: #6cace7 solid 1px;
+  border: 1px solid #d9add7;
+  background-color: #d9add7;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -570,7 +565,7 @@ a:hover {
 }
 
 .side-menu li {
-  background: #6cace7 url(careandcure.com-images/menu-arrow.png) no-repeat;
+  background: #d9add7 url(careandcure.com-images/menu-arrow.png) no-repeat;
   margin-bottom: 2px;
   line-height: 23px;
   background-position: 2px 8px;
@@ -931,7 +926,7 @@ h2 a:hover {
 
   text-align: center;
 
-  background-color: #6cace7;
+  background-color: #002060;
 
   font-size: 16px;
 
@@ -1228,12 +1223,12 @@ h1.newtesti {
 
 .online-consult-button {
   padding: 3px;
-  background-color: #6cace7;
+  background-color: #9b59b6;
   border-radius: 2px !important;
   color: #fff !important;
   font-size: 16px;
   line-height: 35px;
-  background-image: linear-gradient(#6cace7, #6cace7) !important;
+  background-image: linear-gradient(#9b59b6, #9b59b6) !important;
   margin-left: 174px;
 }
 
