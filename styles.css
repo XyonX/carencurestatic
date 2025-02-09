@@ -556,7 +556,7 @@ a:hover {
 .side-menu li {
   background: #9cb2b7; /* Updated to a darker shade for better contrast */
   margin-bottom: 2px;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .side-menu li a {
